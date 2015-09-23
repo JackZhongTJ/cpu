@@ -1,0 +1,81 @@
+--------------------------------------------------------------------------------
+Release 13.2 Trace  (nt64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+D:\Xilinx\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3 -n 3
+-fastpaths -xml cpu_board_final.twx cpu_board_final.ncd -o cpu_board_final.twr
+cpu_board_final.pcf -ucf cpu_constrain.ucf
+
+Design file:              cpu_board_final.ncd
+Physical constraint file: cpu_board_final.pcf
+Device,package,speed:     xc6slx16,csg324,C,-3 (PRODUCTION 1.19 2011-06-20)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock sys_clk
+---------------+------------+------------+------------+------------+------------------+--------+
+               |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
+Source         | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
+---------------+------------+------------+------------+------------+------------------+--------+
+clk_divided_rst|    4.479(R)|      SLOW  |   -0.371(R)|      SLOW  |sys_clk_BUFGP     |   0.000|
+---------------+------------+------------+------------+------------+------------------+--------+
+
+Clock to Setup on destination clock sys_clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+sys_clk        |    4.192|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+-----------------+---------------+---------+
+Source Pad       |Destination Pad|  Delay  |
+-----------------+---------------+---------+
+regfile_switch<0>|Y_r<0>         |   14.643|
+regfile_switch<0>|Y_r<1>         |   13.899|
+regfile_switch<0>|Y_r<2>         |   13.996|
+regfile_switch<0>|Y_r<3>         |   14.371|
+regfile_switch<0>|Y_r<4>         |   14.043|
+regfile_switch<0>|Y_r<5>         |   14.149|
+regfile_switch<0>|Y_r<6>         |   13.739|
+regfile_switch<1>|Y_r<0>         |   15.588|
+regfile_switch<1>|Y_r<1>         |   14.651|
+regfile_switch<1>|Y_r<2>         |   14.778|
+regfile_switch<1>|Y_r<3>         |   15.316|
+regfile_switch<1>|Y_r<4>         |   14.988|
+regfile_switch<1>|Y_r<5>         |   14.931|
+regfile_switch<1>|Y_r<6>         |   14.684|
+-----------------+---------------+---------+
+
+
+Analysis completed Sun Jun 08 22:09:48 2014 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 264 MB
+
+
+

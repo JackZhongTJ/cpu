@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "D:/Xilinx/workshop/uart_send/send.xst" -ofn "D:/Xilinx/workshop/uart_send/send.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 send.ngc send.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o send_map.ncd send.ngd send.pcf 
+par -w -intstyle ise -ol high -mt off send_map.ncd send.ncd send.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml send.twx send.ncd -o send.twr send.pcf 
+bitgen -intstyle ise -f send.ut send.ncd 

@@ -1,0 +1,70 @@
+m255
+K4
+z2
+13
+cModel Technology
+Z0 dD:/Xilinx/workshop/ex6
+!s112 0.1
+!i10d 8192
+!i10e 25
+!i10f 100
+vbarrelshifter
+Z1 !s100 n`d^fI:II19Tzz2Tf4V]k2
+Z2 I6AeHf8NdLhM@NSf1?`SNN3
+Z3 V`JN@9S9cnhjKRR_L]QIcM3
+Z4 dD:/Xilinx/workshop/ex6
+Z5 w1382174376
+Z6 8barrelshifter.v
+Z7 Fbarrelshifter.v
+L0 21
+Z8 OP;L;10.2c;57
+r1
+31
+Z9 !s90 -reportprogress|300|barrelshifter.v|
+Z10 o-L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF -O0
+Z11 !s110 1383555148
+Z12 !s108 1383555148.029000
+Z13 !s107 barrelshifter.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vbarrelshitertest
+R11
+Z14 I6ZbQVzi45HTemiOi91;b;2
+R3
+R4
+Z15 w1383555133
+Z16 8barrelshitertest.v
+Z17 Fbarrelshitertest.v
+L0 25
+R8
+r1
+31
+Z18 !s90 -reportprogress|300|barrelshitertest.v|
+R10
+!i10b 1
+Z19 !s100 eOcz8hI_ClXk9=A6cWCJ22
+!s85 0
+Z20 !s108 1383555148.261000
+Z21 !s107 barrelshitertest.v|
+!s101 -O0
+vglbl
+R11
+!i10b 1
+Z22 !s100 4=LmVFjWGlXARKf5L_9V<3
+Z23 I>5eGoR^gLje]9h;[k3S:i0
+R3
+R4
+Z24 w1308634177
+Z25 8D:/Xilinx/ISE_DS/ISE/verilog/src/glbl.v
+Z26 FD:/Xilinx/ISE_DS/ISE/verilog/src/glbl.v
+L0 5
+R8
+r1
+!s85 0
+31
+!s108 1383555148.421000
+!s107 D:/Xilinx/ISE_DS/ISE/verilog/src/glbl.v|
+Z27 !s90 -reportprogress|300|D:/Xilinx/ISE_DS/ISE/verilog/src/glbl.v|
+!s101 -O0
+R10

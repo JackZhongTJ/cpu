@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\Xilinx\workshop\cpu_part\pcreg\pcreg.ncd
+OUTFILE=D:\Xilinx\workshop\cpu_part\pcreg\pcreg.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=D:\Xilinx\workshop\cpu_part\pcreg
+LICENSE=ISE
+USER_INFO=No user information available.

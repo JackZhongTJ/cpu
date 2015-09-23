@@ -1,0 +1,24 @@
+//! **************************************************************************
+// Written by: Map O.61xd on Mon Nov 04 20:54:04 2013
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "data_out<2>" LOCATE = SITE "R11" LEVEL 1;
+COMP "data_out<3>" LOCATE = SITE "T11" LEVEL 1;
+COMP "data_in<0>" LOCATE = SITE "N8" LEVEL 1;
+COMP "data_in<1>" LOCATE = SITE "U8" LEVEL 1;
+COMP "data_in<2>" LOCATE = SITE "V8" LEVEL 1;
+COMP "data_in<3>" LOCATE = SITE "T5" LEVEL 1;
+COMP "IOput" LOCATE = SITE "M8" LEVEL 1;
+PIN IOput_pin<0> = BEL "IOput" PINNAME PAD;
+PIN "IOput_pin<0>" CLOCK_DEDICATED_ROUTE = FALSE;
+COMP "rst" LOCATE = SITE "A8" LEVEL 1;
+COMP "clk" LOCATE = SITE "C9" LEVEL 1;
+COMP "ena" LOCATE = SITE "B8" LEVEL 1;
+COMP "number<0>" LOCATE = SITE "T10" LEVEL 1;
+COMP "number<1>" LOCATE = SITE "T9" LEVEL 1;
+COMP "number<2>" LOCATE = SITE "V9" LEVEL 1;
+COMP "data_out<0>" LOCATE = SITE "M11" LEVEL 1;
+COMP "data_out<1>" LOCATE = SITE "N11" LEVEL 1;
+SCHEMATIC END;
+

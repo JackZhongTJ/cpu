@@ -1,0 +1,167 @@
+--------------------------------------------------------------------------------
+Release 13.2 Trace  (nt64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+D:\Xilinx\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3 -n 3
+-fastpaths -xml barrelshifter.twx barrelshifter.ncd -o barrelshifter.twr
+barrelshifter.pcf -ucf barrelshifter_ucf.ucf
+
+Design file:              barrelshifter.ncd
+Physical constraint file: barrelshifter.pcf
+Device,package,speed:     xc6slx16,csg324,C,-3 (PRODUCTION 1.19 2011-06-20)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock input_a
+------------+------------+------------+------------+------------+------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
+------------+------------+------------+------------+------------+------------------+--------+
+data_in<0>  |   -0.076(R)|      FAST  |    3.425(R)|      SLOW  |input_a_BUFGP     |   0.000|
+data_in<1>  |   -0.449(R)|      FAST  |    3.561(R)|      SLOW  |input_a_BUFGP     |   0.000|
+data_in<2>  |   -0.896(R)|      FAST  |    3.388(R)|      SLOW  |input_a_BUFGP     |   0.000|
+data_in<3>  |   -0.519(R)|      FAST  |    3.087(R)|      SLOW  |input_a_BUFGP     |   0.000|
+number<0>   |   -0.288(R)|      FAST  |    3.307(R)|      SLOW  |input_a_BUFGP     |   0.000|
+number<1>   |   -0.050(R)|      FAST  |    3.594(R)|      SLOW  |input_a_BUFGP     |   0.000|
+number<2>   |   -0.329(R)|      FAST  |    3.571(R)|      SLOW  |input_a_BUFGP     |   0.000|
+------------+------------+------------+------------+------------+------------------+--------+
+
+Setup/Hold to clock input_b
+------------+------------+------------+------------+------------+------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
+------------+------------+------------+------------+------------+------------------+--------+
+data_in<0>  |    1.878(R)|      SLOW  |   -1.253(R)|      FAST  |input_b_BUFGP     |   0.000|
+data_in<1>  |    1.633(R)|      SLOW  |   -1.106(R)|      SLOW  |input_b_BUFGP     |   0.000|
+data_in<2>  |    1.325(R)|      SLOW  |   -0.807(R)|      SLOW  |input_b_BUFGP     |   0.000|
+data_in<3>  |    1.029(R)|      FAST  |   -0.448(R)|      SLOW  |input_b_BUFGP     |   0.000|
+data_in<4>  |   -0.086(R)|      FAST  |    1.316(R)|      SLOW  |input_b_BUFGP     |   0.000|
+------------+------------+------------+------------+------------+------------------+--------+
+
+Setup/Hold to clock sll
+------------+------------+------------+------------+------------+------------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                        | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s)       | Phase  |
+------------+------------+------------+------------+------------+------------------------+--------+
+number<0>   |    2.366(F)|      SLOW  |    2.164(F)|      SLOW  |GND_1_o_GND_1_o_OR_123_o|   0.000|
+number<1>   |    2.406(F)|      SLOW  |    1.586(F)|      SLOW  |GND_1_o_GND_1_o_OR_123_o|   0.000|
+number<2>   |    1.360(F)|      SLOW  |    1.766(F)|      SLOW  |GND_1_o_GND_1_o_OR_123_o|   0.000|
+------------+------------+------------+------------+------------+------------------------+--------+
+
+Setup/Hold to clock sra
+------------+------------+------------+------------+------------+------------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                        | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s)       | Phase  |
+------------+------------+------------+------------+------------+------------------------+--------+
+number<0>   |    2.315(F)|      SLOW  |    2.217(F)|      SLOW  |GND_1_o_GND_1_o_OR_123_o|   0.000|
+number<1>   |    2.355(F)|      SLOW  |    1.639(F)|      SLOW  |GND_1_o_GND_1_o_OR_123_o|   0.000|
+number<2>   |    1.309(F)|      SLOW  |    1.819(F)|      SLOW  |GND_1_o_GND_1_o_OR_123_o|   0.000|
+------------+------------+------------+------------+------------+------------------------+--------+
+
+Setup/Hold to clock srl
+------------+------------+------------+------------+------------+------------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                        | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s)       | Phase  |
+------------+------------+------------+------------+------------+------------------------+--------+
+number<0>   |    2.033(F)|      SLOW  |    2.520(F)|      SLOW  |GND_1_o_GND_1_o_OR_123_o|   0.000|
+number<1>   |    2.073(F)|      SLOW  |    1.942(F)|      SLOW  |GND_1_o_GND_1_o_OR_123_o|   0.000|
+number<2>   |    1.027(F)|      SLOW  |    2.122(F)|      SLOW  |GND_1_o_GND_1_o_OR_123_o|   0.000|
+------------+------------+------------+------------+------------+------------------------+--------+
+
+Clock sll to Pad
+------------+-----------------+------------+-----------------+------------+------------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                        | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)       | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------------+--------+
+data_out<0> |        10.148(F)|      SLOW  |         5.834(F)|      FAST  |GND_1_o_GND_1_o_OR_123_o|   0.000|
+data_out<1> |        10.148(F)|      SLOW  |         5.834(F)|      FAST  |GND_1_o_GND_1_o_OR_123_o|   0.000|
+data_out<2> |        10.207(F)|      SLOW  |         5.934(F)|      FAST  |GND_1_o_GND_1_o_OR_123_o|   0.000|
+data_out<3> |        10.207(F)|      SLOW  |         5.934(F)|      FAST  |GND_1_o_GND_1_o_OR_123_o|   0.000|
+------------+-----------------+------------+-----------------+------------+------------------------+--------+
+
+Clock sra to Pad
+------------+-----------------+------------+-----------------+------------+------------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                        | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)       | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------------+--------+
+data_out<0> |        10.201(F)|      SLOW  |         5.928(F)|      FAST  |GND_1_o_GND_1_o_OR_123_o|   0.000|
+data_out<1> |        10.201(F)|      SLOW  |         5.928(F)|      FAST  |GND_1_o_GND_1_o_OR_123_o|   0.000|
+data_out<2> |        10.260(F)|      SLOW  |         6.028(F)|      FAST  |GND_1_o_GND_1_o_OR_123_o|   0.000|
+data_out<3> |        10.260(F)|      SLOW  |         6.028(F)|      FAST  |GND_1_o_GND_1_o_OR_123_o|   0.000|
+------------+-----------------+------------+-----------------+------------+------------------------+--------+
+
+Clock srl to Pad
+------------+-----------------+------------+-----------------+------------+------------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                        | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)       | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------------+--------+
+data_out<0> |        10.504(F)|      SLOW  |         6.069(F)|      FAST  |GND_1_o_GND_1_o_OR_123_o|   0.000|
+data_out<1> |        10.504(F)|      SLOW  |         6.069(F)|      FAST  |GND_1_o_GND_1_o_OR_123_o|   0.000|
+data_out<2> |        10.563(F)|      SLOW  |         6.169(F)|      FAST  |GND_1_o_GND_1_o_OR_123_o|   0.000|
+data_out<3> |        10.563(F)|      SLOW  |         6.169(F)|      FAST  |GND_1_o_GND_1_o_OR_123_o|   0.000|
+------------+-----------------+------------+-----------------+------------+------------------------+--------+
+
+Clock to Setup on destination clock sll
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+input_a        |         |         |    8.850|         |
+input_b        |         |         |    5.804|         |
+sll            |         |         |    1.181|    1.181|
+srl            |         |         |    1.772|    1.772|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock sra
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+input_a        |         |         |    8.850|         |
+input_b        |         |         |    5.804|         |
+sll            |         |         |    1.130|    1.130|
+srl            |         |         |    1.721|    1.721|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock srl
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+input_a        |         |         |    8.850|         |
+input_b        |         |         |    5.804|         |
+sll            |         |         |    0.848|    0.848|
+srl            |         |         |    1.439|    1.439|
+---------------+---------+---------+---------+---------+
+
+
+Analysis completed Mon Nov 04 18:07:38 2013 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 210 MB
+
+
+

@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/Xilinx/workshop/vga_rectangle/sync_module.xst" -ofn "D:/Xilinx/workshop/vga_rectangle/sync_module.syr" 

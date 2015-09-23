@@ -1,0 +1,34 @@
+#:C0     
+#Xilinx FPGA Editor Command Log File
+#Editor Version:
+#:V   NT M2.1 O.61xd
+#Current Working Directory:
+#:D   D:\Xilinx\workshop\led
+#Date/Time:
+#:T   Tue Sep 24 16:13:27 2013
+#------------------------------
+	#Reading led_map.ncd...
+	#Loading device for application Rf_Device from file '6slx16.nph' in environment D:\Xilinx\ISE_DS\ISE\.
+	#   "led" is an NCD, version 3.2, device xc6slx16, package csg324, speed -3
+	#Design creation date: 2013.09.24.07.34.48
+	#Building chip graphics...
+	#Loading speed info...
+	#1
+setattr main edit-mode no-logic-changes
+	#2
+unselect -all
+	#3
+select site 'TIEOFF_X12Y82'
+	#site "TIEOFF_X12Y82",  type = TIEOFF  (RPM grid X28Y164)
+	#4
+unselect -all
+	#5
+select site 'SLICE_X28Y30'
+	#site "SLICE_X28Y30",  type = SLICEL  (RPM grid X81Y120)
+	#6
+unselect -all
+	#7
+select site 'TIEOFF_X38Y54'
+	#site "TIEOFF_X38Y54",  type = TIEOFF  (RPM grid X96Y108)
+	#8
+unselect -all

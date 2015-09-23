@@ -1,0 +1,2147 @@
+--------------------------------------------------------------------------------
+Release 13.2 Trace  (nt64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+D:\Xilinx\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3 -n 3
+-fastpaths -xml alu_module.twx alu_module.ncd -o alu_module.twr alu_module.pcf
+
+Design file:              alu_module.ncd
+Physical constraint file: alu_module.pcf
+Device,package,speed:     xc6slx16,csg324,C,-3 (PRODUCTION 1.19 2011-06-20)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock aluc<2>
+------------+------------+------------+------------+------------+--------------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                          | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s)         | Phase  |
+------------+------------+------------+------------+------------+--------------------------+--------+
+a<0>        |    4.902(F)|      SLOW  |   -0.187(F)|      FAST  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+a<1>        |    3.303(F)|      SLOW  |   -0.310(F)|      FAST  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+a<2>        |    4.435(F)|      SLOW  |   -0.284(F)|      FAST  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+a<3>        |    3.238(F)|      SLOW  |   -0.130(F)|      FAST  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+a<4>        |    2.638(F)|      SLOW  |    0.164(F)|      FAST  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+a<5>        |    3.358(F)|      SLOW  |   -0.246(F)|      FAST  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+a<6>        |    2.931(F)|      SLOW  |   -0.015(F)|      FAST  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+a<7>        |    2.556(F)|      SLOW  |   -0.028(F)|      FAST  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+a<8>        |    3.443(F)|      SLOW  |   -0.319(F)|      FAST  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+a<9>        |    3.593(F)|      SLOW  |   -0.478(F)|      FAST  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+a<10>       |    3.450(F)|      SLOW  |   -0.210(F)|      FAST  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+a<11>       |    1.864(F)|      SLOW  |    0.309(F)|      FAST  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+a<12>       |    2.545(F)|      SLOW  |    0.088(F)|      FAST  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+a<13>       |    2.307(F)|      SLOW  |    0.192(F)|      FAST  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+a<14>       |    1.660(F)|      SLOW  |    0.572(F)|      SLOW  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+a<15>       |    2.127(F)|      SLOW  |    0.073(F)|      FAST  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+a<16>       |    2.214(F)|      SLOW  |    0.258(F)|      FAST  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+a<17>       |    2.207(F)|      SLOW  |    0.641(F)|      SLOW  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+a<18>       |    1.360(F)|      SLOW  |    0.829(F)|      SLOW  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+a<19>       |    1.910(F)|      SLOW  |    0.692(F)|      SLOW  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+a<20>       |    2.130(F)|      SLOW  |    0.461(F)|      SLOW  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+a<21>       |    1.432(F)|      SLOW  |    0.917(F)|      SLOW  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+a<22>       |    1.820(F)|      SLOW  |    0.746(F)|      SLOW  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+a<23>       |    1.604(F)|      SLOW  |    0.973(F)|      SLOW  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+a<24>       |    1.672(F)|      SLOW  |    1.079(F)|      SLOW  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+a<25>       |    1.328(F)|      SLOW  |    1.242(F)|      SLOW  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+a<26>       |    1.551(F)|      SLOW  |    0.864(F)|      SLOW  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+a<27>       |    1.417(F)|      SLOW  |    1.043(F)|      SLOW  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+a<28>       |    1.717(F)|      SLOW  |    1.075(F)|      SLOW  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+a<29>       |    1.091(F)|      SLOW  |    1.334(F)|      SLOW  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+a<30>       |    1.541(F)|      SLOW  |    0.971(F)|      SLOW  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+a<31>       |    1.779(F)|      SLOW  |    0.650(F)|      SLOW  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+aluc<0>     |    1.689(F)|      SLOW  |    1.055(F)|      SLOW  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+aluc<1>     |    2.848(F)|      SLOW  |    3.817(F)|      SLOW  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+b<0>        |    3.745(F)|      SLOW  |   -0.739(F)|      FAST  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+b<1>        |    3.832(F)|      SLOW  |   -0.311(F)|      FAST  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+b<2>        |    3.628(F)|      SLOW  |   -0.146(F)|      FAST  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+b<3>        |    4.347(F)|      SLOW  |   -0.318(F)|      FAST  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+b<4>        |    3.682(F)|      SLOW  |   -0.156(F)|      FAST  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+b<5>        |    4.305(F)|      SLOW  |   -0.421(F)|      FAST  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+b<6>        |    3.563(F)|      SLOW  |    0.115(F)|      FAST  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+b<7>        |    3.919(F)|      SLOW  |    0.080(F)|      FAST  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+b<8>        |    3.809(F)|      SLOW  |   -0.213(F)|      FAST  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+b<9>        |    4.037(F)|      SLOW  |    0.051(F)|      FAST  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+b<10>       |    3.913(F)|      SLOW  |    0.071(F)|      FAST  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+b<11>       |    4.304(F)|      SLOW  |   -0.031(F)|      FAST  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+b<12>       |    3.992(F)|      SLOW  |   -0.367(F)|      FAST  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+b<13>       |    3.386(F)|      SLOW  |    0.089(F)|      FAST  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+b<14>       |    2.985(F)|      SLOW  |   -0.024(F)|      FAST  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+b<15>       |    3.167(F)|      SLOW  |    1.149(F)|      SLOW  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+b<16>       |    4.504(F)|      SLOW  |   -0.422(F)|      FAST  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+b<17>       |    4.381(F)|      SLOW  |   -0.318(F)|      FAST  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+b<18>       |    4.276(F)|      SLOW  |   -0.194(F)|      FAST  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+b<19>       |    4.920(F)|      SLOW  |   -0.172(F)|      FAST  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+b<20>       |    5.216(F)|      SLOW  |   -0.601(F)|      FAST  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+b<21>       |    3.842(F)|      SLOW  |   -0.076(F)|      FAST  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+b<22>       |    4.358(F)|      SLOW  |   -0.101(F)|      FAST  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+b<23>       |    4.207(F)|      SLOW  |   -0.075(F)|      FAST  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+b<24>       |    4.107(F)|      SLOW  |   -0.079(F)|      FAST  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+b<25>       |    3.878(F)|      SLOW  |    0.002(F)|      SLOW  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+b<26>       |    3.547(F)|      SLOW  |    0.322(F)|      SLOW  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+b<27>       |    4.088(F)|      SLOW  |   -0.071(F)|      FAST  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+b<28>       |    3.903(F)|      SLOW  |    0.210(F)|      SLOW  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+b<29>       |    4.232(F)|      SLOW  |   -0.313(F)|      SLOW  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+b<30>       |    3.830(F)|      SLOW  |   -0.145(F)|      FAST  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+b<31>       |    4.189(F)|      SLOW  |    0.497(F)|      SLOW  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+------------+------------+------------+------------+------------+--------------------------+--------+
+
+Setup/Hold to clock aluc<3>
+------------+------------+------------+------------+------------+--------------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                          | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s)         | Phase  |
+------------+------------+------------+------------+------------+--------------------------+--------+
+a<0>        |    7.841(R)|      SLOW  |   -4.602(R)|      FAST  |aluc_3_IBUF_BUFG          |   0.000|
+            |    6.184(F)|      SLOW  |   -1.273(F)|      FAST  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+a<1>        |    7.748(R)|      SLOW  |   -4.531(R)|      FAST  |aluc_3_IBUF_BUFG          |   0.000|
+            |    4.585(F)|      SLOW  |   -1.396(F)|      FAST  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+a<2>        |    8.358(R)|      SLOW  |   -4.671(R)|      FAST  |aluc_3_IBUF_BUFG          |   0.000|
+            |    5.717(F)|      SLOW  |   -1.370(F)|      FAST  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+a<3>        |    7.821(R)|      SLOW  |   -4.517(R)|      FAST  |aluc_3_IBUF_BUFG          |   0.000|
+            |    4.520(F)|      SLOW  |   -1.216(F)|      FAST  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+a<4>        |    7.370(R)|      SLOW  |   -4.223(R)|      FAST  |aluc_3_IBUF_BUFG          |   0.000|
+            |    3.920(F)|      SLOW  |   -0.922(F)|      FAST  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+a<5>        |    8.218(R)|      SLOW  |   -4.633(R)|      FAST  |aluc_3_IBUF_BUFG          |   0.000|
+            |    4.640(F)|      SLOW  |   -1.332(F)|      FAST  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+a<6>        |    7.791(R)|      SLOW  |   -4.402(R)|      FAST  |aluc_3_IBUF_BUFG          |   0.000|
+            |    4.213(F)|      SLOW  |   -1.101(F)|      FAST  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+a<7>        |    7.416(R)|      SLOW  |   -4.222(R)|      FAST  |aluc_3_IBUF_BUFG          |   0.000|
+            |    3.838(F)|      SLOW  |   -1.114(F)|      FAST  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+a<8>        |    8.303(R)|      SLOW  |   -4.706(R)|      FAST  |aluc_3_IBUF_BUFG          |   0.000|
+            |    4.725(F)|      SLOW  |   -1.405(F)|      FAST  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+a<9>        |    8.453(R)|      SLOW  |   -4.865(R)|      FAST  |aluc_3_IBUF_BUFG          |   0.000|
+            |    4.875(F)|      SLOW  |   -1.564(F)|      FAST  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+a<10>       |    8.310(R)|      SLOW  |   -4.597(R)|      FAST  |aluc_3_IBUF_BUFG          |   0.000|
+            |    4.732(F)|      SLOW  |   -1.296(F)|      FAST  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+a<11>       |    6.724(R)|      SLOW  |   -4.078(R)|      FAST  |aluc_3_IBUF_BUFG          |   0.000|
+            |    3.146(F)|      SLOW  |   -0.777(F)|      FAST  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+a<12>       |    7.405(R)|      SLOW  |   -4.299(R)|      FAST  |aluc_3_IBUF_BUFG          |   0.000|
+            |    3.827(F)|      SLOW  |   -0.998(F)|      FAST  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+a<13>       |    7.287(R)|      SLOW  |   -4.175(R)|      FAST  |aluc_3_IBUF_BUFG          |   0.000|
+            |    3.589(F)|      SLOW  |   -0.894(F)|      FAST  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+a<14>       |    6.688(R)|      SLOW  |   -3.865(R)|      FAST  |aluc_3_IBUF_BUFG          |   0.000|
+            |    2.942(F)|      SLOW  |   -0.564(F)|      FAST  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+a<15>       |    7.113(R)|      SLOW  |   -4.288(R)|      FAST  |aluc_3_IBUF_BUFG          |   0.000|
+            |    3.409(F)|      SLOW  |   -1.013(F)|      FAST  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+a<16>       |    7.074(R)|      SLOW  |   -4.129(R)|      FAST  |aluc_3_IBUF_BUFG          |   0.000|
+            |    3.496(F)|      SLOW  |   -0.828(F)|      FAST  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+a<17>       |    7.067(R)|      SLOW  |   -3.853(R)|      FAST  |aluc_3_IBUF_BUFG          |   0.000|
+            |    3.489(F)|      SLOW  |   -0.552(F)|      FAST  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+a<18>       |    6.220(R)|      SLOW  |   -3.691(R)|      FAST  |aluc_3_IBUF_BUFG          |   0.000|
+            |    2.642(F)|      SLOW  |   -0.390(F)|      FAST  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+a<19>       |    6.770(R)|      SLOW  |   -3.792(R)|      FAST  |aluc_3_IBUF_BUFG          |   0.000|
+            |    3.192(F)|      SLOW  |   -0.491(F)|      FAST  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+a<20>       |    6.990(R)|      SLOW  |   -3.996(R)|      FAST  |aluc_3_IBUF_BUFG          |   0.000|
+            |    3.412(F)|      SLOW  |   -0.695(F)|      FAST  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+a<21>       |    6.436(R)|      SLOW  |   -3.690(R)|      FAST  |aluc_3_IBUF_BUFG          |   0.000|
+            |    2.714(F)|      SLOW  |   -0.389(F)|      FAST  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+a<22>       |    6.680(R)|      SLOW  |   -3.795(R)|      FAST  |aluc_3_IBUF_BUFG          |   0.000|
+            |    3.102(F)|      SLOW  |   -0.494(F)|      FAST  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+a<23>       |    6.464(R)|      SLOW  |   -3.636(R)|      FAST  |aluc_3_IBUF_BUFG          |   0.000|
+            |    2.886(F)|      SLOW  |   -0.335(F)|      FAST  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+a<24>       |    6.532(R)|      SLOW  |   -3.580(R)|      FAST  |aluc_3_IBUF_BUFG          |   0.000|
+            |    2.954(F)|      SLOW  |   -0.243(F)|      SLOW  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+a<25>       |    6.188(R)|      SLOW  |   -3.475(R)|      FAST  |aluc_3_IBUF_BUFG          |   0.000|
+            |    2.610(F)|      SLOW  |   -0.080(F)|      SLOW  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+a<26>       |    6.411(R)|      SLOW  |   -3.712(R)|      FAST  |aluc_3_IBUF_BUFG          |   0.000|
+            |    2.833(F)|      SLOW  |   -0.411(F)|      FAST  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+a<27>       |    6.277(R)|      SLOW  |   -3.622(R)|      FAST  |aluc_3_IBUF_BUFG          |   0.000|
+            |    2.699(F)|      SLOW  |   -0.279(F)|      SLOW  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+a<28>       |    6.618(R)|      SLOW  |   -3.624(R)|      FAST  |aluc_3_IBUF_BUFG          |   0.000|
+            |    2.999(F)|      SLOW  |   -0.247(F)|      SLOW  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+a<29>       |    5.993(R)|      SLOW  |   -3.462(R)|      FAST  |aluc_3_IBUF_BUFG          |   0.000|
+            |    2.373(F)|      SLOW  |    0.012(F)|      SLOW  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+a<30>       |    6.481(R)|      SLOW  |   -3.713(R)|      FAST  |aluc_3_IBUF_BUFG          |   0.000|
+            |    2.823(F)|      SLOW  |   -0.351(F)|      SLOW  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+a<31>       |    6.721(R)|      SLOW  |   -3.922(R)|      FAST  |aluc_3_IBUF_BUFG          |   0.000|
+            |    3.061(F)|      SLOW  |   -0.611(F)|      FAST  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+aluc<0>     |    6.602(R)|      SLOW  |   -4.381(R)|      FAST  |aluc_3_IBUF_BUFG          |   0.000|
+            |    2.971(F)|      SLOW  |   -0.267(F)|      SLOW  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+aluc<1>     |    7.137(R)|      SLOW  |   -4.633(R)|      FAST  |aluc_3_IBUF_BUFG          |   0.000|
+            |    4.130(F)|      SLOW  |    2.495(F)|      SLOW  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+b<0>        |    8.605(R)|      SLOW  |   -5.126(R)|      FAST  |aluc_3_IBUF_BUFG          |   0.000|
+            |    5.027(F)|      SLOW  |   -1.825(F)|      FAST  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+b<1>        |    8.057(R)|      SLOW  |   -4.698(R)|      FAST  |aluc_3_IBUF_BUFG          |   0.000|
+            |    5.114(F)|      SLOW  |   -1.397(F)|      FAST  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+b<2>        |    7.740(R)|      SLOW  |   -4.533(R)|      FAST  |aluc_3_IBUF_BUFG          |   0.000|
+            |    4.910(F)|      SLOW  |   -1.232(F)|      FAST  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+b<3>        |    8.471(R)|      SLOW  |   -4.705(R)|      FAST  |aluc_3_IBUF_BUFG          |   0.000|
+            |    5.629(F)|      SLOW  |   -1.404(F)|      FAST  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+b<4>        |    7.724(R)|      SLOW  |   -4.543(R)|      FAST  |aluc_3_IBUF_BUFG          |   0.000|
+            |    4.964(F)|      SLOW  |   -1.242(F)|      FAST  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+b<5>        |    8.184(R)|      SLOW  |   -4.808(R)|      FAST  |aluc_3_IBUF_BUFG          |   0.000|
+            |    5.587(F)|      SLOW  |   -1.507(F)|      FAST  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+b<6>        |    7.318(R)|      SLOW  |   -4.272(R)|      FAST  |aluc_3_IBUF_BUFG          |   0.000|
+            |    4.845(F)|      SLOW  |   -0.971(F)|      FAST  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+b<7>        |    7.417(R)|      SLOW  |   -4.307(R)|      FAST  |aluc_3_IBUF_BUFG          |   0.000|
+            |    5.201(F)|      SLOW  |   -1.006(F)|      FAST  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+b<8>        |    7.757(R)|      SLOW  |   -4.600(R)|      FAST  |aluc_3_IBUF_BUFG          |   0.000|
+            |    5.091(F)|      SLOW  |   -1.299(F)|      FAST  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+b<9>        |    7.487(R)|      SLOW  |   -4.336(R)|      FAST  |aluc_3_IBUF_BUFG          |   0.000|
+            |    5.319(F)|      SLOW  |   -1.035(F)|      FAST  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+b<10>       |    7.653(R)|      SLOW  |   -4.316(R)|      FAST  |aluc_3_IBUF_BUFG          |   0.000|
+            |    5.195(F)|      SLOW  |   -1.015(F)|      FAST  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+b<11>       |    7.806(R)|      SLOW  |   -4.418(R)|      FAST  |aluc_3_IBUF_BUFG          |   0.000|
+            |    5.586(F)|      SLOW  |   -1.117(F)|      FAST  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+b<12>       |    7.946(R)|      SLOW  |   -4.754(R)|      FAST  |aluc_3_IBUF_BUFG          |   0.000|
+            |    5.274(F)|      SLOW  |   -1.453(F)|      FAST  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+b<13>       |    7.284(R)|      SLOW  |   -4.298(R)|      FAST  |aluc_3_IBUF_BUFG          |   0.000|
+            |    4.668(F)|      SLOW  |   -0.997(F)|      FAST  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+b<14>       |    7.430(R)|      SLOW  |   -4.411(R)|      FAST  |aluc_3_IBUF_BUFG          |   0.000|
+            |    4.267(F)|      SLOW  |   -1.110(F)|      FAST  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+b<15>       |    7.273(R)|      SLOW  |   -4.214(R)|      FAST  |aluc_3_IBUF_BUFG          |   0.000|
+            |    4.449(F)|      SLOW  |   -0.173(F)|      SLOW  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+b<16>       |    8.046(R)|      SLOW  |   -4.809(R)|      FAST  |aluc_3_IBUF_BUFG          |   0.000|
+            |    5.786(F)|      SLOW  |   -1.508(F)|      FAST  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+b<17>       |    7.813(R)|      SLOW  |   -4.705(R)|      FAST  |aluc_3_IBUF_BUFG          |   0.000|
+            |    5.663(F)|      SLOW  |   -1.404(F)|      FAST  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+b<18>       |    7.742(R)|      SLOW  |   -4.581(R)|      FAST  |aluc_3_IBUF_BUFG          |   0.000|
+            |    5.558(F)|      SLOW  |   -1.280(F)|      FAST  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+b<19>       |    7.675(R)|      SLOW  |   -4.559(R)|      FAST  |aluc_3_IBUF_BUFG          |   0.000|
+            |    6.202(F)|      SLOW  |   -1.258(F)|      FAST  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+b<20>       |    7.919(R)|      SLOW  |   -4.988(R)|      FAST  |aluc_3_IBUF_BUFG          |   0.000|
+            |    6.498(F)|      SLOW  |   -1.687(F)|      FAST  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+b<21>       |    7.460(R)|      SLOW  |   -4.463(R)|      FAST  |aluc_3_IBUF_BUFG          |   0.000|
+            |    5.124(F)|      SLOW  |   -1.162(F)|      FAST  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+b<22>       |    7.484(R)|      SLOW  |   -4.488(R)|      FAST  |aluc_3_IBUF_BUFG          |   0.000|
+            |    5.640(F)|      SLOW  |   -1.187(F)|      FAST  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+b<23>       |    7.483(R)|      SLOW  |   -4.462(R)|      FAST  |aluc_3_IBUF_BUFG          |   0.000|
+            |    5.489(F)|      SLOW  |   -1.161(F)|      FAST  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+b<24>       |    7.418(R)|      SLOW  |   -4.466(R)|      FAST  |aluc_3_IBUF_BUFG          |   0.000|
+            |    5.389(F)|      SLOW  |   -1.165(F)|      FAST  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+b<25>       |    7.602(R)|      SLOW  |   -4.397(R)|      FAST  |aluc_3_IBUF_BUFG          |   0.000|
+            |    5.160(F)|      SLOW  |   -1.096(F)|      FAST  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+b<26>       |    6.990(R)|      SLOW  |   -4.140(R)|      FAST  |aluc_3_IBUF_BUFG          |   0.000|
+            |    4.829(F)|      SLOW  |   -0.839(F)|      FAST  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+b<27>       |    7.507(R)|      SLOW  |   -4.458(R)|      FAST  |aluc_3_IBUF_BUFG          |   0.000|
+            |    5.370(F)|      SLOW  |   -1.157(F)|      FAST  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+b<28>       |    7.103(R)|      SLOW  |   -4.311(R)|      FAST  |aluc_3_IBUF_BUFG          |   0.000|
+            |    5.185(F)|      SLOW  |   -0.981(F)|      FAST  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+b<29>       |    7.403(R)|      SLOW  |   -4.751(R)|      FAST  |aluc_3_IBUF_BUFG          |   0.000|
+            |    5.514(F)|      SLOW  |   -1.421(F)|      FAST  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+b<30>       |    7.494(R)|      SLOW  |   -4.570(R)|      FAST  |aluc_3_IBUF_BUFG          |   0.000|
+            |    5.112(F)|      SLOW  |   -1.231(F)|      FAST  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+b<31>       |    6.992(R)|      SLOW  |   -4.078(R)|      FAST  |aluc_3_IBUF_BUFG          |   0.000|
+            |    5.471(F)|      SLOW  |   -0.717(F)|      FAST  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+------------+------------+------------+------------+------------+--------------------------+--------+
+
+Clock aluc<2> to Pad
+------------+-----------------+------------+-----------------+------------+--------------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                          | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)         | Phase  |
+------------+-----------------+------------+-----------------+------------+--------------------------+--------+
+negative    |        11.403(F)|      SLOW  |         6.950(F)|      FAST  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+------------+-----------------+------------+-----------------+------------+--------------------------+--------+
+
+Clock aluc<3> to Pad
+------------+-----------------+------------+-----------------+------------+--------------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                          | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)         | Phase  |
+------------+-----------------+------------+-----------------+------------+--------------------------+--------+
+carry       |         5.720(R)|      SLOW  |         2.699(R)|      FAST  |aluc_3_IBUF_BUFG          |   0.000|
+negative    |        10.081(F)|      SLOW  |         5.891(F)|      FAST  |GND_1_o_GND_1_o_equal_24_o|   0.000|
+------------+-----------------+------------+-----------------+------------+--------------------------+--------+
+
+Clock to Setup on destination clock aluc<2>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+aluc<2>        |         |         |    0.374|    0.374|
+aluc<3>        |         |         |   -0.695|   -0.695|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock aluc<3>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+aluc<2>        |         |         |    1.656|    1.656|
+aluc<3>        |         |         |    0.413|    0.413|
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+a<0>           |overflow       |   13.687|
+a<0>           |r<0>           |   15.357|
+a<0>           |r<1>           |   16.453|
+a<0>           |r<2>           |   15.683|
+a<0>           |r<3>           |   15.397|
+a<0>           |r<4>           |   16.157|
+a<0>           |r<5>           |   14.946|
+a<0>           |r<6>           |   16.087|
+a<0>           |r<7>           |   14.639|
+a<0>           |r<8>           |   15.305|
+a<0>           |r<9>           |   14.107|
+a<0>           |r<10>          |   15.209|
+a<0>           |r<11>          |   15.238|
+a<0>           |r<12>          |   14.778|
+a<0>           |r<13>          |   15.002|
+a<0>           |r<14>          |   14.115|
+a<0>           |r<15>          |   14.290|
+a<0>           |r<16>          |   14.396|
+a<0>           |r<17>          |   13.937|
+a<0>           |r<18>          |   15.132|
+a<0>           |r<19>          |   15.269|
+a<0>           |r<20>          |   13.626|
+a<0>           |r<21>          |   14.604|
+a<0>           |r<22>          |   14.120|
+a<0>           |r<23>          |   14.053|
+a<0>           |r<24>          |   14.890|
+a<0>           |r<25>          |   13.934|
+a<0>           |r<26>          |   14.263|
+a<0>           |r<27>          |   14.529|
+a<0>           |r<28>          |   14.460|
+a<0>           |r<29>          |   14.981|
+a<0>           |r<30>          |   13.736|
+a<0>           |r<31>          |   15.987|
+a<0>           |zero           |   19.124|
+a<1>           |overflow       |   13.709|
+a<1>           |r<0>           |   14.915|
+a<1>           |r<1>           |   15.632|
+a<1>           |r<2>           |   14.602|
+a<1>           |r<3>           |   13.796|
+a<1>           |r<4>           |   14.897|
+a<1>           |r<5>           |   13.792|
+a<1>           |r<6>           |   14.495|
+a<1>           |r<7>           |   13.999|
+a<1>           |r<8>           |   14.224|
+a<1>           |r<9>           |   13.824|
+a<1>           |r<10>          |   13.853|
+a<1>           |r<11>          |   13.396|
+a<1>           |r<12>          |   13.289|
+a<1>           |r<13>          |   13.727|
+a<1>           |r<14>          |   13.172|
+a<1>           |r<15>          |   13.875|
+a<1>           |r<16>          |   13.277|
+a<1>           |r<17>          |   13.658|
+a<1>           |r<18>          |   13.642|
+a<1>           |r<19>          |   13.400|
+a<1>           |r<20>          |   12.723|
+a<1>           |r<21>          |   13.919|
+a<1>           |r<22>          |   13.113|
+a<1>           |r<23>          |   13.732|
+a<1>           |r<24>          |   13.388|
+a<1>           |r<25>          |   13.661|
+a<1>           |r<26>          |   13.371|
+a<1>           |r<27>          |   13.750|
+a<1>           |r<28>          |   13.207|
+a<1>           |r<29>          |   14.437|
+a<1>           |r<30>          |   12.862|
+a<1>           |r<31>          |   14.388|
+a<1>           |zero           |   17.633|
+a<2>           |overflow       |   14.380|
+a<2>           |r<0>           |   15.344|
+a<2>           |r<1>           |   15.809|
+a<2>           |r<2>           |   15.059|
+a<2>           |r<3>           |   14.534|
+a<2>           |r<4>           |   15.355|
+a<2>           |r<5>           |   14.900|
+a<2>           |r<6>           |   14.984|
+a<2>           |r<7>           |   14.327|
+a<2>           |r<8>           |   14.261|
+a<2>           |r<9>           |   14.330|
+a<2>           |r<10>          |   14.495|
+a<2>           |r<11>          |   14.310|
+a<2>           |r<12>          |   13.859|
+a<2>           |r<13>          |   14.724|
+a<2>           |r<14>          |   13.475|
+a<2>           |r<15>          |   14.226|
+a<2>           |r<16>          |   13.660|
+a<2>           |r<17>          |   13.919|
+a<2>           |r<18>          |   14.456|
+a<2>           |r<19>          |   14.341|
+a<2>           |r<20>          |   13.599|
+a<2>           |r<21>          |   14.256|
+a<2>           |r<22>          |   14.394|
+a<2>           |r<23>          |   14.129|
+a<2>           |r<24>          |   14.427|
+a<2>           |r<25>          |   13.955|
+a<2>           |r<26>          |   13.740|
+a<2>           |r<27>          |   13.882|
+a<2>           |r<28>          |   14.240|
+a<2>           |r<29>          |   15.398|
+a<2>           |r<30>          |   14.688|
+a<2>           |r<31>          |   15.520|
+a<2>           |zero           |   18.479|
+a<3>           |overflow       |   13.843|
+a<3>           |r<0>           |   14.271|
+a<3>           |r<1>           |   15.197|
+a<3>           |r<2>           |   12.673|
+a<3>           |r<3>           |   13.279|
+a<3>           |r<4>           |   13.785|
+a<3>           |r<5>           |   13.926|
+a<3>           |r<6>           |   14.249|
+a<3>           |r<7>           |   13.412|
+a<3>           |r<8>           |   12.678|
+a<3>           |r<9>           |   13.710|
+a<3>           |r<10>          |   12.985|
+a<3>           |r<11>          |   13.526|
+a<3>           |r<12>          |   12.706|
+a<3>           |r<13>          |   12.682|
+a<3>           |r<14>          |   12.966|
+a<3>           |r<15>          |   12.756|
+a<3>           |r<16>          |   13.123|
+a<3>           |r<17>          |   13.020|
+a<3>           |r<18>          |   13.485|
+a<3>           |r<19>          |   13.019|
+a<3>           |r<20>          |   12.682|
+a<3>           |r<21>          |   13.043|
+a<3>           |r<22>          |   12.957|
+a<3>           |r<23>          |   12.941|
+a<3>           |r<24>          |   13.087|
+a<3>           |r<25>          |   13.499|
+a<3>           |r<26>          |   12.340|
+a<3>           |r<27>          |   12.995|
+a<3>           |r<28>          |   13.166|
+a<3>           |r<29>          |   14.859|
+a<3>           |r<30>          |   14.149|
+a<3>           |r<31>          |   14.323|
+a<3>           |zero           |   17.940|
+a<4>           |overflow       |   13.392|
+a<4>           |r<0>           |   14.378|
+a<4>           |r<1>           |   14.858|
+a<4>           |r<2>           |   12.900|
+a<4>           |r<3>           |   13.620|
+a<4>           |r<4>           |   13.169|
+a<4>           |r<5>           |   13.328|
+a<4>           |r<6>           |   13.740|
+a<4>           |r<7>           |   12.945|
+a<4>           |r<8>           |   12.103|
+a<4>           |r<9>           |   13.291|
+a<4>           |r<10>          |   13.162|
+a<4>           |r<11>          |   13.075|
+a<4>           |r<12>          |   12.131|
+a<4>           |r<13>          |   12.779|
+a<4>           |r<14>          |   12.391|
+a<4>           |r<15>          |   12.635|
+a<4>           |r<16>          |   12.672|
+a<4>           |r<17>          |   12.569|
+a<4>           |r<18>          |   12.912|
+a<4>           |r<19>          |   12.765|
+a<4>           |r<20>          |   12.107|
+a<4>           |r<21>          |   12.285|
+a<4>           |r<22>          |   12.787|
+a<4>           |r<23>          |   12.811|
+a<4>           |r<24>          |   12.512|
+a<4>           |r<25>          |   12.924|
+a<4>           |r<26>          |   11.851|
+a<4>           |r<27>          |   11.947|
+a<4>           |r<28>          |   12.591|
+a<4>           |r<29>          |   14.862|
+a<4>           |r<30>          |   14.152|
+a<4>           |r<31>          |   13.723|
+a<4>           |zero           |   17.943|
+a<5>           |overflow       |   14.240|
+a<5>           |r<0>           |   14.613|
+a<5>           |r<5>           |   14.132|
+a<5>           |r<6>           |   14.589|
+a<5>           |r<7>           |   13.678|
+a<5>           |r<8>           |   12.687|
+a<5>           |r<9>           |   14.043|
+a<5>           |r<10>          |   13.295|
+a<5>           |r<11>          |   13.923|
+a<5>           |r<12>          |   12.830|
+a<5>           |r<13>          |   12.953|
+a<5>           |r<14>          |   13.048|
+a<5>           |r<15>          |   13.012|
+a<5>           |r<16>          |   13.520|
+a<5>           |r<17>          |   13.417|
+a<5>           |r<18>          |   13.760|
+a<5>           |r<19>          |   13.179|
+a<5>           |r<20>          |   12.842|
+a<5>           |r<21>          |   12.881|
+a<5>           |r<22>          |   13.354|
+a<5>           |r<23>          |   13.338|
+a<5>           |r<24>          |   13.096|
+a<5>           |r<25>          |   13.508|
+a<5>           |r<26>          |   12.699|
+a<5>           |r<27>          |   12.795|
+a<5>           |r<28>          |   13.378|
+a<5>           |r<29>          |   13.361|
+a<5>           |r<30>          |   12.964|
+a<5>           |r<31>          |   14.443|
+a<5>           |zero           |   17.809|
+a<6>           |overflow       |   13.813|
+a<6>           |r<0>           |   14.312|
+a<6>           |r<6>           |   14.120|
+a<6>           |r<7>           |   13.259|
+a<6>           |r<8>           |   12.605|
+a<6>           |r<9>           |   13.637|
+a<6>           |r<10>          |   12.912|
+a<6>           |r<11>          |   13.496|
+a<6>           |r<12>          |   12.633|
+a<6>           |r<13>          |   12.526|
+a<6>           |r<14>          |   12.893|
+a<6>           |r<15>          |   12.683|
+a<6>           |r<16>          |   13.093|
+a<6>           |r<17>          |   12.990|
+a<6>           |r<18>          |   13.412|
+a<6>           |r<19>          |   12.946|
+a<6>           |r<20>          |   12.609|
+a<6>           |r<21>          |   12.787|
+a<6>           |r<22>          |   12.927|
+a<6>           |r<23>          |   12.911|
+a<6>           |r<24>          |   13.014|
+a<6>           |r<25>          |   13.426|
+a<6>           |r<26>          |   12.272|
+a<6>           |r<27>          |   12.388|
+a<6>           |r<28>          |   13.093|
+a<6>           |r<29>          |   12.934|
+a<6>           |r<30>          |   12.555|
+a<6>           |r<31>          |   14.016|
+a<6>           |zero           |   17.382|
+a<7>           |overflow       |   13.438|
+a<7>           |r<0>           |   14.387|
+a<7>           |r<7>           |   12.888|
+a<7>           |r<8>           |   12.236|
+a<7>           |r<9>           |   13.268|
+a<7>           |r<10>          |   12.543|
+a<7>           |r<11>          |   13.121|
+a<7>           |r<12>          |   12.264|
+a<7>           |r<13>          |   12.151|
+a<7>           |r<14>          |   12.524|
+a<7>           |r<15>          |   12.314|
+a<7>           |r<16>          |   12.718|
+a<7>           |r<17>          |   12.615|
+a<7>           |r<18>          |   13.043|
+a<7>           |r<19>          |   12.577|
+a<7>           |r<20>          |   12.240|
+a<7>           |r<21>          |   12.418|
+a<7>           |r<22>          |   12.552|
+a<7>           |r<23>          |   12.536|
+a<7>           |r<24>          |   12.645|
+a<7>           |r<25>          |   13.057|
+a<7>           |r<26>          |   11.898|
+a<7>           |r<27>          |   12.019|
+a<7>           |r<28>          |   12.724|
+a<7>           |r<29>          |   12.559|
+a<7>           |r<30>          |   12.186|
+a<7>           |r<31>          |   13.641|
+a<7>           |zero           |   17.007|
+a<8>           |overflow       |   14.325|
+a<8>           |r<0>           |   14.304|
+a<8>           |r<8>           |   12.538|
+a<8>           |r<9>           |   13.969|
+a<8>           |r<10>          |   13.303|
+a<8>           |r<11>          |   13.956|
+a<8>           |r<12>          |   12.915|
+a<8>           |r<13>          |   13.038|
+a<8>           |r<14>          |   13.141|
+a<8>           |r<15>          |   13.097|
+a<8>           |r<16>          |   13.605|
+a<8>           |r<17>          |   13.502|
+a<8>           |r<18>          |   13.845|
+a<8>           |r<19>          |   13.264|
+a<8>           |r<20>          |   12.927|
+a<8>           |r<21>          |   13.035|
+a<8>           |r<22>          |   13.439|
+a<8>           |r<23>          |   13.423|
+a<8>           |r<24>          |   13.262|
+a<8>           |r<25>          |   13.674|
+a<8>           |r<26>          |   12.784|
+a<8>           |r<27>          |   12.880|
+a<8>           |r<28>          |   13.463|
+a<8>           |r<29>          |   13.446|
+a<8>           |r<30>          |   13.049|
+a<8>           |r<31>          |   14.528|
+a<8>           |zero           |   17.842|
+a<9>           |overflow       |   14.475|
+a<9>           |r<0>           |   14.795|
+a<9>           |r<9>           |   14.087|
+a<9>           |r<10>          |   13.473|
+a<9>           |r<11>          |   14.124|
+a<9>           |r<12>          |   13.216|
+a<9>           |r<13>          |   13.188|
+a<9>           |r<14>          |   13.476|
+a<9>           |r<15>          |   13.266|
+a<9>           |r<16>          |   13.755|
+a<9>           |r<17>          |   13.652|
+a<9>           |r<18>          |   13.995|
+a<9>           |r<19>          |   13.529|
+a<9>           |r<20>          |   13.192|
+a<9>           |r<21>          |   13.370|
+a<9>           |r<22>          |   13.589|
+a<9>           |r<23>          |   13.573|
+a<9>           |r<24>          |   13.597|
+a<9>           |r<25>          |   14.009|
+a<9>           |r<26>          |   12.934|
+a<9>           |r<27>          |   13.030|
+a<9>           |r<28>          |   13.676|
+a<9>           |r<29>          |   13.596|
+a<9>           |r<30>          |   13.199|
+a<9>           |r<31>          |   14.678|
+a<9>           |zero           |   18.010|
+a<10>          |overflow       |   14.332|
+a<10>          |r<0>           |   14.552|
+a<10>          |r<10>          |   13.288|
+a<10>          |r<11>          |   13.935|
+a<10>          |r<12>          |   12.922|
+a<10>          |r<13>          |   13.045|
+a<10>          |r<14>          |   13.140|
+a<10>          |r<15>          |   13.104|
+a<10>          |r<16>          |   13.612|
+a<10>          |r<17>          |   13.509|
+a<10>          |r<18>          |   13.852|
+a<10>          |r<19>          |   13.271|
+a<10>          |r<20>          |   12.934|
+a<10>          |r<21>          |   12.973|
+a<10>          |r<22>          |   13.446|
+a<10>          |r<23>          |   13.430|
+a<10>          |r<24>          |   12.967|
+a<10>          |r<25>          |   13.532|
+a<10>          |r<26>          |   12.791|
+a<10>          |r<27>          |   12.887|
+a<10>          |r<28>          |   13.470|
+a<10>          |r<29>          |   13.453|
+a<10>          |r<30>          |   13.056|
+a<10>          |r<31>          |   14.535|
+a<10>          |zero           |   17.821|
+a<11>          |overflow       |   12.746|
+a<11>          |r<0>           |   13.911|
+a<11>          |r<11>          |   12.347|
+a<11>          |r<12>          |   11.702|
+a<11>          |r<13>          |   11.459|
+a<11>          |r<14>          |   11.962|
+a<11>          |r<15>          |   11.752|
+a<11>          |r<16>          |   12.026|
+a<11>          |r<17>          |   11.923|
+a<11>          |r<18>          |   12.481|
+a<11>          |r<19>          |   12.015|
+a<11>          |r<20>          |   11.678|
+a<11>          |r<21>          |   11.856|
+a<11>          |r<22>          |   11.860|
+a<11>          |r<23>          |   11.906|
+a<11>          |r<24>          |   12.083|
+a<11>          |r<25>          |   12.495|
+a<11>          |r<26>          |   11.336|
+a<11>          |r<27>          |   11.457|
+a<11>          |r<28>          |   12.162|
+a<11>          |r<29>          |   11.867|
+a<11>          |r<30>          |   11.624|
+a<11>          |r<31>          |   12.949|
+a<11>          |zero           |   16.233|
+a<12>          |overflow       |   13.427|
+a<12>          |r<0>           |   14.204|
+a<12>          |r<12>          |   11.898|
+a<12>          |r<13>          |   11.993|
+a<12>          |r<14>          |   12.212|
+a<12>          |r<15>          |   12.158|
+a<12>          |r<16>          |   12.707|
+a<12>          |r<17>          |   12.604|
+a<12>          |r<18>          |   12.947|
+a<12>          |r<19>          |   12.366|
+a<12>          |r<20>          |   12.029|
+a<12>          |r<21>          |   12.164|
+a<12>          |r<22>          |   12.541|
+a<12>          |r<23>          |   12.525|
+a<12>          |r<24>          |   12.391|
+a<12>          |r<25>          |   12.803|
+a<12>          |r<26>          |   11.886|
+a<12>          |r<27>          |   11.982|
+a<12>          |r<28>          |   12.565|
+a<12>          |r<29>          |   12.548|
+a<12>          |r<30>          |   12.151|
+a<12>          |r<31>          |   13.630|
+a<12>          |zero           |   16.359|
+a<13>          |overflow       |   13.189|
+a<13>          |r<0>           |   14.176|
+a<13>          |r<13>          |   11.711|
+a<13>          |r<14>          |   12.489|
+a<13>          |r<15>          |   12.302|
+a<13>          |r<16>          |   12.538|
+a<13>          |r<17>          |   12.366|
+a<13>          |r<18>          |   13.065|
+a<13>          |r<19>          |   12.599|
+a<13>          |r<20>          |   12.262|
+a<13>          |r<21>          |   12.440|
+a<13>          |r<22>          |   12.303|
+a<13>          |r<23>          |   12.490|
+a<13>          |r<24>          |   12.667|
+a<13>          |r<25>          |   13.079|
+a<13>          |r<26>          |   11.920|
+a<13>          |r<27>          |   12.041|
+a<13>          |r<28>          |   12.746|
+a<13>          |r<29>          |   12.310|
+a<13>          |r<30>          |   12.208|
+a<13>          |r<31>          |   13.392|
+a<13>          |zero           |   16.635|
+a<14>          |overflow       |   12.542|
+a<14>          |r<0>           |   13.665|
+a<14>          |r<14>          |   11.848|
+a<14>          |r<15>          |   11.657|
+a<14>          |r<16>          |   11.939|
+a<14>          |r<17>          |   11.749|
+a<14>          |r<18>          |   12.466|
+a<14>          |r<19>          |   12.000|
+a<14>          |r<20>          |   11.663|
+a<14>          |r<21>          |   11.841|
+a<14>          |r<22>          |   11.656|
+a<14>          |r<23>          |   11.891|
+a<14>          |r<24>          |   12.068|
+a<14>          |r<25>          |   12.480|
+a<14>          |r<26>          |   11.321|
+a<14>          |r<27>          |   11.442|
+a<14>          |r<28>          |   12.147|
+a<14>          |r<29>          |   11.663|
+a<14>          |r<30>          |   11.609|
+a<14>          |r<31>          |   12.745|
+a<14>          |zero           |   16.036|
+a<15>          |overflow       |   13.009|
+a<15>          |r<0>           |   14.516|
+a<15>          |r<15>          |   12.531|
+a<15>          |r<16>          |   12.364|
+a<15>          |r<17>          |   12.186|
+a<15>          |r<18>          |   12.891|
+a<15>          |r<19>          |   12.425|
+a<15>          |r<20>          |   12.088|
+a<15>          |r<21>          |   12.266|
+a<15>          |r<22>          |   12.123|
+a<15>          |r<23>          |   12.316|
+a<15>          |r<24>          |   12.493|
+a<15>          |r<25>          |   12.905|
+a<15>          |r<26>          |   11.746|
+a<15>          |r<27>          |   11.867|
+a<15>          |r<28>          |   12.572|
+a<15>          |r<29>          |   12.130|
+a<15>          |r<30>          |   12.034|
+a<15>          |r<31>          |   13.212|
+a<15>          |zero           |   16.461|
+a<16>          |overflow       |   13.096|
+a<16>          |r<0>           |   13.773|
+a<16>          |r<16>          |   12.257|
+a<16>          |r<17>          |   12.126|
+a<16>          |r<18>          |   12.558|
+a<16>          |r<19>          |   11.994|
+a<16>          |r<20>          |   11.698|
+a<16>          |r<21>          |   11.833|
+a<16>          |r<22>          |   12.210|
+a<16>          |r<23>          |   12.194|
+a<16>          |r<24>          |   12.060|
+a<16>          |r<25>          |   12.472|
+a<16>          |r<26>          |   11.555|
+a<16>          |r<27>          |   11.651|
+a<16>          |r<28>          |   12.234|
+a<16>          |r<29>          |   12.217|
+a<16>          |r<30>          |   11.820|
+a<16>          |r<31>          |   13.299|
+a<16>          |zero           |   16.028|
+a<17>          |overflow       |   13.089|
+a<17>          |r<0>           |   13.760|
+a<17>          |r<17>          |   12.075|
+a<17>          |r<18>          |   12.552|
+a<17>          |r<19>          |   11.994|
+a<17>          |r<20>          |   11.691|
+a<17>          |r<21>          |   11.738|
+a<17>          |r<22>          |   12.203|
+a<17>          |r<23>          |   12.187|
+a<17>          |r<24>          |   11.965|
+a<17>          |r<25>          |   12.377|
+a<17>          |r<26>          |   11.548|
+a<17>          |r<27>          |   11.644|
+a<17>          |r<28>          |   12.227|
+a<17>          |r<29>          |   12.210|
+a<17>          |r<30>          |   11.813|
+a<17>          |r<31>          |   13.292|
+a<17>          |zero           |   15.933|
+a<18>          |overflow       |   12.242|
+a<18>          |r<0>           |   13.575|
+a<18>          |r<18>          |   11.809|
+a<18>          |r<19>          |   11.362|
+a<18>          |r<20>          |   11.105|
+a<18>          |r<21>          |   11.283|
+a<18>          |r<22>          |   11.356|
+a<18>          |r<23>          |   11.340|
+a<18>          |r<24>          |   11.510|
+a<18>          |r<25>          |   11.922|
+a<18>          |r<26>          |   10.763|
+a<18>          |r<27>          |   10.884|
+a<18>          |r<28>          |   11.589|
+a<18>          |r<29>          |   11.363|
+a<18>          |r<30>          |   11.051|
+a<18>          |r<31>          |   12.445|
+a<18>          |zero           |   15.478|
+a<19>          |overflow       |   12.792|
+a<19>          |r<0>           |   13.839|
+a<19>          |r<19>          |   11.649|
+a<19>          |r<20>          |   11.394|
+a<19>          |r<21>          |   11.433|
+a<19>          |r<22>          |   11.906|
+a<19>          |r<23>          |   11.890|
+a<19>          |r<24>          |   11.619|
+a<19>          |r<25>          |   12.031|
+a<19>          |r<26>          |   11.251|
+a<19>          |r<27>          |   11.347|
+a<19>          |r<28>          |   11.930|
+a<19>          |r<29>          |   11.913|
+a<19>          |r<30>          |   11.516|
+a<19>          |r<31>          |   12.995|
+a<19>          |zero           |   15.587|
+a<20>          |overflow       |   13.012|
+a<20>          |r<0>           |   13.739|
+a<20>          |r<20>          |   11.495|
+a<20>          |r<21>          |   11.506|
+a<20>          |r<22>          |   12.068|
+a<20>          |r<23>          |   12.069|
+a<20>          |r<24>          |   11.825|
+a<20>          |r<25>          |   12.237|
+a<20>          |r<26>          |   11.471|
+a<20>          |r<27>          |   11.567|
+a<20>          |r<28>          |   12.150|
+a<20>          |r<29>          |   12.133|
+a<20>          |r<30>          |   11.736|
+a<20>          |r<31>          |   13.215|
+a<20>          |zero           |   15.793|
+a<21>          |overflow       |   12.314|
+a<21>          |r<0>           |   13.751|
+a<21>          |r<21>          |   11.398|
+a<21>          |r<22>          |   11.371|
+a<21>          |r<23>          |   11.605|
+a<21>          |r<24>          |   11.816|
+a<21>          |r<25>          |   12.228|
+a<21>          |r<26>          |   11.069|
+a<21>          |r<27>          |   11.190|
+a<21>          |r<28>          |   11.895|
+a<21>          |r<29>          |   11.435|
+a<21>          |r<30>          |   11.357|
+a<21>          |r<31>          |   12.517|
+a<21>          |zero           |   15.784|
+a<22>          |overflow       |   12.702|
+a<22>          |r<0>           |   13.469|
+a<22>          |r<22>          |   11.717|
+a<22>          |r<23>          |   11.720|
+a<22>          |r<24>          |   11.666|
+a<22>          |r<25>          |   12.078|
+a<22>          |r<26>          |   11.161|
+a<22>          |r<27>          |   11.257|
+a<22>          |r<28>          |   11.840|
+a<22>          |r<29>          |   11.823|
+a<22>          |r<30>          |   11.426|
+a<22>          |r<31>          |   12.905|
+a<22>          |zero           |   15.634|
+a<23>          |overflow       |   12.486|
+a<23>          |r<0>           |   13.125|
+a<23>          |r<23>          |   11.573|
+a<23>          |r<24>          |   11.832|
+a<23>          |r<25>          |   12.244|
+a<23>          |r<26>          |   11.085|
+a<23>          |r<27>          |   11.206|
+a<23>          |r<28>          |   11.911|
+a<23>          |r<29>          |   11.607|
+a<23>          |r<30>          |   11.373|
+a<23>          |r<31>          |   12.689|
+a<23>          |zero           |   15.800|
+a<24>          |overflow       |   12.554|
+a<24>          |r<0>           |   13.464|
+a<24>          |r<24>          |   11.380|
+a<24>          |r<25>          |   11.764|
+a<24>          |r<26>          |   10.955|
+a<24>          |r<27>          |   11.068|
+a<24>          |r<28>          |   11.692|
+a<24>          |r<29>          |   11.675|
+a<24>          |r<30>          |   11.278|
+a<24>          |r<31>          |   12.757|
+a<24>          |zero           |   15.320|
+a<25>          |overflow       |   12.210|
+a<25>          |r<0>           |   13.338|
+a<25>          |r<25>          |   11.650|
+a<25>          |r<26>          |   10.625|
+a<25>          |r<27>          |   10.769|
+a<25>          |r<28>          |   11.508|
+a<25>          |r<29>          |   11.331|
+a<25>          |r<30>          |   10.970|
+a<25>          |r<31>          |   12.413|
+a<25>          |zero           |   15.206|
+a<26>          |overflow       |   12.433|
+a<26>          |r<0>           |   13.309|
+a<26>          |r<26>          |   10.793|
+a<26>          |r<27>          |   10.908|
+a<26>          |r<28>          |   11.571|
+a<26>          |r<29>          |   11.554|
+a<26>          |r<30>          |   11.157|
+a<26>          |r<31>          |   12.636|
+a<26>          |zero           |   15.055|
+a<27>          |overflow       |   12.299|
+a<27>          |r<0>           |   13.439|
+a<27>          |r<27>          |   10.772|
+a<27>          |r<28>          |   11.437|
+a<27>          |r<29>          |   11.420|
+a<27>          |r<30>          |   11.023|
+a<27>          |r<31>          |   12.502|
+a<27>          |zero           |   14.501|
+a<28>          |overflow       |   12.599|
+a<28>          |r<0>           |   13.437|
+a<28>          |r<28>          |   11.659|
+a<28>          |r<29>          |   11.614|
+a<28>          |r<30>          |   11.306|
+a<28>          |r<31>          |   12.802|
+a<28>          |zero           |   14.695|
+a<29>          |overflow       |   11.973|
+a<29>          |r<0>           |   12.925|
+a<29>          |r<29>          |   10.937|
+a<29>          |r<30>          |   10.857|
+a<29>          |r<31>          |   12.176|
+a<29>          |zero           |   14.018|
+a<30>          |overflow       |   12.423|
+a<30>          |r<0>           |   11.933|
+a<30>          |r<30>          |   11.265|
+a<30>          |r<31>          |   12.626|
+a<30>          |zero           |   14.438|
+a<31>          |overflow       |   12.661|
+a<31>          |r<0>           |   11.384|
+a<31>          |r<31>          |   12.864|
+a<31>          |zero           |   14.676|
+aluc<0>        |overflow       |   11.732|
+aluc<0>        |r<0>           |   13.466|
+aluc<0>        |r<1>           |   13.916|
+aluc<0>        |r<2>           |   15.643|
+aluc<0>        |r<3>           |   15.308|
+aluc<0>        |r<4>           |   14.520|
+aluc<0>        |r<5>           |   13.617|
+aluc<0>        |r<6>           |   13.983|
+aluc<0>        |r<7>           |   13.846|
+aluc<0>        |r<8>           |   13.855|
+aluc<0>        |r<9>           |   14.191|
+aluc<0>        |r<10>          |   15.236|
+aluc<0>        |r<11>          |   14.526|
+aluc<0>        |r<12>          |   14.068|
+aluc<0>        |r<13>          |   13.701|
+aluc<0>        |r<14>          |   13.471|
+aluc<0>        |r<15>          |   13.891|
+aluc<0>        |r<16>          |   13.028|
+aluc<0>        |r<17>          |   14.025|
+aluc<0>        |r<18>          |   14.402|
+aluc<0>        |r<19>          |   14.759|
+aluc<0>        |r<20>          |   12.617|
+aluc<0>        |r<21>          |   12.060|
+aluc<0>        |r<22>          |   13.591|
+aluc<0>        |r<23>          |   13.579|
+aluc<0>        |r<24>          |   13.637|
+aluc<0>        |r<25>          |   14.028|
+aluc<0>        |r<26>          |   13.904|
+aluc<0>        |r<27>          |   15.311|
+aluc<0>        |r<28>          |   13.750|
+aluc<0>        |r<29>          |   13.804|
+aluc<0>        |r<30>          |   13.253|
+aluc<0>        |r<31>          |   12.774|
+aluc<0>        |zero           |   18.412|
+aluc<1>        |r<0>           |   14.932|
+aluc<1>        |r<1>           |   14.475|
+aluc<1>        |r<2>           |   15.451|
+aluc<1>        |r<3>           |   14.190|
+aluc<1>        |r<4>           |   14.689|
+aluc<1>        |r<5>           |   13.785|
+aluc<1>        |r<6>           |   15.079|
+aluc<1>        |r<7>           |   13.621|
+aluc<1>        |r<8>           |   13.139|
+aluc<1>        |r<9>           |   13.982|
+aluc<1>        |r<10>          |   12.704|
+aluc<1>        |r<11>          |   13.634|
+aluc<1>        |r<12>          |   13.104|
+aluc<1>        |r<13>          |   13.477|
+aluc<1>        |r<14>          |   13.193|
+aluc<1>        |r<15>          |   13.134|
+aluc<1>        |r<16>          |   12.506|
+aluc<1>        |r<17>          |   13.424|
+aluc<1>        |r<18>          |   13.927|
+aluc<1>        |r<19>          |   13.193|
+aluc<1>        |r<20>          |   12.845|
+aluc<1>        |r<21>          |   12.737|
+aluc<1>        |r<22>          |   13.113|
+aluc<1>        |r<23>          |   13.588|
+aluc<1>        |r<24>          |   12.983|
+aluc<1>        |r<25>          |   13.501|
+aluc<1>        |r<26>          |   12.978|
+aluc<1>        |r<27>          |   13.295|
+aluc<1>        |r<28>          |   13.470|
+aluc<1>        |r<29>          |   14.963|
+aluc<1>        |r<30>          |   13.379|
+aluc<1>        |r<31>          |   13.933|
+aluc<1>        |zero           |   18.044|
+aluc<2>        |r<0>           |   11.199|
+aluc<2>        |r<1>           |   13.487|
+aluc<2>        |r<2>           |   14.932|
+aluc<2>        |r<3>           |   14.433|
+aluc<2>        |r<4>           |   14.498|
+aluc<2>        |r<5>           |   13.916|
+aluc<2>        |r<6>           |   14.188|
+aluc<2>        |r<7>           |   13.620|
+aluc<2>        |r<8>           |   11.390|
+aluc<2>        |r<9>           |   13.078|
+aluc<2>        |r<10>          |   11.730|
+aluc<2>        |r<11>          |   12.416|
+aluc<2>        |r<12>          |   11.606|
+aluc<2>        |r<13>          |   11.559|
+aluc<2>        |r<14>          |   12.499|
+aluc<2>        |r<15>          |   11.871|
+aluc<2>        |r<16>          |   11.474|
+aluc<2>        |r<17>          |   11.197|
+aluc<2>        |r<18>          |   12.044|
+aluc<2>        |r<19>          |   11.753|
+aluc<2>        |r<20>          |   11.629|
+aluc<2>        |r<21>          |   11.133|
+aluc<2>        |r<22>          |   10.993|
+aluc<2>        |r<23>          |   11.472|
+aluc<2>        |r<24>          |   11.555|
+aluc<2>        |r<25>          |   12.512|
+aluc<2>        |r<26>          |   10.756|
+aluc<2>        |r<27>          |   10.794|
+aluc<2>        |r<28>          |   11.933|
+aluc<2>        |r<29>          |   11.552|
+aluc<2>        |r<30>          |   11.501|
+aluc<2>        |r<31>          |   11.459|
+aluc<2>        |zero           |   17.163|
+aluc<3>        |r<0>           |   10.564|
+aluc<3>        |r<1>           |   10.521|
+aluc<3>        |r<2>           |   12.294|
+aluc<3>        |r<3>           |   11.795|
+aluc<3>        |r<4>           |   11.860|
+aluc<3>        |r<5>           |   11.278|
+aluc<3>        |r<6>           |   11.550|
+aluc<3>        |r<7>           |   10.982|
+aluc<3>        |r<8>           |    9.144|
+aluc<3>        |r<9>           |   10.474|
+aluc<3>        |r<10>          |    9.934|
+aluc<3>        |r<11>          |   10.176|
+aluc<3>        |r<12>          |    9.319|
+aluc<3>        |r<13>          |    8.808|
+aluc<3>        |r<14>          |    8.761|
+aluc<3>        |r<15>          |    9.244|
+aluc<3>        |r<16>          |   10.204|
+aluc<3>        |r<17>          |   10.376|
+aluc<3>        |r<18>          |   10.887|
+aluc<3>        |r<19>          |   10.789|
+aluc<3>        |r<20>          |    9.427|
+aluc<3>        |r<21>          |    9.577|
+aluc<3>        |r<22>          |   10.358|
+aluc<3>        |r<23>          |   10.244|
+aluc<3>        |r<24>          |    9.153|
+aluc<3>        |r<25>          |   10.342|
+aluc<3>        |r<26>          |    9.041|
+aluc<3>        |r<27>          |    9.176|
+aluc<3>        |r<28>          |   10.642|
+aluc<3>        |r<29>          |   10.634|
+aluc<3>        |r<30>          |   10.088|
+aluc<3>        |r<31>          |   10.216|
+aluc<3>        |zero           |   14.525|
+b<0>           |overflow       |   14.627|
+b<0>           |r<0>           |   14.717|
+b<0>           |r<1>           |   14.706|
+b<0>           |r<2>           |   15.078|
+b<0>           |r<3>           |   14.269|
+b<0>           |r<4>           |   15.048|
+b<0>           |r<5>           |   14.800|
+b<0>           |r<6>           |   15.033|
+b<0>           |r<7>           |   14.099|
+b<0>           |r<8>           |   13.938|
+b<0>           |r<9>           |   14.430|
+b<0>           |r<10>          |   13.771|
+b<0>           |r<11>          |   14.310|
+b<0>           |r<12>          |   13.745|
+b<0>           |r<13>          |   14.557|
+b<0>           |r<14>          |   13.435|
+b<0>           |r<15>          |   13.570|
+b<0>           |r<16>          |   13.907|
+b<0>           |r<17>          |   13.804|
+b<0>           |r<18>          |   14.147|
+b<0>           |r<19>          |   13.727|
+b<0>           |r<20>          |   13.229|
+b<0>           |r<21>          |   13.321|
+b<0>           |r<22>          |   14.177|
+b<0>           |r<23>          |   13.725|
+b<0>           |r<24>          |   13.548|
+b<0>           |r<25>          |   13.960|
+b<0>           |r<26>          |   13.522|
+b<0>           |r<27>          |   13.182|
+b<0>           |r<28>          |   14.126|
+b<0>           |r<29>          |   13.748|
+b<0>           |r<30>          |   13.709|
+b<0>           |r<31>          |   14.830|
+b<0>           |zero           |   18.196|
+b<1>           |overflow       |   14.079|
+b<1>           |r<0>           |   14.190|
+b<1>           |r<1>           |   15.274|
+b<1>           |r<2>           |   14.531|
+b<1>           |r<3>           |   14.111|
+b<1>           |r<4>           |   14.465|
+b<1>           |r<5>           |   14.903|
+b<1>           |r<6>           |   14.882|
+b<1>           |r<7>           |   13.774|
+b<1>           |r<8>           |   14.136|
+b<1>           |r<9>           |   13.882|
+b<1>           |r<10>          |   13.511|
+b<1>           |r<11>          |   14.073|
+b<1>           |r<12>          |   13.162|
+b<1>           |r<13>          |   14.660|
+b<1>           |r<14>          |   13.373|
+b<1>           |r<15>          |   13.673|
+b<1>           |r<16>          |   13.359|
+b<1>           |r<17>          |   13.256|
+b<1>           |r<18>          |   13.599|
+b<1>           |r<19>          |   13.569|
+b<1>           |r<20>          |   12.681|
+b<1>           |r<21>          |   13.071|
+b<1>           |r<22>          |   14.292|
+b<1>           |r<23>          |   13.576|
+b<1>           |r<24>          |   14.325|
+b<1>           |r<25>          |   13.338|
+b<1>           |r<26>          |   13.262|
+b<1>           |r<27>          |   12.885|
+b<1>           |r<28>          |   13.543|
+b<1>           |r<29>          |   13.212|
+b<1>           |r<30>          |   13.824|
+b<1>           |r<31>          |   14.917|
+b<1>           |zero           |   18.083|
+b<2>           |overflow       |   13.762|
+b<2>           |r<0>           |   14.171|
+b<2>           |r<1>           |   14.861|
+b<2>           |r<2>           |   14.768|
+b<2>           |r<3>           |   13.200|
+b<2>           |r<4>           |   14.330|
+b<2>           |r<5>           |   13.845|
+b<2>           |r<6>           |   14.820|
+b<2>           |r<7>           |   13.570|
+b<2>           |r<8>           |   14.074|
+b<2>           |r<9>           |   13.573|
+b<2>           |r<10>          |   13.333|
+b<2>           |r<11>          |   13.445|
+b<2>           |r<12>          |   13.027|
+b<2>           |r<13>          |   13.581|
+b<2>           |r<14>          |   13.311|
+b<2>           |r<15>          |   13.469|
+b<2>           |r<16>          |   13.042|
+b<2>           |r<17>          |   13.127|
+b<2>           |r<18>          |   13.282|
+b<2>           |r<19>          |   12.701|
+b<2>           |r<20>          |   12.364|
+b<2>           |r<21>          |   12.435|
+b<2>           |r<22>          |   14.230|
+b<2>           |r<23>          |   13.372|
+b<2>           |r<24>          |   14.263|
+b<2>           |r<25>          |   13.198|
+b<2>           |r<26>          |   13.084|
+b<2>           |r<27>          |   12.317|
+b<2>           |r<28>          |   13.408|
+b<2>           |r<29>          |   12.883|
+b<2>           |r<30>          |   13.762|
+b<2>           |r<31>          |   14.713|
+b<2>           |zero           |   17.805|
+b<3>           |overflow       |   14.493|
+b<3>           |r<0>           |   14.361|
+b<3>           |r<1>           |   15.208|
+b<3>           |r<2>           |   15.016|
+b<3>           |r<3>           |   14.326|
+b<3>           |r<4>           |   14.779|
+b<3>           |r<5>           |   14.576|
+b<3>           |r<6>           |   14.899|
+b<3>           |r<7>           |   14.289|
+b<3>           |r<8>           |   13.885|
+b<3>           |r<9>           |   14.296|
+b<3>           |r<10>          |   13.727|
+b<3>           |r<11>          |   14.176|
+b<3>           |r<12>          |   13.476|
+b<3>           |r<13>          |   13.207|
+b<3>           |r<14>          |   13.301|
+b<3>           |r<15>          |   14.188|
+b<3>           |r<16>          |   13.773|
+b<3>           |r<17>          |   13.846|
+b<3>           |r<18>          |   14.013|
+b<3>           |r<19>          |   13.432|
+b<3>           |r<20>          |   13.095|
+b<3>           |r<21>          |   13.134|
+b<3>           |r<22>          |   13.908|
+b<3>           |r<23>          |   14.091|
+b<3>           |r<24>          |   14.074|
+b<3>           |r<25>          |   13.917|
+b<3>           |r<26>          |   13.389|
+b<3>           |r<27>          |   13.048|
+b<3>           |r<28>          |   13.857|
+b<3>           |r<29>          |   13.614|
+b<3>           |r<30>          |   13.440|
+b<3>           |r<31>          |   15.432|
+b<3>           |zero           |   18.062|
+b<4>           |overflow       |   13.746|
+b<4>           |r<0>           |   14.520|
+b<4>           |r<1>           |   15.102|
+b<4>           |r<2>           |   14.820|
+b<4>           |r<3>           |   14.220|
+b<4>           |r<4>           |   15.112|
+b<4>           |r<5>           |   14.753|
+b<4>           |r<6>           |   14.831|
+b<4>           |r<7>           |   13.624|
+b<4>           |r<8>           |   14.198|
+b<4>           |r<9>           |   13.742|
+b<4>           |r<10>          |   14.040|
+b<4>           |r<11>          |   13.446|
+b<4>           |r<12>          |   13.809|
+b<4>           |r<13>          |   14.510|
+b<4>           |r<14>          |   13.322|
+b<4>           |r<15>          |   13.523|
+b<4>           |r<16>          |   13.173|
+b<4>           |r<17>          |   13.296|
+b<4>           |r<18>          |   13.663|
+b<4>           |r<19>          |   13.659|
+b<4>           |r<20>          |   13.145|
+b<4>           |r<21>          |   12.921|
+b<4>           |r<22>          |   14.241|
+b<4>           |r<23>          |   13.426|
+b<4>           |r<24>          |   14.387|
+b<4>           |r<25>          |   13.367|
+b<4>           |r<26>          |   13.702|
+b<4>           |r<27>          |   13.194|
+b<4>           |r<28>          |   14.190|
+b<4>           |r<29>          |   13.062|
+b<4>           |r<30>          |   13.773|
+b<4>           |r<31>          |   14.767|
+b<4>           |zero           |   17.964|
+b<5>           |overflow       |   14.206|
+b<5>           |r<0>           |   14.739|
+b<5>           |r<1>           |   15.447|
+b<5>           |r<2>           |   14.616|
+b<5>           |r<3>           |   13.672|
+b<5>           |r<4>           |   14.565|
+b<5>           |r<5>           |   15.376|
+b<5>           |r<6>           |   15.175|
+b<5>           |r<7>           |   14.247|
+b<5>           |r<8>           |   14.429|
+b<5>           |r<9>           |   14.385|
+b<5>           |r<10>          |   13.976|
+b<5>           |r<11>          |   14.089|
+b<5>           |r<12>          |   13.149|
+b<5>           |r<13>          |   15.133|
+b<5>           |r<14>          |   13.666|
+b<5>           |r<15>          |   14.146|
+b<5>           |r<16>          |   13.486|
+b<5>           |r<17>          |   13.939|
+b<5>           |r<18>          |   13.726|
+b<5>           |r<19>          |   14.302|
+b<5>           |r<20>          |   13.144|
+b<5>           |r<21>          |   13.544|
+b<5>           |r<22>          |   14.585|
+b<5>           |r<23>          |   14.049|
+b<5>           |r<24>          |   14.618|
+b<5>           |r<25>          |   14.010|
+b<5>           |r<26>          |   13.638|
+b<5>           |r<27>          |   13.837|
+b<5>           |r<28>          |   13.755|
+b<5>           |r<29>          |   13.685|
+b<5>           |r<30>          |   14.117|
+b<5>           |r<31>          |   15.390|
+b<5>           |zero           |   18.556|
+b<6>           |overflow       |   13.340|
+b<6>           |r<0>           |   13.974|
+b<6>           |r<1>           |   14.695|
+b<6>           |r<2>           |   14.583|
+b<6>           |r<3>           |   13.364|
+b<6>           |r<4>           |   13.981|
+b<6>           |r<5>           |   13.270|
+b<6>           |r<6>           |   14.881|
+b<6>           |r<7>           |   13.505|
+b<6>           |r<8>           |   14.135|
+b<6>           |r<9>           |   13.508|
+b<6>           |r<10>          |   13.682|
+b<6>           |r<11>          |   13.549|
+b<6>           |r<12>          |   12.855|
+b<6>           |r<13>          |   13.444|
+b<6>           |r<14>          |   13.372|
+b<6>           |r<15>          |   13.404|
+b<6>           |r<16>          |   12.804|
+b<6>           |r<17>          |   13.062|
+b<6>           |r<18>          |   13.305|
+b<6>           |r<19>          |   13.762|
+b<6>           |r<20>          |   12.850|
+b<6>           |r<21>          |   14.037|
+b<6>           |r<22>          |   14.291|
+b<6>           |r<23>          |   13.307|
+b<6>           |r<24>          |   14.324|
+b<6>           |r<25>          |   13.133|
+b<6>           |r<26>          |   13.344|
+b<6>           |r<27>          |   13.297|
+b<6>           |r<28>          |   13.461|
+b<6>           |r<29>          |   12.461|
+b<6>           |r<30>          |   13.823|
+b<6>           |r<31>          |   14.648|
+b<6>           |zero           |   17.866|
+b<7>           |overflow       |   13.439|
+b<7>           |r<0>           |   14.204|
+b<7>           |r<1>           |   14.695|
+b<7>           |r<2>           |   14.705|
+b<7>           |r<3>           |   13.813|
+b<7>           |r<4>           |   14.158|
+b<7>           |r<5>           |   13.115|
+b<7>           |r<6>           |   14.548|
+b<7>           |r<7>           |   13.861|
+b<7>           |r<8>           |   13.606|
+b<7>           |r<9>           |   13.864|
+b<7>           |r<10>          |   13.448|
+b<7>           |r<11>          |   13.965|
+b<7>           |r<12>          |   13.555|
+b<7>           |r<13>          |   13.860|
+b<7>           |r<14>          |   12.954|
+b<7>           |r<15>          |   13.760|
+b<7>           |r<16>          |   12.719|
+b<7>           |r<17>          |   13.418|
+b<7>           |r<18>          |   13.071|
+b<7>           |r<19>          |   14.178|
+b<7>           |r<20>          |   13.550|
+b<7>           |r<21>          |   14.453|
+b<7>           |r<22>          |   12.932|
+b<7>           |r<23>          |   13.663|
+b<7>           |r<24>          |   13.795|
+b<7>           |r<25>          |   13.489|
+b<7>           |r<26>          |   13.110|
+b<7>           |r<27>          |   13.713|
+b<7>           |r<28>          |   14.161|
+b<7>           |r<29>          |   12.877|
+b<7>           |r<30>          |   12.864|
+b<7>           |r<31>          |   15.004|
+b<7>           |zero           |   17.851|
+b<8>           |overflow       |   13.779|
+b<8>           |r<0>           |   14.244|
+b<8>           |r<1>           |   15.346|
+b<8>           |r<2>           |   14.660|
+b<8>           |r<3>           |   14.464|
+b<8>           |r<4>           |   14.609|
+b<8>           |r<5>           |   13.058|
+b<8>           |r<6>           |   15.126|
+b<8>           |r<7>           |   13.787|
+b<8>           |r<8>           |   14.300|
+b<8>           |r<9>           |   13.435|
+b<8>           |r<10>          |   13.486|
+b<8>           |r<11>          |   13.421|
+b<8>           |r<12>          |   13.165|
+b<8>           |r<13>          |   13.899|
+b<8>           |r<14>          |   12.620|
+b<8>           |r<15>          |   13.373|
+b<8>           |r<16>          |   13.059|
+b<8>           |r<17>          |   12.956|
+b<8>           |r<18>          |   13.299|
+b<8>           |r<19>          |   13.220|
+b<8>           |r<20>          |   13.160|
+b<8>           |r<21>          |   14.492|
+b<8>           |r<22>          |   12.893|
+b<8>           |r<23>          |   13.674|
+b<8>           |r<24>          |   13.833|
+b<8>           |r<25>          |   13.153|
+b<8>           |r<26>          |   13.148|
+b<8>           |r<27>          |   12.755|
+b<8>           |r<28>          |   13.771|
+b<8>           |r<29>          |   12.916|
+b<8>           |r<30>          |   12.503|
+b<8>           |r<31>          |   14.894|
+b<8>           |zero           |   17.758|
+b<9>           |overflow       |   13.509|
+b<9>           |r<0>           |   14.216|
+b<9>           |r<1>           |   15.592|
+b<9>           |r<2>           |   14.532|
+b<9>           |r<3>           |   13.816|
+b<9>           |r<4>           |   14.481|
+b<9>           |r<5>           |   13.722|
+b<9>           |r<6>           |   15.009|
+b<9>           |r<7>           |   14.006|
+b<9>           |r<8>           |   14.183|
+b<9>           |r<9>           |   13.589|
+b<9>           |r<10>          |   14.443|
+b<9>           |r<11>          |   13.235|
+b<9>           |r<12>          |   13.463|
+b<9>           |r<13>          |   14.127|
+b<9>           |r<14>          |   13.360|
+b<9>           |r<15>          |   13.601|
+b<9>           |r<16>          |   13.331|
+b<9>           |r<17>          |   13.143|
+b<9>           |r<18>          |   14.066|
+b<9>           |r<19>          |   13.448|
+b<9>           |r<20>          |   13.458|
+b<9>           |r<21>          |   14.720|
+b<9>           |r<22>          |   13.338|
+b<9>           |r<23>          |   13.902|
+b<9>           |r<24>          |   14.416|
+b<9>           |r<25>          |   13.214|
+b<9>           |r<26>          |   14.105|
+b<9>           |r<27>          |   12.983|
+b<9>           |r<28>          |   14.069|
+b<9>           |r<29>          |   13.144|
+b<9>           |r<30>          |   13.270|
+b<9>           |r<31>          |   15.122|
+b<9>           |zero           |   18.367|
+b<10>          |overflow       |   13.675|
+b<10>          |r<0>           |   14.208|
+b<10>          |r<1>           |   14.942|
+b<10>          |r<2>           |   14.115|
+b<10>          |r<3>           |   13.558|
+b<10>          |r<4>           |   14.043|
+b<10>          |r<5>           |   13.464|
+b<10>          |r<6>           |   14.433|
+b<10>          |r<7>           |   13.356|
+b<10>          |r<8>           |   12.741|
+b<10>          |r<9>           |   12.596|
+b<10>          |r<10>          |   14.326|
+b<10>          |r<11>          |   13.844|
+b<10>          |r<12>          |   13.346|
+b<10>          |r<13>          |   13.736|
+b<10>          |r<14>          |   13.243|
+b<10>          |r<15>          |   13.477|
+b<10>          |r<16>          |   13.214|
+b<10>          |r<17>          |   13.432|
+b<10>          |r<18>          |   13.949|
+b<10>          |r<19>          |   14.057|
+b<10>          |r<20>          |   13.341|
+b<10>          |r<21>          |   14.329|
+b<10>          |r<22>          |   13.221|
+b<10>          |r<23>          |   13.778|
+b<10>          |r<24>          |   14.299|
+b<10>          |r<25>          |   13.429|
+b<10>          |r<26>          |   13.988|
+b<10>          |r<27>          |   13.592|
+b<10>          |r<28>          |   13.952|
+b<10>          |r<29>          |   12.796|
+b<10>          |r<30>          |   13.153|
+b<10>          |r<31>          |   14.998|
+b<10>          |zero           |   18.250|
+b<11>          |overflow       |   13.828|
+b<11>          |r<0>           |   14.186|
+b<11>          |r<1>           |   16.107|
+b<11>          |r<2>           |   14.222|
+b<11>          |r<3>           |   14.669|
+b<11>          |r<4>           |   15.079|
+b<11>          |r<5>           |   13.798|
+b<11>          |r<6>           |   15.469|
+b<11>          |r<7>           |   14.527|
+b<11>          |r<8>           |   12.848|
+b<11>          |r<9>           |   13.761|
+b<11>          |r<10>          |   13.688|
+b<11>          |r<11>          |   14.235|
+b<11>          |r<12>          |   13.373|
+b<11>          |r<13>          |   14.127|
+b<11>          |r<14>          |   12.772|
+b<11>          |r<15>          |   13.868|
+b<11>          |r<16>          |   13.108|
+b<11>          |r<17>          |   13.823|
+b<11>          |r<18>          |   14.610|
+b<11>          |r<19>          |   14.448|
+b<11>          |r<20>          |   13.368|
+b<11>          |r<21>          |   14.720|
+b<11>          |r<22>          |   12.942|
+b<11>          |r<23>          |   14.169|
+b<11>          |r<24>          |   14.141|
+b<11>          |r<25>          |   13.820|
+b<11>          |r<26>          |   13.365|
+b<11>          |r<27>          |   13.983|
+b<11>          |r<28>          |   13.979|
+b<11>          |r<29>          |   13.144|
+b<11>          |r<30>          |   12.682|
+b<11>          |r<31>          |   15.389|
+b<11>          |zero           |   18.121|
+b<12>          |overflow       |   13.968|
+b<12>          |r<0>           |   14.374|
+b<12>          |r<1>           |   16.382|
+b<12>          |r<2>           |   14.729|
+b<12>          |r<3>           |   14.944|
+b<12>          |r<4>           |   15.239|
+b<12>          |r<5>           |   14.073|
+b<12>          |r<6>           |   15.274|
+b<12>          |r<7>           |   14.802|
+b<12>          |r<8>           |   14.448|
+b<12>          |r<9>           |   14.036|
+b<12>          |r<10>          |   14.195|
+b<12>          |r<11>          |   14.303|
+b<12>          |r<12>          |   13.827|
+b<12>          |r<13>          |   14.082|
+b<12>          |r<14>          |   13.226|
+b<12>          |r<15>          |   13.556|
+b<12>          |r<16>          |   13.248|
+b<12>          |r<17>          |   13.999|
+b<12>          |r<18>          |   14.030|
+b<12>          |r<19>          |   12.932|
+b<12>          |r<20>          |   13.822|
+b<12>          |r<21>          |   14.675|
+b<12>          |r<22>          |   13.204|
+b<12>          |r<23>          |   13.857|
+b<12>          |r<24>          |   13.561|
+b<12>          |r<25>          |   13.996|
+b<12>          |r<26>          |   12.785|
+b<12>          |r<27>          |   13.224|
+b<12>          |r<28>          |   14.433|
+b<12>          |r<29>          |   13.099|
+b<12>          |r<30>          |   13.136|
+b<12>          |r<31>          |   15.077|
+b<12>          |zero           |   18.345|
+b<13>          |overflow       |   13.306|
+b<13>          |r<0>           |   14.169|
+b<13>          |r<1>           |   15.281|
+b<13>          |r<2>           |   14.058|
+b<13>          |r<3>           |   13.685|
+b<13>          |r<4>           |   14.568|
+b<13>          |r<5>           |   13.592|
+b<13>          |r<6>           |   14.521|
+b<13>          |r<7>           |   13.695|
+b<13>          |r<8>           |   13.695|
+b<13>          |r<9>           |   12.935|
+b<13>          |r<10>          |   13.524|
+b<13>          |r<11>          |   13.044|
+b<13>          |r<12>          |   12.256|
+b<13>          |r<13>          |   13.875|
+b<13>          |r<14>          |   13.319|
+b<13>          |r<15>          |   12.950|
+b<13>          |r<16>          |   12.586|
+b<13>          |r<17>          |   13.084|
+b<13>          |r<18>          |   14.625|
+b<13>          |r<19>          |   12.245|
+b<13>          |r<20>          |   12.803|
+b<13>          |r<21>          |   14.069|
+b<13>          |r<22>          |   13.297|
+b<13>          |r<23>          |   13.251|
+b<13>          |r<24>          |   13.638|
+b<13>          |r<25>          |   13.081|
+b<13>          |r<26>          |   13.062|
+b<13>          |r<27>          |   12.309|
+b<13>          |r<28>          |   12.826|
+b<13>          |r<29>          |   12.493|
+b<13>          |r<30>          |   13.229|
+b<13>          |r<31>          |   14.471|
+b<13>          |zero           |   17.966|
+b<14>          |overflow       |   13.452|
+b<14>          |r<0>           |   14.019|
+b<14>          |r<1>           |   15.305|
+b<14>          |r<2>           |   14.087|
+b<14>          |r<3>           |   13.871|
+b<14>          |r<4>           |   14.557|
+b<14>          |r<5>           |   13.778|
+b<14>          |r<6>           |   14.186|
+b<14>          |r<7>           |   13.719|
+b<14>          |r<8>           |   12.713|
+b<14>          |r<9>           |   12.959|
+b<14>          |r<10>          |   13.553|
+b<14>          |r<11>          |   13.230|
+b<14>          |r<12>          |   12.245|
+b<14>          |r<13>          |   14.061|
+b<14>          |r<14>          |   13.505|
+b<14>          |r<15>          |   12.549|
+b<14>          |r<16>          |   12.739|
+b<14>          |r<17>          |   13.193|
+b<14>          |r<18>          |   14.811|
+b<14>          |r<19>          |   12.558|
+b<14>          |r<20>          |   12.989|
+b<14>          |r<21>          |   13.535|
+b<14>          |r<22>          |   13.483|
+b<14>          |r<23>          |   12.850|
+b<14>          |r<24>          |   13.824|
+b<14>          |r<25>          |   13.190|
+b<14>          |r<26>          |   13.248|
+b<14>          |r<27>          |   12.293|
+b<14>          |r<28>          |   13.012|
+b<14>          |r<29>          |   12.817|
+b<14>          |r<30>          |   13.415|
+b<14>          |r<31>          |   14.070|
+b<14>          |zero           |   18.152|
+b<15>          |overflow       |   13.295|
+b<15>          |r<0>           |   14.174|
+b<15>          |r<1>           |   15.906|
+b<15>          |r<2>           |   14.164|
+b<15>          |r<3>           |   13.963|
+b<15>          |r<4>           |   14.538|
+b<15>          |r<5>           |   13.471|
+b<15>          |r<6>           |   14.167|
+b<15>          |r<7>           |   13.466|
+b<15>          |r<8>           |   12.790|
+b<15>          |r<9>           |   13.560|
+b<15>          |r<10>          |   13.630|
+b<15>          |r<11>          |   13.322|
+b<15>          |r<12>          |   12.226|
+b<15>          |r<13>          |   13.754|
+b<15>          |r<14>          |   12.960|
+b<15>          |r<15>          |   13.170|
+b<15>          |r<16>          |   12.575|
+b<15>          |r<17>          |   13.375|
+b<15>          |r<18>          |   13.699|
+b<15>          |r<19>          |   12.740|
+b<15>          |r<20>          |   11.943|
+b<15>          |r<21>          |   13.717|
+b<15>          |r<22>          |   12.522|
+b<15>          |r<23>          |   13.032|
+b<15>          |r<24>          |   13.230|
+b<15>          |r<25>          |   13.372|
+b<15>          |r<26>          |   12.454|
+b<15>          |r<27>          |   12.475|
+b<15>          |r<28>          |   12.433|
+b<15>          |r<29>          |   12.999|
+b<15>          |r<30>          |   12.270|
+b<15>          |r<31>          |   14.252|
+b<15>          |zero           |   17.208|
+b<16>          |overflow       |   14.068|
+b<16>          |r<0>           |   15.200|
+b<16>          |r<1>           |   16.490|
+b<16>          |r<2>           |   15.684|
+b<16>          |r<3>           |   14.547|
+b<16>          |r<4>           |   16.194|
+b<16>          |r<5>           |   14.306|
+b<16>          |r<6>           |   15.359|
+b<16>          |r<7>           |   14.301|
+b<16>          |r<8>           |   15.217|
+b<16>          |r<9>           |   14.144|
+b<16>          |r<10>          |   15.150|
+b<16>          |r<11>          |   13.906|
+b<16>          |r<12>          |   13.882|
+b<16>          |r<13>          |   14.589|
+b<16>          |r<14>          |   14.152|
+b<16>          |r<15>          |   14.005|
+b<16>          |r<16>          |   13.834|
+b<16>          |r<17>          |   14.335|
+b<16>          |r<18>          |   14.566|
+b<16>          |r<19>          |   13.268|
+b<16>          |r<20>          |   12.670|
+b<16>          |r<21>          |   13.857|
+b<16>          |r<22>          |   13.182|
+b<16>          |r<23>          |   13.611|
+b<16>          |r<24>          |   14.097|
+b<16>          |r<25>          |   14.332|
+b<16>          |r<26>          |   13.321|
+b<16>          |r<27>          |   13.560|
+b<16>          |r<28>          |   13.206|
+b<16>          |r<29>          |   13.189|
+b<16>          |r<30>          |   12.814|
+b<16>          |r<31>          |   15.589|
+b<16>          |zero           |   18.561|
+b<17>          |overflow       |   13.835|
+b<17>          |r<0>           |   15.594|
+b<17>          |r<1>           |   16.461|
+b<17>          |r<2>           |   16.078|
+b<17>          |r<3>           |   15.435|
+b<17>          |r<4>           |   16.588|
+b<17>          |r<5>           |   15.342|
+b<17>          |r<6>           |   15.753|
+b<17>          |r<7>           |   14.537|
+b<17>          |r<8>           |   15.611|
+b<17>          |r<9>           |   14.292|
+b<17>          |r<10>          |   15.544|
+b<17>          |r<11>          |   14.794|
+b<17>          |r<12>          |   14.276|
+b<17>          |r<13>          |   15.625|
+b<17>          |r<14>          |   14.546|
+b<17>          |r<15>          |   14.241|
+b<17>          |r<16>          |   14.228|
+b<17>          |r<17>          |   14.268|
+b<17>          |r<18>          |   15.074|
+b<17>          |r<19>          |   13.201|
+b<17>          |r<20>          |   13.252|
+b<17>          |r<21>          |   13.734|
+b<17>          |r<22>          |   13.200|
+b<17>          |r<23>          |   13.488|
+b<17>          |r<24>          |   13.627|
+b<17>          |r<25>          |   14.265|
+b<17>          |r<26>          |   13.511|
+b<17>          |r<27>          |   13.493|
+b<17>          |r<28>          |   13.275|
+b<17>          |r<29>          |   13.016|
+b<17>          |r<30>          |   12.559|
+b<17>          |r<31>          |   15.466|
+b<17>          |zero           |   19.048|
+b<18>          |overflow       |   13.764|
+b<18>          |r<0>           |   13.996|
+b<18>          |r<1>           |   15.432|
+b<18>          |r<2>           |   14.080|
+b<18>          |r<3>           |   14.406|
+b<18>          |r<4>           |   14.162|
+b<18>          |r<5>           |   14.313|
+b<18>          |r<6>           |   13.791|
+b<18>          |r<7>           |   13.508|
+b<18>          |r<8>           |   13.735|
+b<18>          |r<9>           |   13.263|
+b<18>          |r<10>          |   13.969|
+b<18>          |r<11>          |   13.765|
+b<18>          |r<12>          |   11.850|
+b<18>          |r<13>          |   14.596|
+b<18>          |r<14>          |   12.584|
+b<18>          |r<15>          |   13.212|
+b<18>          |r<16>          |   12.352|
+b<18>          |r<17>          |   12.608|
+b<18>          |r<18>          |   14.045|
+b<18>          |r<19>          |   12.725|
+b<18>          |r<20>          |   12.366|
+b<18>          |r<21>          |   13.702|
+b<18>          |r<22>          |   12.878|
+b<18>          |r<23>          |   13.714|
+b<18>          |r<24>          |   13.184|
+b<18>          |r<25>          |   13.550|
+b<18>          |r<26>          |   12.482|
+b<18>          |r<27>          |   12.460|
+b<18>          |r<28>          |   12.902|
+b<18>          |r<29>          |   12.984|
+b<18>          |r<30>          |   12.488|
+b<18>          |r<31>          |   15.361|
+b<18>          |zero           |   18.019|
+b<19>          |overflow       |   13.697|
+b<19>          |r<0>           |   15.030|
+b<19>          |r<1>           |   16.292|
+b<19>          |r<2>           |   15.392|
+b<19>          |r<3>           |   13.959|
+b<19>          |r<4>           |   15.895|
+b<19>          |r<5>           |   14.771|
+b<19>          |r<6>           |   15.524|
+b<19>          |r<7>           |   14.766|
+b<19>          |r<8>           |   15.047|
+b<19>          |r<9>           |   14.123|
+b<19>          |r<10>          |   15.281|
+b<19>          |r<11>          |   13.800|
+b<19>          |r<12>          |   13.583|
+b<19>          |r<13>          |   15.054|
+b<19>          |r<14>          |   14.317|
+b<19>          |r<15>          |   14.470|
+b<19>          |r<16>          |   13.664|
+b<19>          |r<17>          |   13.468|
+b<19>          |r<18>          |   15.153|
+b<19>          |r<19>          |   13.831|
+b<19>          |r<20>          |   13.006|
+b<19>          |r<21>          |   14.129|
+b<19>          |r<22>          |   13.585|
+b<19>          |r<23>          |   14.358|
+b<19>          |r<24>          |   13.103|
+b<19>          |r<25>          |   14.194|
+b<19>          |r<26>          |   12.283|
+b<19>          |r<27>          |   12.887|
+b<19>          |r<28>          |   13.129|
+b<19>          |r<29>          |   13.411|
+b<19>          |r<30>          |   13.333|
+b<19>          |r<31>          |   16.005|
+b<19>          |zero           |   18.494|
+b<20>          |overflow       |   13.941|
+b<20>          |r<0>           |   16.105|
+b<20>          |r<1>           |   17.068|
+b<20>          |r<2>           |   15.982|
+b<20>          |r<3>           |   14.735|
+b<20>          |r<4>           |   15.492|
+b<20>          |r<5>           |   14.876|
+b<20>          |r<6>           |   16.052|
+b<20>          |r<7>           |   14.871|
+b<20>          |r<8>           |   16.122|
+b<20>          |r<9>           |   14.899|
+b<20>          |r<10>          |   15.871|
+b<20>          |r<11>          |   14.576|
+b<20>          |r<12>          |   14.897|
+b<20>          |r<13>          |   15.159|
+b<20>          |r<14>          |   14.845|
+b<20>          |r<15>          |   14.575|
+b<20>          |r<16>          |   14.739|
+b<20>          |r<17>          |   14.244|
+b<20>          |r<18>          |   15.743|
+b<20>          |r<19>          |   14.607|
+b<20>          |r<20>          |   13.958|
+b<20>          |r<21>          |   14.569|
+b<20>          |r<22>          |   13.472|
+b<20>          |r<23>          |   14.323|
+b<20>          |r<24>          |   13.521|
+b<20>          |r<25>          |   14.032|
+b<20>          |r<26>          |   12.701|
+b<20>          |r<27>          |   14.169|
+b<20>          |r<28>          |   13.272|
+b<20>          |r<29>          |   13.851|
+b<20>          |r<30>          |   13.220|
+b<20>          |r<31>          |   16.301|
+b<20>          |zero           |   19.466|
+b<21>          |overflow       |   13.482|
+b<21>          |r<0>           |   14.775|
+b<21>          |r<1>           |   15.538|
+b<21>          |r<2>           |   14.652|
+b<21>          |r<3>           |   14.884|
+b<21>          |r<4>           |   14.162|
+b<21>          |r<5>           |   14.423|
+b<21>          |r<6>           |   14.722|
+b<21>          |r<7>           |   14.073|
+b<21>          |r<8>           |   14.792|
+b<21>          |r<9>           |   13.369|
+b<21>          |r<10>          |   14.541|
+b<21>          |r<11>          |   14.725|
+b<21>          |r<12>          |   13.567|
+b<21>          |r<13>          |   14.420|
+b<21>          |r<14>          |   13.515|
+b<21>          |r<15>          |   13.777|
+b<21>          |r<16>          |   13.409|
+b<21>          |r<17>          |   12.714|
+b<21>          |r<18>          |   14.413|
+b<21>          |r<19>          |   14.756|
+b<21>          |r<20>          |   12.628|
+b<21>          |r<21>          |   13.608|
+b<21>          |r<22>          |   12.706|
+b<21>          |r<23>          |   12.949|
+b<21>          |r<24>          |   13.133|
+b<21>          |r<25>          |   13.247|
+b<21>          |r<26>          |   12.763|
+b<21>          |r<27>          |   13.384|
+b<21>          |r<28>          |   13.147|
+b<21>          |r<29>          |   12.603|
+b<21>          |r<30>          |   12.206|
+b<21>          |r<31>          |   14.927|
+b<21>          |zero           |   18.611|
+b<22>          |overflow       |   13.506|
+b<22>          |r<0>           |   14.270|
+b<22>          |r<1>           |   15.972|
+b<22>          |r<2>           |   14.428|
+b<22>          |r<3>           |   15.318|
+b<22>          |r<4>           |   14.149|
+b<22>          |r<5>           |   14.857|
+b<22>          |r<6>           |   14.584|
+b<22>          |r<7>           |   14.507|
+b<22>          |r<8>           |   14.083|
+b<22>          |r<9>           |   13.803|
+b<22>          |r<10>          |   14.317|
+b<22>          |r<11>          |   15.159|
+b<22>          |r<12>          |   13.554|
+b<22>          |r<13>          |   14.854|
+b<22>          |r<14>          |   13.232|
+b<22>          |r<15>          |   14.211|
+b<22>          |r<16>          |   12.700|
+b<22>          |r<17>          |   13.148|
+b<22>          |r<18>          |   14.189|
+b<22>          |r<19>          |   15.190|
+b<22>          |r<20>          |   12.615|
+b<22>          |r<21>          |   14.042|
+b<22>          |r<22>          |   13.528|
+b<22>          |r<23>          |   13.796|
+b<22>          |r<24>          |   13.783|
+b<22>          |r<25>          |   13.632|
+b<22>          |r<26>          |   12.576|
+b<22>          |r<27>          |   13.054|
+b<22>          |r<28>          |   12.960|
+b<22>          |r<29>          |   12.904|
+b<22>          |r<30>          |   12.370|
+b<22>          |r<31>          |   15.443|
+b<22>          |zero           |   19.045|
+b<23>          |overflow       |   13.505|
+b<23>          |r<0>           |   14.253|
+b<23>          |r<1>           |   15.648|
+b<23>          |r<2>           |   14.615|
+b<23>          |r<3>           |   13.315|
+b<23>          |r<4>           |   14.535|
+b<23>          |r<5>           |   14.070|
+b<23>          |r<6>           |   14.970|
+b<23>          |r<7>           |   13.946|
+b<23>          |r<8>           |   14.270|
+b<23>          |r<9>           |   13.479|
+b<23>          |r<10>          |   14.504|
+b<23>          |r<11>          |   13.156|
+b<23>          |r<12>          |   13.940|
+b<23>          |r<13>          |   14.067|
+b<23>          |r<14>          |   13.618|
+b<23>          |r<15>          |   14.055|
+b<23>          |r<16>          |   12.887|
+b<23>          |r<17>          |   12.824|
+b<23>          |r<18>          |   14.376|
+b<23>          |r<19>          |   13.187|
+b<23>          |r<20>          |   13.001|
+b<23>          |r<21>          |   13.255|
+b<23>          |r<22>          |   13.914|
+b<23>          |r<23>          |   13.861|
+b<23>          |r<24>          |   12.755|
+b<23>          |r<25>          |   13.481|
+b<23>          |r<26>          |   11.964|
+b<23>          |r<27>          |   13.199|
+b<23>          |r<28>          |   13.345|
+b<23>          |r<29>          |   13.049|
+b<23>          |r<30>          |   13.041|
+b<23>          |r<31>          |   15.292|
+b<23>          |zero           |   17.717|
+b<24>          |overflow       |   13.440|
+b<24>          |r<0>           |   14.070|
+b<24>          |r<1>           |   16.073|
+b<24>          |r<2>           |   14.679|
+b<24>          |r<3>           |   13.740|
+b<24>          |r<4>           |   14.116|
+b<24>          |r<5>           |   14.281|
+b<24>          |r<6>           |   14.293|
+b<24>          |r<7>           |   14.157|
+b<24>          |r<8>           |   13.455|
+b<24>          |r<9>           |   13.904|
+b<24>          |r<10>          |   14.568|
+b<24>          |r<11>          |   13.581|
+b<24>          |r<12>          |   13.521|
+b<24>          |r<13>          |   14.278|
+b<24>          |r<14>          |   12.941|
+b<24>          |r<15>          |   14.266|
+b<24>          |r<16>          |   13.109|
+b<24>          |r<17>          |   13.249|
+b<24>          |r<18>          |   14.440|
+b<24>          |r<19>          |   13.612|
+b<24>          |r<20>          |   12.582|
+b<24>          |r<21>          |   13.466|
+b<24>          |r<22>          |   13.237|
+b<24>          |r<23>          |   14.072|
+b<24>          |r<24>          |   13.603|
+b<24>          |r<25>          |   13.102|
+b<24>          |r<26>          |   12.141|
+b<24>          |r<27>          |   13.239|
+b<24>          |r<28>          |   13.763|
+b<24>          |r<29>          |   13.558|
+b<24>          |r<30>          |   13.459|
+b<24>          |r<31>          |   15.192|
+b<24>          |zero           |   17.781|
+b<25>          |overflow       |   13.624|
+b<25>          |r<0>           |   14.385|
+b<25>          |r<1>           |   15.577|
+b<25>          |r<2>           |   14.870|
+b<25>          |r<3>           |   14.405|
+b<25>          |r<4>           |   14.307|
+b<25>          |r<5>           |   13.944|
+b<25>          |r<6>           |   14.484|
+b<25>          |r<7>           |   13.750|
+b<25>          |r<8>           |   13.646|
+b<25>          |r<9>           |   13.474|
+b<25>          |r<10>          |   14.759|
+b<25>          |r<11>          |   14.246|
+b<25>          |r<12>          |   13.712|
+b<25>          |r<13>          |   13.941|
+b<25>          |r<14>          |   13.132|
+b<25>          |r<15>          |   13.859|
+b<25>          |r<16>          |   13.300|
+b<25>          |r<17>          |   13.308|
+b<25>          |r<18>          |   14.631|
+b<25>          |r<19>          |   14.277|
+b<25>          |r<20>          |   12.773|
+b<25>          |r<21>          |   13.129|
+b<25>          |r<22>          |   13.428|
+b<25>          |r<23>          |   13.665|
+b<25>          |r<24>          |   13.794|
+b<25>          |r<25>          |   13.311|
+b<25>          |r<26>          |   13.087|
+b<25>          |r<27>          |   13.322|
+b<25>          |r<28>          |   13.471|
+b<25>          |r<29>          |   13.329|
+b<25>          |r<30>          |   13.322|
+b<25>          |r<31>          |   14.963|
+b<25>          |zero           |   18.132|
+b<26>          |overflow       |   13.012|
+b<26>          |r<0>           |   14.370|
+b<26>          |r<1>           |   16.410|
+b<26>          |r<2>           |   14.921|
+b<26>          |r<3>           |   14.825|
+b<26>          |r<4>           |   15.006|
+b<26>          |r<5>           |   14.364|
+b<26>          |r<6>           |   15.441|
+b<26>          |r<7>           |   14.583|
+b<26>          |r<8>           |   13.755|
+b<26>          |r<9>           |   14.307|
+b<26>          |r<10>          |   14.447|
+b<26>          |r<11>          |   14.666|
+b<26>          |r<12>          |   14.411|
+b<26>          |r<13>          |   14.361|
+b<26>          |r<14>          |   14.089|
+b<26>          |r<15>          |   14.692|
+b<26>          |r<16>          |   13.409|
+b<26>          |r<17>          |   14.141|
+b<26>          |r<18>          |   13.680|
+b<26>          |r<19>          |   14.697|
+b<26>          |r<20>          |   13.472|
+b<26>          |r<21>          |   13.549|
+b<26>          |r<22>          |   14.385|
+b<26>          |r<23>          |   14.498|
+b<26>          |r<24>          |   13.903|
+b<26>          |r<25>          |   14.144|
+b<26>          |r<26>          |   13.182|
+b<26>          |r<27>          |   13.342|
+b<26>          |r<28>          |   13.180|
+b<26>          |r<29>          |   13.192|
+b<26>          |r<30>          |   12.821|
+b<26>          |r<31>          |   14.632|
+b<26>          |zero           |   18.552|
+b<27>          |overflow       |   13.529|
+b<27>          |r<0>           |   14.485|
+b<27>          |r<1>           |   16.711|
+b<27>          |r<2>           |   15.036|
+b<27>          |r<3>           |   14.818|
+b<27>          |r<4>           |   15.121|
+b<27>          |r<5>           |   14.279|
+b<27>          |r<6>           |   15.556|
+b<27>          |r<7>           |   14.155|
+b<27>          |r<8>           |   13.870|
+b<27>          |r<9>           |   14.908|
+b<27>          |r<10>          |   14.562|
+b<27>          |r<11>          |   14.036|
+b<27>          |r<12>          |   14.526|
+b<27>          |r<13>          |   14.276|
+b<27>          |r<14>          |   14.204|
+b<27>          |r<15>          |   14.264|
+b<27>          |r<16>          |   13.524|
+b<27>          |r<17>          |   14.742|
+b<27>          |r<18>          |   13.795|
+b<27>          |r<19>          |   14.269|
+b<27>          |r<20>          |   13.587|
+b<27>          |r<21>          |   13.464|
+b<27>          |r<22>          |   14.500|
+b<27>          |r<23>          |   14.070|
+b<27>          |r<24>          |   14.018|
+b<27>          |r<25>          |   14.745|
+b<27>          |r<26>          |   13.297|
+b<27>          |r<27>          |   14.821|
+b<27>          |r<28>          |   14.002|
+b<27>          |r<29>          |   13.346|
+b<27>          |r<30>          |   13.698|
+b<27>          |r<31>          |   15.173|
+b<27>          |zero           |   18.301|
+b<28>          |overflow       |   13.084|
+b<28>          |r<0>           |   15.429|
+b<28>          |r<1>           |   15.802|
+b<28>          |r<2>           |   15.755|
+b<28>          |r<3>           |   13.909|
+b<28>          |r<4>           |   15.187|
+b<28>          |r<5>           |   14.008|
+b<28>          |r<6>           |   14.802|
+b<28>          |r<7>           |   13.884|
+b<28>          |r<8>           |   14.814|
+b<28>          |r<9>           |   13.999|
+b<28>          |r<10>          |   15.281|
+b<28>          |r<11>          |   13.127|
+b<28>          |r<12>          |   14.735|
+b<28>          |r<13>          |   14.005|
+b<28>          |r<14>          |   13.450|
+b<28>          |r<15>          |   13.993|
+b<28>          |r<16>          |   14.468|
+b<28>          |r<17>          |   13.833|
+b<28>          |r<18>          |   14.514|
+b<28>          |r<19>          |   13.360|
+b<28>          |r<20>          |   13.284|
+b<28>          |r<21>          |   13.193|
+b<28>          |r<22>          |   13.746|
+b<28>          |r<23>          |   13.799|
+b<28>          |r<24>          |   14.962|
+b<28>          |r<25>          |   13.836|
+b<28>          |r<26>          |   14.016|
+b<28>          |r<27>          |   13.912|
+b<28>          |r<28>          |   14.417|
+b<28>          |r<29>          |   13.354|
+b<28>          |r<30>          |   13.132|
+b<28>          |r<31>          |   14.988|
+b<28>          |zero           |   18.504|
+b<29>          |overflow       |   13.391|
+b<29>          |r<0>           |   16.146|
+b<29>          |r<1>           |   16.210|
+b<29>          |r<2>           |   16.472|
+b<29>          |r<3>           |   14.577|
+b<29>          |r<4>           |   15.904|
+b<29>          |r<5>           |   14.260|
+b<29>          |r<6>           |   15.519|
+b<29>          |r<7>           |   14.383|
+b<29>          |r<8>           |   15.531|
+b<29>          |r<9>           |   14.107|
+b<29>          |r<10>          |   15.998|
+b<29>          |r<11>          |   13.795|
+b<29>          |r<12>          |   15.452|
+b<29>          |r<13>          |   14.608|
+b<29>          |r<14>          |   14.167|
+b<29>          |r<15>          |   14.492|
+b<29>          |r<16>          |   15.185|
+b<29>          |r<17>          |   13.941|
+b<29>          |r<18>          |   15.231|
+b<29>          |r<19>          |   14.028|
+b<29>          |r<20>          |   14.001|
+b<29>          |r<21>          |   12.763|
+b<29>          |r<22>          |   14.463|
+b<29>          |r<23>          |   14.298|
+b<29>          |r<24>          |   15.679|
+b<29>          |r<25>          |   13.944|
+b<29>          |r<26>          |   14.733|
+b<29>          |r<27>          |   14.580|
+b<29>          |r<28>          |   15.134|
+b<29>          |r<29>          |   15.336|
+b<29>          |r<30>          |   13.449|
+b<29>          |r<31>          |   15.317|
+b<29>          |zero           |   19.221|
+b<30>          |overflow       |   13.436|
+b<30>          |r<0>           |   15.988|
+b<30>          |r<1>           |   16.124|
+b<30>          |r<2>           |   15.464|
+b<30>          |r<3>           |   15.036|
+b<30>          |r<4>           |   16.044|
+b<30>          |r<5>           |   14.719|
+b<30>          |r<6>           |   14.137|
+b<30>          |r<7>           |   14.297|
+b<30>          |r<8>           |   15.373|
+b<30>          |r<9>           |   14.021|
+b<30>          |r<10>          |   14.990|
+b<30>          |r<11>          |   14.254|
+b<30>          |r<12>          |   15.592|
+b<30>          |r<13>          |   15.067|
+b<30>          |r<14>          |   13.625|
+b<30>          |r<15>          |   14.406|
+b<30>          |r<16>          |   15.027|
+b<30>          |r<17>          |   13.855|
+b<30>          |r<18>          |   14.223|
+b<30>          |r<19>          |   14.487|
+b<30>          |r<20>          |   14.141|
+b<30>          |r<21>          |   13.222|
+b<30>          |r<22>          |   12.830|
+b<30>          |r<23>          |   14.212|
+b<30>          |r<24>          |   15.521|
+b<30>          |r<25>          |   13.858|
+b<30>          |r<26>          |   13.725|
+b<30>          |r<27>          |   15.039|
+b<30>          |r<28>          |   15.274|
+b<30>          |r<29>          |   15.795|
+b<30>          |r<30>          |   13.819|
+b<30>          |r<31>          |   14.915|
+b<30>          |zero           |   19.326|
+b<31>          |overflow       |   12.932|
+b<31>          |r<0>           |   15.305|
+b<31>          |r<1>           |   15.639|
+b<31>          |r<2>           |   16.007|
+b<31>          |r<3>           |   15.689|
+b<31>          |r<4>           |   15.361|
+b<31>          |r<5>           |   13.603|
+b<31>          |r<6>           |   14.598|
+b<31>          |r<7>           |   14.348|
+b<31>          |r<8>           |   14.690|
+b<31>          |r<9>           |   14.693|
+b<31>          |r<10>          |   15.600|
+b<31>          |r<11>          |   14.907|
+b<31>          |r<12>          |   14.909|
+b<31>          |r<13>          |   14.065|
+b<31>          |r<14>          |   14.086|
+b<31>          |r<15>          |   14.255|
+b<31>          |r<16>          |   14.344|
+b<31>          |r<17>          |   14.527|
+b<31>          |r<18>          |   14.766|
+b<31>          |r<19>          |   15.140|
+b<31>          |r<20>          |   13.458|
+b<31>          |r<21>          |   12.682|
+b<31>          |r<22>          |   13.955|
+b<31>          |r<23>          |   14.081|
+b<31>          |r<24>          |   14.838|
+b<31>          |r<25>          |   14.530|
+b<31>          |r<26>          |   14.268|
+b<31>          |r<27>          |   15.692|
+b<31>          |r<28>          |   14.591|
+b<31>          |r<29>          |   14.828|
+b<31>          |r<30>          |   13.682|
+b<31>          |r<31>          |   15.274|
+b<31>          |zero           |   18.793|
+---------------+---------------+---------+
+
+
+Analysis completed Mon Nov 11 16:31:14 2013 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 215 MB
+
+
+

@@ -1,0 +1,6 @@
+verilog isim_temp "vga_data_in.v"
+verilog isim_temp "time_divide.v"
+verilog isim_temp "sync_module.v"
+verilog isim_temp "vga_module.v"
+verilog isim_temp "vga.v"
+verilog isim_temp "D:/Xilinx/ISE_DS/ISE//verilog/src/glbl.v"

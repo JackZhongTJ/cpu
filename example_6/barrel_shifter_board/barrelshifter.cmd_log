@@ -1,0 +1,46 @@
+xst -intstyle ise -ifn "D:/Xilinx/workshop/barrelshifter_board/barrelshifter.xst" -ofn "D:/Xilinx/workshop/barrelshifter_board/barrelshifter.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/barrelshifter_board/barrelshifter.xst" -ofn "D:/Xilinx/workshop/barrelshifter_board/barrelshifter.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/barrelshifter_board/barrelshifter.xst" -ofn "D:/Xilinx/workshop/barrelshifter_board/barrelshifter.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/barrelshifter_board/barrelshifter.xst" -ofn "D:/Xilinx/workshop/barrelshifter_board/barrelshifter.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/barrelshifter_board/barrelshifter.xst" -ofn "D:/Xilinx/workshop/barrelshifter_board/barrelshifter.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/barrelshifter_board/barrelshifter.xst" -ofn "D:/Xilinx/workshop/barrelshifter_board/barrelshifter.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/barrelshifter_board/barrelshifter.xst" -ofn "D:/Xilinx/workshop/barrelshifter_board/barrelshifter.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/barrelshifter_board/barrelshifter.xst" -ofn "D:/Xilinx/workshop/barrelshifter_board/barrelshifter.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/barrelshifter_board/barrelshifter.xst" -ofn "D:/Xilinx/workshop/barrelshifter_board/barrelshifter.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/barrelshifter_board/barrelshifter.xst" -ofn "D:/Xilinx/workshop/barrelshifter_board/barrelshifter.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/barrelshifter_board/barrelshifter.xst" -ofn "D:/Xilinx/workshop/barrelshifter_board/barrelshifter.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/barrelshifter_board/barrelshifter.xst" -ofn "D:/Xilinx/workshop/barrelshifter_board/barrelshifter.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/barrelshifter_board/barrelshifter.xst" -ofn "D:/Xilinx/workshop/barrelshifter_board/barrelshifter.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/barrelshifter_board/barrelshifter.xst" -ofn "D:/Xilinx/workshop/barrelshifter_board/barrelshifter.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/barrelshifter_board/barrelshifter.xst" -ofn "D:/Xilinx/workshop/barrelshifter_board/barrelshifter.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/barrelshifter_board/barrelshifter.xst" -ofn "D:/Xilinx/workshop/barrelshifter_board/barrelshifter.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/barrelshifter_board/barrelshifter.xst" -ofn "D:/Xilinx/workshop/barrelshifter_board/barrelshifter.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc barrelshifter_ucf.ucf -p xc6slx16-csg324-3 barrelshifter.ngc barrelshifter.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o barrelshifter_map.ncd barrelshifter.ngd barrelshifter.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc barrelshifter_ucf.ucf -p xc6slx16-csg324-3 barrelshifter.ngc barrelshifter.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o barrelshifter_map.ncd barrelshifter.ngd barrelshifter.pcf 
+par -w -intstyle ise -ol high -mt off barrelshifter_map.ncd barrelshifter.ncd barrelshifter.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml barrelshifter.twx barrelshifter.ncd -o barrelshifter.twr barrelshifter.pcf -ucf barrelshifter_ucf.ucf 
+bitgen -intstyle ise -f barrelshifter.ut barrelshifter.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc barrelshifter_ucf.ucf -p xc6slx16-csg324-3 barrelshifter.ngc barrelshifter.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o barrelshifter_map.ncd barrelshifter.ngd barrelshifter.pcf 
+par -w -intstyle ise -ol high -mt off barrelshifter_map.ncd barrelshifter.ncd barrelshifter.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml barrelshifter.twx barrelshifter.ncd -o barrelshifter.twr barrelshifter.pcf -ucf barrelshifter_ucf.ucf 
+bitgen -intstyle ise -f barrelshifter.ut barrelshifter.ncd 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/barrelshifter_board/barrelshifter.xst" -ofn "D:/Xilinx/workshop/barrelshifter_board/barrelshifter.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc barrelshifter_ucf.ucf -p xc6slx16-csg324-3 barrelshifter.ngc barrelshifter.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o barrelshifter_map.ncd barrelshifter.ngd barrelshifter.pcf 
+par -w -intstyle ise -ol high -mt off barrelshifter_map.ncd barrelshifter.ncd barrelshifter.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml barrelshifter.twx barrelshifter.ncd -o barrelshifter.twr barrelshifter.pcf -ucf barrelshifter_ucf.ucf 
+bitgen -intstyle ise -f barrelshifter.ut barrelshifter.ncd 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/barrelshifter_board/barrelshifter.xst" -ofn "D:/Xilinx/workshop/barrelshifter_board/barrelshifter.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc barrelshifter_ucf.ucf -p xc6slx16-csg324-3 barrelshifter.ngc barrelshifter.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o barrelshifter_map.ncd barrelshifter.ngd barrelshifter.pcf 
+par -w -intstyle ise -ol high -mt off barrelshifter_map.ncd barrelshifter.ncd barrelshifter.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml barrelshifter.twx barrelshifter.ncd -o barrelshifter.twr barrelshifter.pcf -ucf barrelshifter_ucf.ucf 
+bitgen -intstyle ise -f barrelshifter.ut barrelshifter.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc barrelshifter_ucf.ucf -p xc6slx16-csg324-3 barrelshifter.ngc barrelshifter.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o barrelshifter_map.ncd barrelshifter.ngd barrelshifter.pcf 
+par -w -intstyle ise -ol high -mt off barrelshifter_map.ncd barrelshifter.ncd barrelshifter.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml barrelshifter.twx barrelshifter.ncd -o barrelshifter.twr barrelshifter.pcf -ucf barrelshifter_ucf.ucf 
+bitgen -intstyle ise -f barrelshifter.ut barrelshifter.ncd 

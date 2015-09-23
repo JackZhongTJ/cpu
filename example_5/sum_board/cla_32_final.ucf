@@ -1,0 +1,27 @@
+Net number<2>  Loc = V9;
+Net number<1>  Loc = T9;
+Net number<0>  Loc = T10;
+Net c_in       Loc = M8;
+
+
+Net ADD_1<3>  Loc = T5;
+Net ADD_1<2>  Loc = V8;
+Net ADD_1<1>  Loc = U8;
+Net ADD_1<0>  Loc = N8;
+
+
+Net add_1  Loc = C4;
+Net add_2  Loc = D9;
+Net start  Loc = B8;
+Net ena    Loc = C9;
+
+
+Net c<3> Loc = T11;
+Net c<2> Loc = R11;
+Net c<1> Loc = N11;
+Net c<0> Loc = M11;
+
+Net co   Loc = U16;
+
+NET "start" CLOCK_DEDICATED_ROUTE = FALSE;
+NET "add_1" CLOCK_DEDICATED_ROUTE = FALSE;

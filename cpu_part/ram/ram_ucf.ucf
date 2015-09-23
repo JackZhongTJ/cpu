@@ -1,0 +1,24 @@
+//Net "clk" TNM_NET = sys_clk;
+//TIMESPEC TS_sys_clk = PERIOD"sys_clk" 100ns HIGH 50 %;
+
+Net data_in<7>  Loc = T10;
+Net data_in<6>  Loc = T9;
+Net data_in<5>  Loc = V9;
+Net data_in<4>  Loc = M8;
+Net data_in<3>  Loc = N8;
+Net data_in<2>  Loc = U8;
+Net data_in<1>  Loc = V8;
+Net data_in<0>  Loc = T5;
+
+Net data_out<7> Loc = U16;
+Net data_out<6> Loc = V16;
+Net data_out<5> Loc = U15;
+Net data_out<4> Loc = V15;
+Net data_out<3> Loc = M11;
+Net data_out<2> Loc = N11;
+Net data_out<1> Loc = R11;
+Net data_out<0> Loc = T11;
+
+Net rst Loc = A8;
+Net ena Loc = B8;
+Net clk Loc = C9;

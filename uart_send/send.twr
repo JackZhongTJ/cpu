@@ -1,0 +1,86 @@
+--------------------------------------------------------------------------------
+Release 13.2 Trace  (nt64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+D:\Xilinx\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3 -n 3
+-fastpaths -xml send.twx send.ncd -o send.twr send.pcf
+
+Design file:              send.ncd
+Physical constraint file: send.pcf
+Device,package,speed:     xc6slx16,csg324,C,-3 (PRODUCTION 1.19 2011-06-20)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock TransEn
+--------------+------------+------------+------------+------------+------------------+--------+
+              |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
+Source        | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
+--------------+------------+------------+------------+------------+------------------+--------+
+DataToTrans<0>|   -1.336(R)|      FAST  |    2.727(R)|      SLOW  |pos_tri           |   0.000|
+DataToTrans<1>|   -1.367(R)|      FAST  |    2.772(R)|      SLOW  |pos_tri           |   0.000|
+DataToTrans<2>|   -1.265(R)|      FAST  |    2.641(R)|      SLOW  |pos_tri           |   0.000|
+DataToTrans<3>|   -1.296(R)|      FAST  |    2.686(R)|      SLOW  |pos_tri           |   0.000|
+DataToTrans<4>|   -1.277(R)|      FAST  |    2.694(R)|      SLOW  |pos_tri           |   0.000|
+DataToTrans<5>|   -1.308(R)|      FAST  |    2.739(R)|      SLOW  |pos_tri           |   0.000|
+DataToTrans<6>|   -1.420(R)|      FAST  |    2.922(R)|      SLOW  |pos_tri           |   0.000|
+DataToTrans<7>|   -1.451(R)|      FAST  |    2.967(R)|      SLOW  |pos_tri           |   0.000|
+rst_n         |   -0.403(R)|      FAST  |    2.190(R)|      SLOW  |pos_tri           |   0.000|
+--------------+------------+------------+------------+------------+------------------+--------+
+
+Setup/Hold to clock clk16x
+------------+------------+------------+------------+------------+------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
+------------+------------+------------+------------+------------+------------------+--------+
+rst_n       |    1.166(R)|      FAST  |   -0.316(R)|      SLOW  |clk16x_BUFGP      |   0.000|
+------------+------------+------------+------------+------------+------------------+--------+
+
+Clock clk16x to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+BufFull     |         7.061(R)|      SLOW  |         3.629(R)|      FAST  |clk16x_BUFGP      |   0.000|
+tx          |         7.075(R)|      SLOW  |         3.641(R)|      FAST  |clk16x_BUFGP      |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock to Setup on destination clock clk16x
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+TransEn        |    6.111|    1.087|         |         |
+clk16x         |    2.834|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Analysis completed Wed May 07 18:44:57 2014 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 208 MB
+
+
+

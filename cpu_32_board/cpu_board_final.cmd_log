@@ -1,0 +1,623 @@
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cpu_board_final_map.ncd cpu_board_final.ngd cpu_board_final.pcf 
+par -w -intstyle ise -ol high -mt off cpu_board_final_map.ncd cpu_board_final.ncd cpu_board_final.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu_board_final.twx cpu_board_final.ncd -o cpu_board_final.twr cpu_board_final.pcf 
+bitgen -intstyle ise -f cpu_board_final.ut cpu_board_final.ncd 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cpu_board_final_map.ncd cpu_board_final.ngd cpu_board_final.pcf 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cpu_board_final_map.ncd cpu_board_final.ngd cpu_board_final.pcf 
+par -w -intstyle ise -ol high -mt off cpu_board_final_map.ncd cpu_board_final.ncd cpu_board_final.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu_board_final.twx cpu_board_final.ncd -o cpu_board_final.twr cpu_board_final.pcf -ucf cpu_constrain.ucf 
+bitgen -intstyle ise -f cpu_board_final.ut cpu_board_final.ncd 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cpu_board_final_map.ncd cpu_board_final.ngd cpu_board_final.pcf 
+par -w -intstyle ise -ol high -mt off cpu_board_final_map.ncd cpu_board_final.ncd cpu_board_final.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu_board_final.twx cpu_board_final.ncd -o cpu_board_final.twr cpu_board_final.pcf -ucf cpu_constrain.ucf 
+bitgen -intstyle ise -f cpu_board_final.ut cpu_board_final.ncd 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cpu_board_final_map.ncd cpu_board_final.ngd cpu_board_final.pcf 
+par -w -intstyle ise -ol high -mt off cpu_board_final_map.ncd cpu_board_final.ncd cpu_board_final.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu_board_final.twx cpu_board_final.ncd -o cpu_board_final.twr cpu_board_final.pcf -ucf cpu_constrain.ucf 
+bitgen -intstyle ise -f cpu_board_final.ut cpu_board_final.ncd 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cpu_board_final_map.ncd cpu_board_final.ngd cpu_board_final.pcf 
+par -w -intstyle ise -ol high -mt off cpu_board_final_map.ncd cpu_board_final.ncd cpu_board_final.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu_board_final.twx cpu_board_final.ncd -o cpu_board_final.twr cpu_board_final.pcf -ucf cpu_constrain.ucf 
+bitgen -intstyle ise -f cpu_board_final.ut cpu_board_final.ncd 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cpu_board_final_map.ncd cpu_board_final.ngd cpu_board_final.pcf 
+par -w -intstyle ise -ol high -mt off cpu_board_final_map.ncd cpu_board_final.ncd cpu_board_final.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu_board_final.twx cpu_board_final.ncd -o cpu_board_final.twr cpu_board_final.pcf -ucf cpu_constrain.ucf 
+bitgen -intstyle ise -f cpu_board_final.ut cpu_board_final.ncd 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cpu_board_final_map.ncd cpu_board_final.ngd cpu_board_final.pcf 
+par -w -intstyle ise -ol high -mt off cpu_board_final_map.ncd cpu_board_final.ncd cpu_board_final.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu_board_final.twx cpu_board_final.ncd -o cpu_board_final.twr cpu_board_final.pcf -ucf cpu_constrain.ucf 
+bitgen -intstyle ise -f cpu_board_final.ut cpu_board_final.ncd 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cpu_board_final_map.ncd cpu_board_final.ngd cpu_board_final.pcf 
+par -w -intstyle ise -ol high -mt off cpu_board_final_map.ncd cpu_board_final.ncd cpu_board_final.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu_board_final.twx cpu_board_final.ncd -o cpu_board_final.twr cpu_board_final.pcf -ucf cpu_constrain.ucf 
+bitgen -intstyle ise -f cpu_board_final.ut cpu_board_final.ncd 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cpu_board_final_map.ncd cpu_board_final.ngd cpu_board_final.pcf 
+par -w -intstyle ise -ol high -mt off cpu_board_final_map.ncd cpu_board_final.ncd cpu_board_final.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu_board_final.twx cpu_board_final.ncd -o cpu_board_final.twr cpu_board_final.pcf -ucf cpu_constrain.ucf 
+bitgen -intstyle ise -f cpu_board_final.ut cpu_board_final.ncd 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cpu_board_final_map.ncd cpu_board_final.ngd cpu_board_final.pcf 
+par -w -intstyle ise -ol high -mt off cpu_board_final_map.ncd cpu_board_final.ncd cpu_board_final.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu_board_final.twx cpu_board_final.ncd -o cpu_board_final.twr cpu_board_final.pcf -ucf cpu_constrain.ucf 
+bitgen -intstyle ise -f cpu_board_final.ut cpu_board_final.ncd 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cpu_board_final_map.ncd cpu_board_final.ngd cpu_board_final.pcf 
+par -w -intstyle ise -ol high -mt off cpu_board_final_map.ncd cpu_board_final.ncd cpu_board_final.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu_board_final.twx cpu_board_final.ncd -o cpu_board_final.twr cpu_board_final.pcf -ucf cpu_constrain.ucf 
+bitgen -intstyle ise -f cpu_board_final.ut cpu_board_final.ncd 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cpu_board_final_map.ncd cpu_board_final.ngd cpu_board_final.pcf 
+par -w -intstyle ise -ol high -mt off cpu_board_final_map.ncd cpu_board_final.ncd cpu_board_final.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu_board_final.twx cpu_board_final.ncd -o cpu_board_final.twr cpu_board_final.pcf -ucf cpu_constrain.ucf 
+bitgen -intstyle ise -f cpu_board_final.ut cpu_board_final.ncd 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cpu_board_final_map.ncd cpu_board_final.ngd cpu_board_final.pcf 
+par -w -intstyle ise -ol high -mt off cpu_board_final_map.ncd cpu_board_final.ncd cpu_board_final.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu_board_final.twx cpu_board_final.ncd -o cpu_board_final.twr cpu_board_final.pcf -ucf cpu_constrain.ucf 
+bitgen -intstyle ise -f cpu_board_final.ut cpu_board_final.ncd 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cpu_board_final_map.ncd cpu_board_final.ngd cpu_board_final.pcf 
+par -w -intstyle ise -ol high -mt off cpu_board_final_map.ncd cpu_board_final.ncd cpu_board_final.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu_board_final.twx cpu_board_final.ncd -o cpu_board_final.twr cpu_board_final.pcf -ucf cpu_constrain.ucf 
+bitgen -intstyle ise -f cpu_board_final.ut cpu_board_final.ncd 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cpu_board_final_map.ncd cpu_board_final.ngd cpu_board_final.pcf 
+par -w -intstyle ise -ol high -mt off cpu_board_final_map.ncd cpu_board_final.ncd cpu_board_final.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu_board_final.twx cpu_board_final.ncd -o cpu_board_final.twr cpu_board_final.pcf -ucf cpu_constrain.ucf 
+bitgen -intstyle ise -f cpu_board_final.ut cpu_board_final.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cpu_board_final_map.ncd cpu_board_final.ngd cpu_board_final.pcf 
+par -w -intstyle ise -ol high -mt off cpu_board_final_map.ncd cpu_board_final.ncd cpu_board_final.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu_board_final.twx cpu_board_final.ncd -o cpu_board_final.twr cpu_board_final.pcf -ucf cpu_constrain.ucf 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cpu_board_final_map.ncd cpu_board_final.ngd cpu_board_final.pcf 
+par -w -intstyle ise -ol high -mt off cpu_board_final_map.ncd cpu_board_final.ncd cpu_board_final.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu_board_final.twx cpu_board_final.ncd -o cpu_board_final.twr cpu_board_final.pcf -ucf cpu_constrain.ucf 
+bitgen -intstyle ise -f cpu_board_final.ut cpu_board_final.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cpu_board_final_map.ncd cpu_board_final.ngd cpu_board_final.pcf 
+par -w -intstyle ise -ol high -mt off cpu_board_final_map.ncd cpu_board_final.ncd cpu_board_final.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu_board_final.twx cpu_board_final.ncd -o cpu_board_final.twr cpu_board_final.pcf -ucf cpu_constrain.ucf 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cpu_board_final_map.ncd cpu_board_final.ngd cpu_board_final.pcf 
+par -w -intstyle ise -ol high -mt off cpu_board_final_map.ncd cpu_board_final.ncd cpu_board_final.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu_board_final.twx cpu_board_final.ncd -o cpu_board_final.twr cpu_board_final.pcf -ucf cpu_constrain.ucf 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cpu_board_final_map.ncd cpu_board_final.ngd cpu_board_final.pcf 
+par -w -intstyle ise -ol high -mt off cpu_board_final_map.ncd cpu_board_final.ncd cpu_board_final.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu_board_final.twx cpu_board_final.ncd -o cpu_board_final.twr cpu_board_final.pcf -ucf cpu_constrain.ucf 
+bitgen -intstyle ise -f cpu_board_final.ut cpu_board_final.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cpu_board_final_map.ncd cpu_board_final.ngd cpu_board_final.pcf 
+par -w -intstyle ise -ol high -mt off cpu_board_final_map.ncd cpu_board_final.ncd cpu_board_final.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu_board_final.twx cpu_board_final.ncd -o cpu_board_final.twr cpu_board_final.pcf -ucf cpu_constrain.ucf 
+bitgen -intstyle ise -f cpu_board_final.ut cpu_board_final.ncd 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cpu_board_final_map.ncd cpu_board_final.ngd cpu_board_final.pcf 
+par -w -intstyle ise -ol high -mt off cpu_board_final_map.ncd cpu_board_final.ncd cpu_board_final.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu_board_final.twx cpu_board_final.ncd -o cpu_board_final.twr cpu_board_final.pcf -ucf cpu_constrain.ucf 
+bitgen -intstyle ise -f cpu_board_final.ut cpu_board_final.ncd 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cpu_board_final_map.ncd cpu_board_final.ngd cpu_board_final.pcf 
+par -w -intstyle ise -ol high -mt off cpu_board_final_map.ncd cpu_board_final.ncd cpu_board_final.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu_board_final.twx cpu_board_final.ncd -o cpu_board_final.twr cpu_board_final.pcf -ucf cpu_constrain.ucf 
+bitgen -intstyle ise -f cpu_board_final.ut cpu_board_final.ncd 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cpu_board_final_map.ncd cpu_board_final.ngd cpu_board_final.pcf 
+par -w -intstyle ise -ol high -mt off cpu_board_final_map.ncd cpu_board_final.ncd cpu_board_final.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu_board_final.twx cpu_board_final.ncd -o cpu_board_final.twr cpu_board_final.pcf -ucf cpu_constrain.ucf 
+bitgen -intstyle ise -f cpu_board_final.ut cpu_board_final.ncd 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cpu_board_final_map.ncd cpu_board_final.ngd cpu_board_final.pcf 
+par -w -intstyle ise -ol high -mt off cpu_board_final_map.ncd cpu_board_final.ncd cpu_board_final.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu_board_final.twx cpu_board_final.ncd -o cpu_board_final.twr cpu_board_final.pcf -ucf cpu_constrain.ucf 
+bitgen -intstyle ise -f cpu_board_final.ut cpu_board_final.ncd 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cpu_board_final_map.ncd cpu_board_final.ngd cpu_board_final.pcf 
+par -w -intstyle ise -ol high -mt off cpu_board_final_map.ncd cpu_board_final.ncd cpu_board_final.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu_board_final.twx cpu_board_final.ncd -o cpu_board_final.twr cpu_board_final.pcf -ucf cpu_constrain.ucf 
+bitgen -intstyle ise -f cpu_board_final.ut cpu_board_final.ncd 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cpu_board_final_map.ncd cpu_board_final.ngd cpu_board_final.pcf 
+par -w -intstyle ise -ol high -mt off cpu_board_final_map.ncd cpu_board_final.ncd cpu_board_final.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu_board_final.twx cpu_board_final.ncd -o cpu_board_final.twr cpu_board_final.pcf -ucf cpu_constrain.ucf 
+bitgen -intstyle ise -f cpu_board_final.ut cpu_board_final.ncd 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cpu_board_final_map.ncd cpu_board_final.ngd cpu_board_final.pcf 
+par -w -intstyle ise -ol high -mt off cpu_board_final_map.ncd cpu_board_final.ncd cpu_board_final.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu_board_final.twx cpu_board_final.ncd -o cpu_board_final.twr cpu_board_final.pcf -ucf cpu_constrain.ucf 
+bitgen -intstyle ise -f cpu_board_final.ut cpu_board_final.ncd 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cpu_board_final_map.ncd cpu_board_final.ngd cpu_board_final.pcf 
+par -w -intstyle ise -ol high -mt off cpu_board_final_map.ncd cpu_board_final.ncd cpu_board_final.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu_board_final.twx cpu_board_final.ncd -o cpu_board_final.twr cpu_board_final.pcf -ucf cpu_constrain.ucf 
+bitgen -intstyle ise -f cpu_board_final.ut cpu_board_final.ncd 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cpu_board_final_map.ncd cpu_board_final.ngd cpu_board_final.pcf 
+par -w -intstyle ise -ol high -mt off cpu_board_final_map.ncd cpu_board_final.ncd cpu_board_final.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu_board_final.twx cpu_board_final.ncd -o cpu_board_final.twr cpu_board_final.pcf -ucf cpu_constrain.ucf 
+bitgen -intstyle ise -f cpu_board_final.ut cpu_board_final.ncd 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cpu_board_final_map.ncd cpu_board_final.ngd cpu_board_final.pcf 
+par -w -intstyle ise -ol high -mt off cpu_board_final_map.ncd cpu_board_final.ncd cpu_board_final.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu_board_final.twx cpu_board_final.ncd -o cpu_board_final.twr cpu_board_final.pcf -ucf cpu_constrain.ucf 
+bitgen -intstyle ise -f cpu_board_final.ut cpu_board_final.ncd 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cpu_board_final_map.ncd cpu_board_final.ngd cpu_board_final.pcf 
+par -w -intstyle ise -ol high -mt off cpu_board_final_map.ncd cpu_board_final.ncd cpu_board_final.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu_board_final.twx cpu_board_final.ncd -o cpu_board_final.twr cpu_board_final.pcf -ucf cpu_constrain.ucf 
+bitgen -intstyle ise -f cpu_board_final.ut cpu_board_final.ncd 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cpu_board_final_map.ncd cpu_board_final.ngd cpu_board_final.pcf 
+par -w -intstyle ise -ol high -mt off cpu_board_final_map.ncd cpu_board_final.ncd cpu_board_final.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu_board_final.twx cpu_board_final.ncd -o cpu_board_final.twr cpu_board_final.pcf -ucf cpu_constrain.ucf 
+bitgen -intstyle ise -f cpu_board_final.ut cpu_board_final.ncd 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cpu_board_final_map.ncd cpu_board_final.ngd cpu_board_final.pcf 
+par -w -intstyle ise -ol high -mt off cpu_board_final_map.ncd cpu_board_final.ncd cpu_board_final.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu_board_final.twx cpu_board_final.ncd -o cpu_board_final.twr cpu_board_final.pcf -ucf cpu_constrain.ucf 
+bitgen -intstyle ise -f cpu_board_final.ut cpu_board_final.ncd 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cpu_board_final_map.ncd cpu_board_final.ngd cpu_board_final.pcf 
+par -w -intstyle ise -ol high -mt off cpu_board_final_map.ncd cpu_board_final.ncd cpu_board_final.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu_board_final.twx cpu_board_final.ncd -o cpu_board_final.twr cpu_board_final.pcf -ucf cpu_constrain.ucf 
+bitgen -intstyle ise -f cpu_board_final.ut cpu_board_final.ncd 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cpu_board_final_map.ncd cpu_board_final.ngd cpu_board_final.pcf 
+par -w -intstyle ise -ol high -mt off cpu_board_final_map.ncd cpu_board_final.ncd cpu_board_final.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu_board_final.twx cpu_board_final.ncd -o cpu_board_final.twr cpu_board_final.pcf -ucf cpu_constrain.ucf 
+bitgen -intstyle ise -f cpu_board_final.ut cpu_board_final.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cpu_board_final_map.ncd cpu_board_final.ngd cpu_board_final.pcf 
+par -w -intstyle ise -ol high -mt off cpu_board_final_map.ncd cpu_board_final.ncd cpu_board_final.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu_board_final.twx cpu_board_final.ncd -o cpu_board_final.twr cpu_board_final.pcf -ucf cpu_constrain.ucf 
+bitgen -intstyle ise -f cpu_board_final.ut cpu_board_final.ncd 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cpu_board_final_map.ncd cpu_board_final.ngd cpu_board_final.pcf 
+par -w -intstyle ise -ol high -mt off cpu_board_final_map.ncd cpu_board_final.ncd cpu_board_final.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu_board_final.twx cpu_board_final.ncd -o cpu_board_final.twr cpu_board_final.pcf -ucf cpu_constrain.ucf 
+bitgen -intstyle ise -f cpu_board_final.ut cpu_board_final.ncd 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cpu_board_final_map.ncd cpu_board_final.ngd cpu_board_final.pcf 
+par -w -intstyle ise -ol high -mt off cpu_board_final_map.ncd cpu_board_final.ncd cpu_board_final.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu_board_final.twx cpu_board_final.ncd -o cpu_board_final.twr cpu_board_final.pcf -ucf cpu_constrain.ucf 
+bitgen -intstyle ise -f cpu_board_final.ut cpu_board_final.ncd 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cpu_board_final_map.ncd cpu_board_final.ngd cpu_board_final.pcf 
+par -w -intstyle ise -ol high -mt off cpu_board_final_map.ncd cpu_board_final.ncd cpu_board_final.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu_board_final.twx cpu_board_final.ncd -o cpu_board_final.twr cpu_board_final.pcf -ucf cpu_constrain.ucf 
+bitgen -intstyle ise -f cpu_board_final.ut cpu_board_final.ncd 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cpu_board_final_map.ncd cpu_board_final.ngd cpu_board_final.pcf 
+par -w -intstyle ise -ol high -mt off cpu_board_final_map.ncd cpu_board_final.ncd cpu_board_final.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu_board_final.twx cpu_board_final.ncd -o cpu_board_final.twr cpu_board_final.pcf -ucf cpu_constrain.ucf 
+bitgen -intstyle ise -f cpu_board_final.ut cpu_board_final.ncd 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cpu_board_final_map.ncd cpu_board_final.ngd cpu_board_final.pcf 
+par -w -intstyle ise -ol high -mt off cpu_board_final_map.ncd cpu_board_final.ncd cpu_board_final.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu_board_final.twx cpu_board_final.ncd -o cpu_board_final.twr cpu_board_final.pcf -ucf cpu_constrain.ucf 
+bitgen -intstyle ise -f cpu_board_final.ut cpu_board_final.ncd 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cpu_board_final_map.ncd cpu_board_final.ngd cpu_board_final.pcf 
+par -w -intstyle ise -ol high -mt off cpu_board_final_map.ncd cpu_board_final.ncd cpu_board_final.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu_board_final.twx cpu_board_final.ncd -o cpu_board_final.twr cpu_board_final.pcf -ucf cpu_constrain.ucf 
+bitgen -intstyle ise -f cpu_board_final.ut cpu_board_final.ncd 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cpu_board_final_map.ncd cpu_board_final.ngd cpu_board_final.pcf 
+par -w -intstyle ise -ol high -mt off cpu_board_final_map.ncd cpu_board_final.ncd cpu_board_final.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu_board_final.twx cpu_board_final.ncd -o cpu_board_final.twr cpu_board_final.pcf -ucf cpu_constrain.ucf 
+bitgen -intstyle ise -f cpu_board_final.ut cpu_board_final.ncd 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cpu_board_final_map.ncd cpu_board_final.ngd cpu_board_final.pcf 
+par -w -intstyle ise -ol high -mt off cpu_board_final_map.ncd cpu_board_final.ncd cpu_board_final.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu_board_final.twx cpu_board_final.ncd -o cpu_board_final.twr cpu_board_final.pcf -ucf cpu_constrain.ucf 
+bitgen -intstyle ise -f cpu_board_final.ut cpu_board_final.ncd 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cpu_board_final_map.ncd cpu_board_final.ngd cpu_board_final.pcf 
+par -w -intstyle ise -ol high -mt off cpu_board_final_map.ncd cpu_board_final.ncd cpu_board_final.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu_board_final.twx cpu_board_final.ncd -o cpu_board_final.twr cpu_board_final.pcf -ucf cpu_constrain.ucf 
+bitgen -intstyle ise -f cpu_board_final.ut cpu_board_final.ncd 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cpu_board_final_map.ncd cpu_board_final.ngd cpu_board_final.pcf 
+par -w -intstyle ise -ol high -mt off cpu_board_final_map.ncd cpu_board_final.ncd cpu_board_final.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu_board_final.twx cpu_board_final.ncd -o cpu_board_final.twr cpu_board_final.pcf -ucf cpu_constrain.ucf 
+bitgen -intstyle ise -f cpu_board_final.ut cpu_board_final.ncd 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cpu_board_final_map.ncd cpu_board_final.ngd cpu_board_final.pcf 
+par -w -intstyle ise -ol high -mt off cpu_board_final_map.ncd cpu_board_final.ncd cpu_board_final.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu_board_final.twx cpu_board_final.ncd -o cpu_board_final.twr cpu_board_final.pcf -ucf cpu_constrain.ucf 
+bitgen -intstyle ise -f cpu_board_final.ut cpu_board_final.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cpu_board_final_map.ncd cpu_board_final.ngd cpu_board_final.pcf 
+par -w -intstyle ise -ol high -mt off cpu_board_final_map.ncd cpu_board_final.ncd cpu_board_final.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu_board_final.twx cpu_board_final.ncd -o cpu_board_final.twr cpu_board_final.pcf -ucf cpu_constrain.ucf 
+bitgen -intstyle ise -f cpu_board_final.ut cpu_board_final.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cpu_board_final_map.ncd cpu_board_final.ngd cpu_board_final.pcf 
+par -w -intstyle ise -ol high -mt off cpu_board_final_map.ncd cpu_board_final.ncd cpu_board_final.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu_board_final.twx cpu_board_final.ncd -o cpu_board_final.twr cpu_board_final.pcf -ucf cpu_constrain.ucf 
+bitgen -intstyle ise -f cpu_board_final.ut cpu_board_final.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cpu_board_final_map.ncd cpu_board_final.ngd cpu_board_final.pcf 
+par -w -intstyle ise -ol high -mt off cpu_board_final_map.ncd cpu_board_final.ncd cpu_board_final.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu_board_final.twx cpu_board_final.ncd -o cpu_board_final.twr cpu_board_final.pcf -ucf cpu_constrain.ucf 
+bitgen -intstyle ise -f cpu_board_final.ut cpu_board_final.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cpu_board_final_map.ncd cpu_board_final.ngd cpu_board_final.pcf 
+par -w -intstyle ise -ol high -mt off cpu_board_final_map.ncd cpu_board_final.ncd cpu_board_final.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu_board_final.twx cpu_board_final.ncd -o cpu_board_final.twr cpu_board_final.pcf -ucf cpu_constrain.ucf 
+bitgen -intstyle ise -f cpu_board_final.ut cpu_board_final.ncd 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cpu_board_final_map.ncd cpu_board_final.ngd cpu_board_final.pcf 
+par -w -intstyle ise -ol high -mt off cpu_board_final_map.ncd cpu_board_final.ncd cpu_board_final.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu_board_final.twx cpu_board_final.ncd -o cpu_board_final.twr cpu_board_final.pcf -ucf cpu_constrain.ucf 
+bitgen -intstyle ise -f cpu_board_final.ut cpu_board_final.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cpu_board_final_map.ncd cpu_board_final.ngd cpu_board_final.pcf 
+par -w -intstyle ise -ol high -mt off cpu_board_final_map.ncd cpu_board_final.ncd cpu_board_final.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu_board_final.twx cpu_board_final.ncd -o cpu_board_final.twr cpu_board_final.pcf -ucf cpu_constrain.ucf 
+bitgen -intstyle ise -f cpu_board_final.ut cpu_board_final.ncd 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cpu_board_final_map.ncd cpu_board_final.ngd cpu_board_final.pcf 
+par -w -intstyle ise -ol high -mt off cpu_board_final_map.ncd cpu_board_final.ncd cpu_board_final.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu_board_final.twx cpu_board_final.ncd -o cpu_board_final.twr cpu_board_final.pcf -ucf cpu_constrain.ucf 
+bitgen -intstyle ise -f cpu_board_final.ut cpu_board_final.ncd 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cpu_board_final_map.ncd cpu_board_final.ngd cpu_board_final.pcf 
+par -w -intstyle ise -ol high -mt off cpu_board_final_map.ncd cpu_board_final.ncd cpu_board_final.pcf 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cpu_board_final_map.ncd cpu_board_final.ngd cpu_board_final.pcf 
+par -w -intstyle ise -ol high -mt off cpu_board_final_map.ncd cpu_board_final.ncd cpu_board_final.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu_board_final.twx cpu_board_final.ncd -o cpu_board_final.twr cpu_board_final.pcf -ucf cpu_constrain.ucf 
+bitgen -intstyle ise -f cpu_board_final.ut cpu_board_final.ncd 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cpu_board_final_map.ncd cpu_board_final.ngd cpu_board_final.pcf 
+par -w -intstyle ise -ol high -mt off cpu_board_final_map.ncd cpu_board_final.ncd cpu_board_final.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu_board_final.twx cpu_board_final.ncd -o cpu_board_final.twr cpu_board_final.pcf -ucf cpu_constrain.ucf 
+bitgen -intstyle ise -f cpu_board_final.ut cpu_board_final.ncd 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cpu_board_final_map.ncd cpu_board_final.ngd cpu_board_final.pcf 
+par -w -intstyle ise -ol high -mt off cpu_board_final_map.ncd cpu_board_final.ncd cpu_board_final.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu_board_final.twx cpu_board_final.ncd -o cpu_board_final.twr cpu_board_final.pcf -ucf cpu_constrain.ucf 
+bitgen -intstyle ise -f cpu_board_final.ut cpu_board_final.ncd 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cpu_board_final_map.ncd cpu_board_final.ngd cpu_board_final.pcf 
+par -w -intstyle ise -ol high -mt off cpu_board_final_map.ncd cpu_board_final.ncd cpu_board_final.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu_board_final.twx cpu_board_final.ncd -o cpu_board_final.twr cpu_board_final.pcf -ucf cpu_constrain.ucf 
+bitgen -intstyle ise -f cpu_board_final.ut cpu_board_final.ncd 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cpu_board_final_map.ncd cpu_board_final.ngd cpu_board_final.pcf 
+par -w -intstyle ise -ol high -mt off cpu_board_final_map.ncd cpu_board_final.ncd cpu_board_final.pcf 
+bitgen -intstyle ise -f cpu_board_final.ut cpu_board_final.ncd 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cpu_board_final_map.ncd cpu_board_final.ngd cpu_board_final.pcf 
+par -w -intstyle ise -ol high -mt off cpu_board_final_map.ncd cpu_board_final.ncd cpu_board_final.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu_board_final.twx cpu_board_final.ncd -o cpu_board_final.twr cpu_board_final.pcf -ucf cpu_constrain.ucf 
+bitgen -intstyle ise -f cpu_board_final.ut cpu_board_final.ncd 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cpu_board_final_map.ncd cpu_board_final.ngd cpu_board_final.pcf 
+par -w -intstyle ise -ol high -mt off cpu_board_final_map.ncd cpu_board_final.ncd cpu_board_final.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu_board_final.twx cpu_board_final.ncd -o cpu_board_final.twr cpu_board_final.pcf -ucf cpu_constrain.ucf 
+bitgen -intstyle ise -f cpu_board_final.ut cpu_board_final.ncd 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cpu_board_final_map.ncd cpu_board_final.ngd cpu_board_final.pcf 
+par -w -intstyle ise -ol high -mt off cpu_board_final_map.ncd cpu_board_final.ncd cpu_board_final.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu_board_final.twx cpu_board_final.ncd -o cpu_board_final.twr cpu_board_final.pcf -ucf cpu_constrain.ucf 
+bitgen -intstyle ise -f cpu_board_final.ut cpu_board_final.ncd 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cpu_board_final_map.ncd cpu_board_final.ngd cpu_board_final.pcf 
+par -w -intstyle ise -ol high -mt off cpu_board_final_map.ncd cpu_board_final.ncd cpu_board_final.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu_board_final.twx cpu_board_final.ncd -o cpu_board_final.twr cpu_board_final.pcf -ucf cpu_constrain.ucf 
+bitgen -intstyle ise -f cpu_board_final.ut cpu_board_final.ncd 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cpu_board_final_map.ncd cpu_board_final.ngd cpu_board_final.pcf 
+par -w -intstyle ise -ol high -mt off cpu_board_final_map.ncd cpu_board_final.ncd cpu_board_final.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu_board_final.twx cpu_board_final.ncd -o cpu_board_final.twr cpu_board_final.pcf -ucf cpu_constrain.ucf 
+bitgen -intstyle ise -f cpu_board_final.ut cpu_board_final.ncd 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cpu_board_final_map.ncd cpu_board_final.ngd cpu_board_final.pcf 
+par -w -intstyle ise -ol high -mt off cpu_board_final_map.ncd cpu_board_final.ncd cpu_board_final.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu_board_final.twx cpu_board_final.ncd -o cpu_board_final.twr cpu_board_final.pcf -ucf cpu_constrain.ucf 
+bitgen -intstyle ise -f cpu_board_final.ut cpu_board_final.ncd 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cpu_board_final_map.ncd cpu_board_final.ngd cpu_board_final.pcf 
+par -w -intstyle ise -ol high -mt off cpu_board_final_map.ncd cpu_board_final.ncd cpu_board_final.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu_board_final.twx cpu_board_final.ncd -o cpu_board_final.twr cpu_board_final.pcf -ucf cpu_constrain.ucf 
+bitgen -intstyle ise -f cpu_board_final.ut cpu_board_final.ncd 
+netgen -intstyle ise -s 3  -pcf cpu_board_final.pcf -sdf_anno true -sdf_path "netgen/par" -insert_glbl true -insert_pp_buffers true -w -dir netgen/par -ofmt verilog -sim cpu_board_final.ncd cpu_board_final_timesim.v 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cpu_board_final_map.ncd cpu_board_final.ngd cpu_board_final.pcf 
+par -w -intstyle ise -ol high -mt off cpu_board_final_map.ncd cpu_board_final.ncd cpu_board_final.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu_board_final.twx cpu_board_final.ncd -o cpu_board_final.twr cpu_board_final.pcf -ucf cpu_constrain.ucf 
+bitgen -intstyle ise -f cpu_board_final.ut cpu_board_final.ncd 
+netgen -intstyle ise -s 3  -pcf cpu_board_final.pcf -sdf_anno true -sdf_path "netgen/par" -insert_glbl true -insert_pp_buffers true -w -dir netgen/par -ofmt verilog -sim cpu_board_final.ncd cpu_board_final_timesim.v 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cpu_board_final_map.ncd cpu_board_final.ngd cpu_board_final.pcf 
+par -w -intstyle ise -ol high -mt off cpu_board_final_map.ncd cpu_board_final.ncd cpu_board_final.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu_board_final.twx cpu_board_final.ncd -o cpu_board_final.twr cpu_board_final.pcf -ucf cpu_constrain.ucf 
+bitgen -intstyle ise -f cpu_board_final.ut cpu_board_final.ncd 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cpu_board_final_map.ncd cpu_board_final.ngd cpu_board_final.pcf 
+par -w -intstyle ise -ol high -mt off cpu_board_final_map.ncd cpu_board_final.ncd cpu_board_final.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu_board_final.twx cpu_board_final.ncd -o cpu_board_final.twr cpu_board_final.pcf -ucf cpu_constrain.ucf 
+netgen -intstyle ise -s 3  -pcf cpu_board_final.pcf -sdf_anno true -sdf_path "netgen/par" -insert_glbl true -insert_pp_buffers true -w -dir netgen/par -ofmt verilog -sim cpu_board_final.ncd cpu_board_final_timesim.v 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cpu_board_final_map.ncd cpu_board_final.ngd cpu_board_final.pcf 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cpu_board_final_map.ncd cpu_board_final.ngd cpu_board_final.pcf 
+par -w -intstyle ise -ol high -mt off cpu_board_final_map.ncd cpu_board_final.ncd cpu_board_final.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu_board_final.twx cpu_board_final.ncd -o cpu_board_final.twr cpu_board_final.pcf -ucf cpu_constrain.ucf 
+bitgen -intstyle ise -f cpu_board_final.ut cpu_board_final.ncd 
+netgen -intstyle ise -s 3  -pcf cpu_board_final.pcf -sdf_anno true -sdf_path "netgen/par" -insert_glbl true -insert_pp_buffers true -w -dir netgen/par -ofmt verilog -sim cpu_board_final.ncd cpu_board_final_timesim.v 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cpu_board_final_map.ncd cpu_board_final.ngd cpu_board_final.pcf 
+par -w -intstyle ise -ol high -mt off cpu_board_final_map.ncd cpu_board_final.ncd cpu_board_final.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu_board_final.twx cpu_board_final.ncd -o cpu_board_final.twr cpu_board_final.pcf -ucf cpu_constrain.ucf 
+bitgen -intstyle ise -f cpu_board_final.ut cpu_board_final.ncd 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cpu_board_final_map.ncd cpu_board_final.ngd cpu_board_final.pcf 
+par -w -intstyle ise -ol high -mt off cpu_board_final_map.ncd cpu_board_final.ncd cpu_board_final.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu_board_final.twx cpu_board_final.ncd -o cpu_board_final.twr cpu_board_final.pcf -ucf cpu_constrain.ucf 
+bitgen -intstyle ise -f cpu_board_final.ut cpu_board_final.ncd 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cpu_board_final_map.ncd cpu_board_final.ngd cpu_board_final.pcf 
+par -w -intstyle ise -ol high -mt off cpu_board_final_map.ncd cpu_board_final.ncd cpu_board_final.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu_board_final.twx cpu_board_final.ncd -o cpu_board_final.twr cpu_board_final.pcf -ucf cpu_constrain.ucf 
+bitgen -intstyle ise -f cpu_board_final.ut cpu_board_final.ncd 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cpu_board_final_map.ncd cpu_board_final.ngd cpu_board_final.pcf 
+par -w -intstyle ise -ol high -mt off cpu_board_final_map.ncd cpu_board_final.ncd cpu_board_final.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu_board_final.twx cpu_board_final.ncd -o cpu_board_final.twr cpu_board_final.pcf -ucf cpu_constrain.ucf 
+bitgen -intstyle ise -f cpu_board_final.ut cpu_board_final.ncd 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cpu_board_final_map.ncd cpu_board_final.ngd cpu_board_final.pcf 
+par -w -intstyle ise -ol high -mt off cpu_board_final_map.ncd cpu_board_final.ncd cpu_board_final.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu_board_final.twx cpu_board_final.ncd -o cpu_board_final.twr cpu_board_final.pcf -ucf cpu_constrain.ucf 
+netgen -intstyle ise -s 3  -pcf cpu_board_final.pcf -sdf_anno true -sdf_path "netgen/par" -insert_glbl true -insert_pp_buffers true -w -dir netgen/par -ofmt verilog -sim cpu_board_final.ncd cpu_board_final_timesim.v 
+bitgen -intstyle ise -f cpu_board_final.ut cpu_board_final.ncd 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cpu_board_final_map.ncd cpu_board_final.ngd cpu_board_final.pcf 
+par -w -intstyle ise -ol high -mt off cpu_board_final_map.ncd cpu_board_final.ncd cpu_board_final.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu_board_final.twx cpu_board_final.ncd -o cpu_board_final.twr cpu_board_final.pcf -ucf cpu_constrain.ucf 
+bitgen -intstyle ise -f cpu_board_final.ut cpu_board_final.ncd 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cpu_board_final_map.ncd cpu_board_final.ngd cpu_board_final.pcf 
+par -w -intstyle ise -ol high -mt off cpu_board_final_map.ncd cpu_board_final.ncd cpu_board_final.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu_board_final.twx cpu_board_final.ncd -o cpu_board_final.twr cpu_board_final.pcf -ucf cpu_constrain.ucf 
+bitgen -intstyle ise -f cpu_board_final.ut cpu_board_final.ncd 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cpu_board_final_map.ncd cpu_board_final.ngd cpu_board_final.pcf 
+par -w -intstyle ise -ol high -mt off cpu_board_final_map.ncd cpu_board_final.ncd cpu_board_final.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu_board_final.twx cpu_board_final.ncd -o cpu_board_final.twr cpu_board_final.pcf -ucf cpu_constrain.ucf 
+bitgen -intstyle ise -f cpu_board_final.ut cpu_board_final.ncd 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cpu_board_final_map.ncd cpu_board_final.ngd cpu_board_final.pcf 
+par -w -intstyle ise -ol high -mt off cpu_board_final_map.ncd cpu_board_final.ncd cpu_board_final.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu_board_final.twx cpu_board_final.ncd -o cpu_board_final.twr cpu_board_final.pcf -ucf cpu_constrain.ucf 
+bitgen -intstyle ise -f cpu_board_final.ut cpu_board_final.ncd 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cpu_board_final_map.ncd cpu_board_final.ngd cpu_board_final.pcf 
+par -w -intstyle ise -ol high -mt off cpu_board_final_map.ncd cpu_board_final.ncd cpu_board_final.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu_board_final.twx cpu_board_final.ncd -o cpu_board_final.twr cpu_board_final.pcf -ucf cpu_constrain.ucf 
+bitgen -intstyle ise -f cpu_board_final.ut cpu_board_final.ncd 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cpu_board_final_map.ncd cpu_board_final.ngd cpu_board_final.pcf 
+par -w -intstyle ise -ol high -mt off cpu_board_final_map.ncd cpu_board_final.ncd cpu_board_final.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu_board_final.twx cpu_board_final.ncd -o cpu_board_final.twr cpu_board_final.pcf -ucf cpu_constrain.ucf 
+bitgen -intstyle ise -f cpu_board_final.ut cpu_board_final.ncd 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cpu_board_final_map.ncd cpu_board_final.ngd cpu_board_final.pcf 
+par -w -intstyle ise -ol high -mt off cpu_board_final_map.ncd cpu_board_final.ncd cpu_board_final.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu_board_final.twx cpu_board_final.ncd -o cpu_board_final.twr cpu_board_final.pcf -ucf cpu_constrain.ucf 
+bitgen -intstyle ise -f cpu_board_final.ut cpu_board_final.ncd 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cpu_board_final_map.ncd cpu_board_final.ngd cpu_board_final.pcf 
+par -w -intstyle ise -ol high -mt off cpu_board_final_map.ncd cpu_board_final.ncd cpu_board_final.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu_board_final.twx cpu_board_final.ncd -o cpu_board_final.twr cpu_board_final.pcf -ucf cpu_constrain.ucf 
+bitgen -intstyle ise -f cpu_board_final.ut cpu_board_final.ncd 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cpu_board_final_map.ncd cpu_board_final.ngd cpu_board_final.pcf 
+par -w -intstyle ise -ol high -mt off cpu_board_final_map.ncd cpu_board_final.ncd cpu_board_final.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu_board_final.twx cpu_board_final.ncd -o cpu_board_final.twr cpu_board_final.pcf -ucf cpu_constrain.ucf 
+bitgen -intstyle ise -f cpu_board_final.ut cpu_board_final.ncd 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cpu_board_final_map.ncd cpu_board_final.ngd cpu_board_final.pcf 
+par -w -intstyle ise -ol high -mt off cpu_board_final_map.ncd cpu_board_final.ncd cpu_board_final.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu_board_final.twx cpu_board_final.ncd -o cpu_board_final.twr cpu_board_final.pcf -ucf cpu_constrain.ucf 
+bitgen -intstyle ise -f cpu_board_final.ut cpu_board_final.ncd 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cpu_board_final_map.ncd cpu_board_final.ngd cpu_board_final.pcf 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cpu_board_final_map.ncd cpu_board_final.ngd cpu_board_final.pcf 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cpu_board_final_map.ncd cpu_board_final.ngd cpu_board_final.pcf 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cpu_board_final_map.ncd cpu_board_final.ngd cpu_board_final.pcf 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cpu_board_final_map.ncd cpu_board_final.ngd cpu_board_final.pcf 
+par -w -intstyle ise -ol high -mt off cpu_board_final_map.ncd cpu_board_final.ncd cpu_board_final.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu_board_final.twx cpu_board_final.ncd -o cpu_board_final.twr cpu_board_final.pcf -ucf cpu_constrain.ucf 
+bitgen -intstyle ise -f cpu_board_final.ut cpu_board_final.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cpu_board_final_map.ncd cpu_board_final.ngd cpu_board_final.pcf 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cpu_board_final_map.ncd cpu_board_final.ngd cpu_board_final.pcf 
+par -w -intstyle ise -ol high -mt off cpu_board_final_map.ncd cpu_board_final.ncd cpu_board_final.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu_board_final.twx cpu_board_final.ncd -o cpu_board_final.twr cpu_board_final.pcf -ucf cpu_constrain.ucf 
+bitgen -intstyle ise -f cpu_board_final.ut cpu_board_final.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cpu_board_final_map.ncd cpu_board_final.ngd cpu_board_final.pcf 
+par -w -intstyle ise -ol high -mt off cpu_board_final_map.ncd cpu_board_final.ncd cpu_board_final.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu_board_final.twx cpu_board_final.ncd -o cpu_board_final.twr cpu_board_final.pcf -ucf cpu_constrain.ucf 
+bitgen -intstyle ise -f cpu_board_final.ut cpu_board_final.ncd 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cpu_board_final_map.ncd cpu_board_final.ngd cpu_board_final.pcf 
+par -w -intstyle ise -ol high -mt off cpu_board_final_map.ncd cpu_board_final.ncd cpu_board_final.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu_board_final.twx cpu_board_final.ncd -o cpu_board_final.twr cpu_board_final.pcf -ucf cpu_constrain.ucf 
+bitgen -intstyle ise -f cpu_board_final.ut cpu_board_final.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cpu_board_final_map.ncd cpu_board_final.ngd cpu_board_final.pcf 
+par -w -intstyle ise -ol high -mt off cpu_board_final_map.ncd cpu_board_final.ncd cpu_board_final.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu_board_final.twx cpu_board_final.ncd -o cpu_board_final.twr cpu_board_final.pcf -ucf cpu_constrain.ucf 
+bitgen -intstyle ise -f cpu_board_final.ut cpu_board_final.ncd 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cpu_board_final_map.ncd cpu_board_final.ngd cpu_board_final.pcf 
+par -w -intstyle ise -ol high -mt off cpu_board_final_map.ncd cpu_board_final.ncd cpu_board_final.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu_board_final.twx cpu_board_final.ncd -o cpu_board_final.twr cpu_board_final.pcf -ucf cpu_constrain.ucf 
+bitgen -intstyle ise -f cpu_board_final.ut cpu_board_final.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cpu_board_final_map.ncd cpu_board_final.ngd cpu_board_final.pcf 
+par -w -intstyle ise -ol high -mt off cpu_board_final_map.ncd cpu_board_final.ncd cpu_board_final.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu_board_final.twx cpu_board_final.ncd -o cpu_board_final.twr cpu_board_final.pcf -ucf cpu_constrain.ucf 
+bitgen -intstyle ise -f cpu_board_final.ut cpu_board_final.ncd 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.xst" -ofn "D:/Xilinx/workshop/cpu_32_board/cpu_board_final.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cpu_board_final_map.ncd cpu_board_final.ngd cpu_board_final.pcf 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc cpu_constrain.ucf -p xc6slx16-csg324-3 cpu_board_final.ngc cpu_board_final.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cpu_board_final_map.ncd cpu_board_final.ngd cpu_board_final.pcf 
+par -w -intstyle ise -ol high -mt off cpu_board_final_map.ncd cpu_board_final.ncd cpu_board_final.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cpu_board_final.twx cpu_board_final.ncd -o cpu_board_final.twr cpu_board_final.pcf -ucf cpu_constrain.ucf 
+bitgen -intstyle ise -f cpu_board_final.ut cpu_board_final.ncd 

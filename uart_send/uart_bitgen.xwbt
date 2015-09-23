@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\Xilinx\workshop\uart_send\uart.ncd
+OUTFILE=D:\Xilinx\workshop\uart_send\uart.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=D:\Xilinx\workshop\uart_send
+LICENSE=ISE
+USER_INFO=No user information available.

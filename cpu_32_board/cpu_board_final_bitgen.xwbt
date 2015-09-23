@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\Xilinx\workshop\cpu_32_board\cpu_board_final.ncd
+OUTFILE=D:\Xilinx\workshop\cpu_32_board\cpu_board_final.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=D:\Xilinx\workshop\cpu_32_board
+LICENSE=ISE
+USER_INFO=No user information available.

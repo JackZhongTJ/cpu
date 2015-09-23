@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<DARoots Version="1" Minor="16">
+	<FileSet Name="sources_1" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+		<Filter Type="EDIFSrcs"/>
+		<File Path="$PPRDIR/../cla_4.ngc">
+		</File>
+		<File Path="$PPRDIR/../cla_32_final.ngc">
+		</File>
+		<File Path="$PPRDIR/../cla_32.ngc">
+		</File>
+		<File Path="$PPRDIR/../cla_2.ngc">
+		</File>
+		<File Path="$PPRDIR/../cla_16.ngc">
+		</File>
+		<File Path="$PPRDIR/../cla_1.ngc">
+		</File>
+		<Config>
+			<Option Name="DesignMode" Val="GateLvl"/>
+			<Option Name="GateLvlMode" Val="EDIF"/>
+			<Option Name="TopFile" Val="$PPRDIR/../cla_32_final.ngc"/>
+			<Option Name="ConstrsType" Val="UCF"/>
+			<Option Name="SrcSet" Val="sources_1"/>
+		</Config>
+	</FileSet>
+</DARoots>
+

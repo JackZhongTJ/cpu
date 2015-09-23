@@ -1,0 +1,11 @@
+vhdtdtfi -lib work D:/Xilinx/workshop/ex5sum/cla_4.v -lang verilog -prj ex5sum -o cla_4.spl -module cla_4 -template D:/Xilinx/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 cla_4.spl D:/Xilinx/workshop/ex5sum/cla_4.sym 
+vhdtdtfi -lang verilog -prj ex5sum -o D:/Xilinx/workshop/ex5sum/cla_4.tfi -lib work D:/Xilinx/workshop/ex5sum//cla_4.v -module cla_4 -template D:/Xilinx/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/ex5sum/cla_4.xst" -ofn "D:/Xilinx/workshop/ex5sum/cla_4.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/ex5sum/cla_4.xst" -ofn "D:/Xilinx/workshop/ex5sum/cla_4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 cla_4.ngc cla_4.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cla_4_map.ncd cla_4.ngd cla_4.pcf 
+par -w -intstyle ise -ol high -mt off cla_4_map.ncd cla_4.ncd cla_4.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cla_4.twx cla_4.ncd -o cla_4.twr cla_4.pcf 
+bitgen -intstyle ise -f cla_4.ut cla_4.ncd 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/ex5sum/cla_4.xst" -ofn "D:/Xilinx/workshop/ex5sum/cla_4.syr" 

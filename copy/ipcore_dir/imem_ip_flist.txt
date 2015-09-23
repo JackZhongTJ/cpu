@@ -1,0 +1,26 @@
+# Output products list for <imem_ip>
+_xmsgs\pn_parser.xmsgs
+blk_mem_gen_ds512.pdf
+blk_mem_gen_v6_2_readme.txt
+imem_ip.asy
+imem_ip.gise
+imem_ip.mif
+imem_ip.ngc
+imem_ip.sym
+imem_ip.v
+imem_ip.veo
+imem_ip.xco
+imem_ip.xise
+imem_ip_flist.txt
+imem_ip_ste\example_design\bmg_wrapper.vhd
+imem_ip_ste\example_design\imem_ip_top.ucf
+imem_ip_ste\example_design\imem_ip_top.vhd
+imem_ip_ste\example_design\imem_ip_top.xdc
+imem_ip_ste\implement\implement.sh
+imem_ip_ste\implement\planAhead_rdn.bat
+imem_ip_ste\implement\planAhead_rdn.sh
+imem_ip_ste\implement\planAhead_rdn.tcl
+imem_ip_ste\implement\xst.prj
+imem_ip_ste\implement\xst.scr
+imem_ip_xmdf.tcl
+summary.log

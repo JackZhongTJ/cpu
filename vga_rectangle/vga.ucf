@@ -1,0 +1,32 @@
+# Clock signal
+
+NET sys_clk LOC = V10;
+//Net "sys_clk" TNM_NET = sys_clk_pin;
+//TIMESPEC TS_sys_clk_pin = PERIOD sys_clk_pin 100000 kHz;
+
+Net VGA_B<1> Loc = T7;
+Net VGA_B<0> Loc = R7;
+Net VGA_G<2> Loc = V6;
+Net VGA_G<1> Loc = T6;
+Net VGA_G<0> Loc = P8;
+Net VGA_R<2> Loc = N7;
+Net VGA_R<1> Loc = V7;
+Net VGA_R<0> Loc = U7;
+
+Net VGA_HS LOC = N6;
+Net VGA_VS LOC = P7;
+
+Net rst Loc = B8;
+Net clk_rst Loc = A8;
+
+Net VGA_BLANK_N Loc = T11;
+Net VGA_SYNC_N Loc = R11;
+
+//Net VGA_B<1> Loc = T11;
+//Net VGA_B<0> Loc = R11;
+//Net VGA_G<2> Loc = N11;
+//Net VGA_G<1> Loc = M11;
+//Net VGA_G<0> Loc = V15;
+//Net VGA_R<2> Loc = U15;
+//Net VGA_R<1> Loc = V16;
+//Net VGA_R<0> Loc = U16;

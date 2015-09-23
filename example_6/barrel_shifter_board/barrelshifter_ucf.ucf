@@ -1,0 +1,24 @@
+Net data_in<4> Loc = T5;
+Net data_in<3> Loc = V8;
+Net data_in<2> Loc = U8;
+Net data_in<1> Loc = N8;
+Net data_in<0> Loc = M8;
+
+Net number<2>  Loc = V9;
+Net number<1>  Loc = T9;
+Net number<0>  Loc = T10;
+
+
+
+Net sra        Loc = A8;
+Net srl  		Loc = B8;
+Net sll  		Loc = C9;
+Net input_a    Loc = C4;
+Net input_b    Loc = D9;
+
+Net data_out<3> Loc = T11;
+Net data_out<2> Loc = R11;
+Net data_out<1> Loc = N11;
+Net data_out<0> Loc = M11;
+
+NET "input_a" CLOCK_DEDICATED_ROUTE = FALSE;

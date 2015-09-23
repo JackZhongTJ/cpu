@@ -1,0 +1,8 @@
+Release 13.2 Drc O.61xd (nt64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+Mon Nov 04 20:21:25 2013
+
+drc -z decoder.ncd decoder.pcf
+
+DRC detected 0 errors and 0 warnings.

@@ -1,0 +1,70 @@
+m255
+K4
+z2
+13
+cModel Technology
+Z0 dD:/Xilinx/workshop/ex2
+!s112 0.1
+!i10d 8192
+!i10e 25
+!i10f 100
+vdecoder
+Z1 !s100 A^16f0LnG918gIiF8mUL50
+Z2 I1iOjQfl8KOoMXlFYMHVYo2
+Z3 V`JN@9S9cnhjKRR_L]QIcM3
+Z4 dD:/Xilinx/workshop/ex2
+Z5 w1381675541
+Z6 8decoder.v
+Z7 Fdecoder.v
+L0 21
+Z8 OP;L;10.2c;57
+r1
+31
+Z9 !s90 -reportprogress|300|decoder.v|
+Z10 o-L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF -O0
+Z11 !s110 1383356477
+Z12 !s108 1383356477.293000
+Z13 !s107 decoder.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vdecoder_tb
+R11
+Z14 !s100 DklH9QJPW0WDNmO2>MGV82
+Z15 IY?;j2>PG:So1FQljMEooI1
+R3
+R4
+Z16 w1381739256
+Z17 8decoder_tb.v
+Z18 Fdecoder_tb.v
+L0 25
+R8
+r1
+31
+Z19 !s90 -reportprogress|300|decoder_tb.v|
+R10
+!i10b 1
+!s85 0
+Z20 !s108 1383356477.589000
+Z21 !s107 decoder_tb.v|
+!s101 -O0
+vglbl
+R11
+!i10b 1
+Z22 !s100 4=LmVFjWGlXARKf5L_9V<3
+Z23 I>5eGoR^gLje]9h;[k3S:i0
+R3
+R4
+Z24 w1308634177
+Z25 8D:/Xilinx/ISE_DS/ISE/verilog/src/glbl.v
+Z26 FD:/Xilinx/ISE_DS/ISE/verilog/src/glbl.v
+L0 5
+R8
+r1
+!s85 0
+31
+!s108 1383356477.783000
+!s107 D:/Xilinx/ISE_DS/ISE/verilog/src/glbl.v|
+Z27 !s90 -reportprogress|300|D:/Xilinx/ISE_DS/ISE/verilog/src/glbl.v|
+!s101 -O0
+R10

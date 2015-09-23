@@ -1,0 +1,244 @@
+--------------------------------------------------------------------------------
+Release 13.2 Trace  (nt64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+D:\Xilinx\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3 -n 3
+-fastpaths -xml cla_32.twx cla_32.ncd -o cla_32.twr cla_32.pcf
+
+Design file:              cla_32.ncd
+Physical constraint file: cla_32.pcf
+Device,package,speed:     xc6slx16,csg324,C,-3 (PRODUCTION 1.19 2011-06-20)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+a<0>           |g_out          |   23.358|
+a<0>           |p_out          |   24.085|
+a<0>           |s<0>           |   11.404|
+a<1>           |g_out          |   23.273|
+a<1>           |p_out          |   24.000|
+a<1>           |s<1>           |   11.044|
+a<2>           |g_out          |   22.992|
+a<2>           |p_out          |   23.719|
+a<2>           |s<2>           |   11.309|
+a<3>           |g_out          |   22.980|
+a<3>           |p_out          |   23.707|
+a<3>           |s<3>           |   11.317|
+a<4>           |g_out          |   21.080|
+a<4>           |p_out          |   21.807|
+a<4>           |s<4>           |   11.062|
+a<5>           |g_out          |   21.066|
+a<5>           |p_out          |   21.793|
+a<5>           |s<5>           |   11.145|
+a<6>           |g_out          |   20.718|
+a<6>           |p_out          |   21.445|
+a<6>           |s<6>           |   10.463|
+a<7>           |g_out          |   20.350|
+a<7>           |p_out          |   21.077|
+a<7>           |s<7>           |   10.809|
+a<8>           |g_out          |   19.821|
+a<8>           |p_out          |   20.548|
+a<8>           |s<8>           |   11.608|
+a<9>           |g_out          |   19.922|
+a<9>           |p_out          |   20.649|
+a<9>           |s<9>           |   10.400|
+a<10>          |g_out          |   18.730|
+a<10>          |p_out          |   19.457|
+a<10>          |s<10>          |   10.030|
+a<11>          |g_out          |   18.539|
+a<11>          |p_out          |   19.266|
+a<11>          |s<11>          |    9.892|
+a<12>          |g_out          |   17.392|
+a<12>          |p_out          |   18.119|
+a<12>          |s<12>          |    9.902|
+a<13>          |g_out          |   17.418|
+a<13>          |p_out          |   18.145|
+a<13>          |s<13>          |   10.015|
+a<14>          |g_out          |   17.116|
+a<14>          |p_out          |   17.843|
+a<14>          |s<14>          |    9.961|
+a<15>          |g_out          |   17.786|
+a<15>          |p_out          |   18.513|
+a<15>          |s<15>          |   10.426|
+a<16>          |g_out          |   15.819|
+a<16>          |p_out          |   16.546|
+a<16>          |s<16>          |    9.911|
+a<17>          |g_out          |   15.796|
+a<17>          |p_out          |   16.523|
+a<17>          |s<17>          |    9.622|
+a<18>          |g_out          |   15.633|
+a<18>          |p_out          |   16.360|
+a<18>          |s<18>          |    9.403|
+a<19>          |g_out          |   15.709|
+a<19>          |p_out          |   16.436|
+a<19>          |s<19>          |    9.649|
+a<20>          |g_out          |   15.383|
+a<20>          |p_out          |   16.110|
+a<20>          |s<20>          |    9.565|
+a<21>          |g_out          |   15.366|
+a<21>          |p_out          |   16.093|
+a<21>          |s<21>          |   10.147|
+a<22>          |g_out          |   15.166|
+a<22>          |p_out          |   15.893|
+a<22>          |s<22>          |    9.300|
+a<23>          |g_out          |   14.570|
+a<23>          |p_out          |   15.297|
+a<23>          |s<23>          |    8.934|
+a<24>          |g_out          |   13.535|
+a<24>          |p_out          |   14.262|
+a<24>          |s<24>          |    9.476|
+a<25>          |g_out          |   13.950|
+a<25>          |p_out          |   14.677|
+a<25>          |s<25>          |    9.179|
+a<26>          |g_out          |   14.164|
+a<26>          |p_out          |   14.891|
+a<26>          |s<26>          |    8.708|
+a<27>          |g_out          |   14.576|
+a<27>          |p_out          |   15.303|
+a<27>          |s<27>          |    9.337|
+a<28>          |g_out          |   12.431|
+a<28>          |p_out          |   13.158|
+a<28>          |s<28>          |    9.525|
+a<29>          |g_out          |   13.309|
+a<29>          |p_out          |   14.036|
+a<29>          |s<29>          |    9.680|
+a<30>          |g_out          |   12.122|
+a<30>          |p_out          |   12.849|
+a<30>          |s<30>          |    9.922|
+a<31>          |g_out          |   14.593|
+a<31>          |p_out          |   15.320|
+a<31>          |s<31>          |   10.367|
+b<0>           |g_out          |   23.065|
+b<0>           |p_out          |   23.792|
+b<0>           |s<0>           |   12.467|
+b<1>           |g_out          |   22.750|
+b<1>           |p_out          |   23.477|
+b<1>           |s<1>           |   11.820|
+b<2>           |g_out          |   23.505|
+b<2>           |p_out          |   24.232|
+b<2>           |s<2>           |   11.148|
+b<3>           |g_out          |   23.738|
+b<3>           |p_out          |   24.465|
+b<3>           |s<3>           |   10.873|
+b<4>           |g_out          |   21.344|
+b<4>           |p_out          |   22.071|
+b<4>           |s<4>           |   11.326|
+b<5>           |g_out          |   21.874|
+b<5>           |p_out          |   22.601|
+b<5>           |s<5>           |   11.015|
+b<6>           |g_out          |   21.471|
+b<6>           |p_out          |   22.198|
+b<6>           |s<6>           |   11.385|
+b<7>           |g_out          |   20.969|
+b<7>           |p_out          |   21.696|
+b<7>           |s<7>           |   11.428|
+b<8>           |g_out          |   20.490|
+b<8>           |p_out          |   21.217|
+b<8>           |s<8>           |   12.173|
+b<9>           |g_out          |   20.187|
+b<9>           |p_out          |   20.914|
+b<9>           |s<9>           |   10.517|
+b<10>          |g_out          |   20.112|
+b<10>          |p_out          |   20.839|
+b<10>          |s<10>          |   10.577|
+b<11>          |g_out          |   20.202|
+b<11>          |p_out          |   20.929|
+b<11>          |s<11>          |   11.040|
+b<12>          |g_out          |   18.014|
+b<12>          |p_out          |   18.741|
+b<12>          |s<12>          |   10.828|
+b<13>          |g_out          |   18.724|
+b<13>          |p_out          |   19.451|
+b<13>          |s<13>          |   11.228|
+b<14>          |g_out          |   18.413|
+b<14>          |p_out          |   19.140|
+b<14>          |s<14>          |   10.749|
+b<15>          |g_out          |   18.906|
+b<15>          |p_out          |   19.633|
+b<15>          |s<15>          |   11.601|
+b<16>          |g_out          |   16.007|
+b<16>          |p_out          |   16.734|
+b<16>          |s<16>          |   10.503|
+b<17>          |g_out          |   16.119|
+b<17>          |p_out          |   16.846|
+b<17>          |s<17>          |   10.061|
+b<18>          |g_out          |   16.014|
+b<18>          |p_out          |   16.741|
+b<18>          |s<18>          |   10.597|
+b<19>          |g_out          |   15.975|
+b<19>          |p_out          |   16.702|
+b<19>          |s<19>          |   10.325|
+b<20>          |g_out          |   15.771|
+b<20>          |p_out          |   16.498|
+b<20>          |s<20>          |   10.270|
+b<21>          |g_out          |   15.910|
+b<21>          |p_out          |   16.637|
+b<21>          |s<21>          |   10.879|
+b<22>          |g_out          |   15.798|
+b<22>          |p_out          |   16.525|
+b<22>          |s<22>          |   10.309|
+b<23>          |g_out          |   15.663|
+b<23>          |p_out          |   16.390|
+b<23>          |s<23>          |    9.853|
+b<24>          |g_out          |   15.122|
+b<24>          |p_out          |   15.849|
+b<24>          |s<24>          |   10.687|
+b<25>          |g_out          |   15.833|
+b<25>          |p_out          |   16.560|
+b<25>          |s<25>          |   10.685|
+b<26>          |g_out          |   15.175|
+b<26>          |p_out          |   15.902|
+b<26>          |s<26>          |   10.562|
+b<27>          |g_out          |   14.817|
+b<27>          |p_out          |   15.544|
+b<27>          |s<27>          |    9.879|
+b<28>          |g_out          |   13.764|
+b<28>          |p_out          |   14.491|
+b<28>          |s<28>          |   10.835|
+b<29>          |g_out          |   13.561|
+b<29>          |p_out          |   14.288|
+b<29>          |s<29>          |    9.932|
+b<30>          |g_out          |   13.331|
+b<30>          |p_out          |   14.058|
+b<30>          |s<30>          |   10.943|
+b<31>          |g_out          |   14.241|
+b<31>          |p_out          |   14.968|
+b<31>          |s<31>          |   10.450|
+c_in           |g_out          |   23.717|
+c_in           |p_out          |   24.444|
+---------------+---------------+---------+
+
+
+Analysis completed Mon Oct 21 17:52:22 2013 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 209 MB
+
+
+

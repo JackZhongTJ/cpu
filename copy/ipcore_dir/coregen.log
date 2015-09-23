@@ -1,0 +1,16 @@
+CoreGen has not been configured with any user repositories.
+CoreGen has been configured with the following Xilinx repositories:
+ - 'D:\Xilinx\ISE_DS\ISE\coregen\' [reloaded]
+INFO:sim - Generating component instance 'imem_ip' of
+   'xilinx.com:ip:blk_mem_gen:6.2' from
+   'D:\Xilinx\ISE_DS\ISE\coregen\ip\xilinx\primary\com\xilinx\ip\blk_mem_gen_v6_
+   2\component.xml'.
+Applying current project options...
+Finished applying current project options.
+ERROR:sim - The actual entries: 00110100000111010000000001000000 , for Memory
+ERROR:sim -    Initialization vector should not be larger than (2^Write Width
+   A)-1.ERROR:sim:781 - An invalid core configuration has been detected during
+ERROR:sim -    Customization. Core parameters will be reset to their default
+   values.
+Cancelled executing Tcl generator.
+Wrote CGP file for project 'imem_ip'.

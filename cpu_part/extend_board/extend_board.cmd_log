@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/Xilinx/workshop/extend_board/extend_board.xst" -ofn "D:/Xilinx/workshop/extend_board/extend_board.syr" 

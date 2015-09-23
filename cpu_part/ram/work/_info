@@ -1,0 +1,70 @@
+m255
+K4
+z2
+13
+cModel Technology
+Z0 dD:/Xilinx/workshop/ram
+!s112 0.1
+!i10d 8192
+!i10e 25
+!i10f 100
+vglbl
+Z1 !s110 1383475636
+!i10b 1
+Z2 !s100 4=LmVFjWGlXARKf5L_9V<3
+Z3 I>5eGoR^gLje]9h;[k3S:i0
+Z4 V`JN@9S9cnhjKRR_L]QIcM3
+Z5 dD:/Xilinx/workshop/ram
+Z6 w1308634177
+Z7 8D:/Xilinx/ISE_DS/ISE/verilog/src/glbl.v
+Z8 FD:/Xilinx/ISE_DS/ISE/verilog/src/glbl.v
+L0 5
+Z9 OP;L;10.2c;57
+r1
+!s85 0
+31
+!s108 1383475636.401000
+!s107 D:/Xilinx/ISE_DS/ISE/verilog/src/glbl.v|
+Z10 !s90 -reportprogress|300|D:/Xilinx/ISE_DS/ISE/verilog/src/glbl.v|
+!s101 -O0
+Z11 o-L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF -O0
+vram
+Z12 !s100 Tm>KSh6H4nc9j^Ed`AzSM0
+Z13 I@X50m3O1@C<RzFHiGoA1m0
+R4
+R5
+Z14 w1382351982
+Z15 8ram.v
+Z16 Fram.v
+L0 21
+R9
+r1
+31
+Z17 !s90 -reportprogress|300|ram.v|
+R11
+R1
+Z18 !s108 1383475635.991000
+Z19 !s107 ram.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vramtext
+R1
+Z20 !s100 7kP3ak0C3Kj7ZC6P__DZb1
+Z21 IV0[@SMA?Rj>`J@C?C]gf_0
+R4
+R5
+Z22 w1381761034
+Z23 8ramtext.v
+Z24 Framtext.v
+L0 25
+R9
+r1
+31
+Z25 !s90 -reportprogress|300|ramtext.v|
+R11
+!i10b 1
+!s85 0
+Z26 !s108 1383475636.244000
+Z27 !s107 ramtext.v|
+!s101 -O0

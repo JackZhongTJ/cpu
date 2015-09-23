@@ -1,0 +1,14 @@
+Running: D:\Xilinx\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o D:/Xilinx/workshop/vga_rectangle/vga_isim_beh.exe -prj D:/Xilinx/workshop/vga_rectangle/vga_beh.prj vga work.glbl 
+ISim O.61xd (signature 0x1cce1bb2)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file \"D:/Xilinx/workshop/vga_rectangle/vga_data_in.v\" into library work
+ERROR:HDLCompiler:698 - "D:/Xilinx/workshop/vga_rectangle/vga_data_in.v" Line 116: Part-select of memory data_reg is not allowed
+ERROR:HDLCompiler:252 - "D:/Xilinx/workshop/vga_rectangle/vga_data_in.v" Line 116: Cannot assign an unpacked type to a packed type
+ERROR:HDLCompiler:698 - "D:/Xilinx/workshop/vga_rectangle/vga_data_in.v" Line 117: Part-select of memory data_reg is not allowed
+ERROR:HDLCompiler:252 - "D:/Xilinx/workshop/vga_rectangle/vga_data_in.v" Line 117: Cannot assign an unpacked type to a packed type
+ERROR:HDLCompiler:698 - "D:/Xilinx/workshop/vga_rectangle/vga_data_in.v" Line 118: Part-select of memory data_reg is not allowed
+ERROR:HDLCompiler:252 - "D:/Xilinx/workshop/vga_rectangle/vga_data_in.v" Line 118: Cannot assign an unpacked type to a packed type
+ERROR:HDLCompiler:598 - "D:/Xilinx/workshop/vga_rectangle/vga_data_in.v" Line 21: Module <vga_data_in> ignored due to previous errors.
+Verilog file D:/Xilinx/workshop/vga_rectangle/vga_data_in.v ignored due to errors

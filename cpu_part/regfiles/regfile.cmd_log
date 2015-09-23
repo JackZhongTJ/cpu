@@ -1,0 +1,42 @@
+vhdtdtfi -lib work D:/Xilinx/workshop/regfiles/regfile.v -lang verilog -prj regfiles -o regfile.spl -module regfile -template D:/Xilinx/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+vhdtdtfi -lib work D:/Xilinx/workshop/regfiles/regfile.v -lang verilog -prj regfiles -o regfile.spl -module regfile -template D:/Xilinx/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+vhdtdtfi -lib work D:/Xilinx/workshop/regfiles/regfile.v -lang verilog -prj regfiles -o regfile.spl -module regfile -template D:/Xilinx/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+vhdtdtfi -lib work D:/Xilinx/workshop/regfiles/regfile.v -lang verilog -prj regfiles -o regfile.spl -module regfile -template D:/Xilinx/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 regfile.spl D:/Xilinx/workshop/regfiles/regfile.sym 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/regfiles/regfile.xst" -ofn "D:/Xilinx/workshop/regfiles/regfile.syr" 
+vhdtdtfi -lang verilog -prj regfiles -o D:/Xilinx/workshop/regfiles/regfile.tfi -lib work D:/Xilinx/workshop/regfiles//regfile.v -module regfile -template D:/Xilinx/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lang verilog -prj regfiles -o D:/Xilinx/workshop/regfiles/regfile.tfi -lib work D:/Xilinx/workshop/regfiles//regfile.v -module regfile -template D:/Xilinx/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lib work D:/Xilinx/workshop/regfiles/regfile.v -lang verilog -prj regfiles -o regfile.spl -module regfile -template D:/Xilinx/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 regfile.spl D:/Xilinx/workshop/regfiles/regfile.sym 
+vhdtdtfi -lib work D:/Xilinx/workshop/regfiles/regfile.v -lang verilog -prj regfiles -o regfile.spl -module regfile -template D:/Xilinx/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 regfile.spl D:/Xilinx/workshop/regfiles/regfile.sym 
+vhdtdtfi -lib work D:/Xilinx/workshop/regfiles/regfile.v -lang verilog -prj regfiles -o regfile.spl -module regfile -template D:/Xilinx/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 regfile.spl D:/Xilinx/workshop/regfiles/regfile.sym 
+vhdtdtfi -lib work D:/Xilinx/workshop/regfiles/regfile.v -lang verilog -prj regfiles -o regfile.spl -module regfile -template D:/Xilinx/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 regfile.spl D:/Xilinx/workshop/regfiles/regfile.sym 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/regfiles/regfile.xst" -ofn "D:/Xilinx/workshop/regfiles/regfile.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/regfiles/regfile.xst" -ofn "D:/Xilinx/workshop/regfiles/regfile.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 regfile.ngc regfile.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o regfile_map.ncd regfile.ngd regfile.pcf 
+par -w -intstyle ise -ol high -mt off regfile_map.ncd regfile.ncd regfile.pcf 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/regfiles/regfile.xst" -ofn "D:/Xilinx/workshop/regfiles/regfile.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/regfiles/regfile.xst" -ofn "D:/Xilinx/workshop/regfiles/regfile.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/regfiles/regfile.xst" -ofn "D:/Xilinx/workshop/regfiles/regfile.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 regfile.ngc regfile.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o regfile_map.ncd regfile.ngd regfile.pcf 
+par -w -intstyle ise -ol high -mt off regfile_map.ncd regfile.ncd regfile.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml regfile.twx regfile.ncd -o regfile.twr regfile.pcf 
+bitgen -intstyle ise -f regfile.ut regfile.ncd 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/regfiles/regfile.xst" -ofn "D:/Xilinx/workshop/regfiles/regfile.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/regfiles/regfile.xst" -ofn "D:/Xilinx/workshop/regfiles/regfile.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 regfile.ngc regfile.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o regfile_map.ncd regfile.ngd regfile.pcf 
+par -w -intstyle ise -ol high -mt off regfile_map.ncd regfile.ncd regfile.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml regfile.twx regfile.ncd -o regfile.twr regfile.pcf 
+bitgen -intstyle ise -f regfile.ut regfile.ncd 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/regfiles/regfile.xst" -ofn "D:/Xilinx/workshop/regfiles/regfile.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 regfile.ngc regfile.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o regfile_map.ncd regfile.ngd regfile.pcf 
+par -w -intstyle ise -ol high -mt off regfile_map.ncd regfile.ncd regfile.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml regfile.twx regfile.ncd -o regfile.twr regfile.pcf 
+bitgen -intstyle ise -f regfile.ut regfile.ncd 

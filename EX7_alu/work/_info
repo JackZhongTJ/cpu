@@ -1,0 +1,110 @@
+m255
+K4
+z2
+13
+cModel Technology
+Z0 dD:/Xilinx/workshop/EX7_alu
+!s112 0.1
+!i10d 8192
+!i10e 25
+!i10f 100
+valu_module
+Z1 !s110 1386318887
+Z2 !s100 YdgHQOj]_i0lbH=OCZhQI0
+Z3 ID23S9?9ZUdS]n9Ci3`nVD2
+Z4 V`JN@9S9cnhjKRR_L]QIcM3
+Z5 dD:/Xilinx/workshop/EX7_alu
+Z6 w1386318798
+Z7 8alu_module.v
+Z8 Falu_module.v
+L0 21
+Z9 OP;L;10.2c;57
+r1
+31
+Z10 !s90 -reportprogress|300|alu_module.v|
+Z11 o-L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF -O0
+Z12 !s108 1386318887.975000
+Z13 !s107 alu_module.v|
+!i10b 1
+!s85 0
+!s101 -O0
+valu_module_testbench
+Z14 !s100 PSRA3PcaU]FfgLMFKE]Od1
+Z15 IC@>Qc@4GOWK1^Jk3jGhAW0
+R4
+R5
+Z16 w1386317807
+Z17 8alu_module_testbench.v
+Z18 Falu_module_testbench.v
+L0 25
+R9
+r1
+31
+Z19 !s90 -reportprogress|300|alu_module_testbench.v|
+R11
+Z20 !s110 1386318888
+!i10b 1
+!s85 0
+Z21 !s108 1386318888.165000
+Z22 !s107 alu_module_testbench.v|
+!s101 -O0
+vbarrelshifter
+Z23 !s100 6OfOn3O4e9]W9C=miPkHP2
+Z24 I2h;DCTfVdT3JEW:UNb=aD2
+R4
+R5
+Z25 w1383965289
+Z26 8shifter.v
+Z27 Fshifter.v
+L0 21
+R9
+r1
+31
+Z28 !s90 -reportprogress|300|shifter.v|
+R11
+R1
+Z29 !s108 1386318887.630000
+Z30 !s107 shifter.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vglbl
+R20
+!i10b 1
+Z31 !s100 4=LmVFjWGlXARKf5L_9V<3
+Z32 I>5eGoR^gLje]9h;[k3S:i0
+R4
+R5
+Z33 w1308634177
+Z34 8D:/Xilinx/ISE_DS/ISE/verilog/src/glbl.v
+Z35 FD:/Xilinx/ISE_DS/ISE/verilog/src/glbl.v
+L0 5
+R9
+r1
+!s85 0
+31
+!s108 1386318888.334000
+!s107 D:/Xilinx/ISE_DS/ISE/verilog/src/glbl.v|
+Z36 !s90 -reportprogress|300|D:/Xilinx/ISE_DS/ISE/verilog/src/glbl.v|
+!s101 -O0
+R11
+vmux4x32
+R1
+Z37 !s100 g3fJn63KCP6QYQE]hkETC1
+Z38 IP@EYg43e9jlL:[aIGabJN1
+R4
+R5
+Z39 w1386218613
+Z40 8mux4x32.v
+Z41 Fmux4x32.v
+L0 21
+R9
+r1
+31
+Z42 !s90 -reportprogress|300|mux4x32.v|
+R11
+Z43 !s108 1386318887.811000
+Z44 !s107 mux4x32.v|
+!i10b 1
+!s85 0
+!s101 -O0

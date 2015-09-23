@@ -1,0 +1,54 @@
+
+NET "sys_clk"  LOC = "V10";
+
+
+NET "dataout<0>"  LOC="T17";
+NET "dataout<1>"  LOC="T18";
+NET "dataout<2>"  LOC="U17";
+NET "dataout<3>"  LOC="U18";
+NET "dataout<4>"  LOC="M14";
+NET "dataout<5>"  LOC="N14";
+NET "dataout<6>"  LOC="L14";
+NET "dataout<7>"  LOC="M13";
+
+NET "datain<0>" LOC="T10";
+NET "datain<1>" LOC="T9";
+NET "datain<2>" LOC="V9";
+NET "datain<3>" LOC="M8";
+NET "datain<4>" LOC="N8";
+NET "datain<5>" LOC="U8";
+NET "datain<6>" LOC="V8";
+NET "datain<7>" LOC="T5";
+
+NET "wrsig" LOC="B8";
+NET "idle" LOC="V16";
+NET "tx" LOC="N18";
+
+
+NET "rx"  LOC = "N17";
+NET "rdsig"  LOC = "U16";
+NET "frameerror" LOC="V15";
+
+//Net switch<1>  Loc = T9;
+//Net switch<0>  Loc = T10;
+
+
+//Net digit<1>  Loc = T5;
+//Net digit<0>  Loc = V8;
+
+//Net regfile_switch<1> LOC = N8;
+//Net regfile_switch<0> LOC = M8;
+
+//Net select LOC = U8;
+//Net dmem_select LOC = V9;
+
+Net button_clk  Loc = A8;
+Net button_rst    Loc = C9;
+Net clk_divided_rst Loc = D9;
+Net scan_rst Loc = C4;
+
+
+Net DIG_r<3> Loc = P17;
+Net DIG_r<2> Loc = P18;
+Net DIG_r<1> Loc = N15;
+Net DIG_r<0> Loc = N16;

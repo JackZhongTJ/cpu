@@ -1,0 +1,58 @@
+# Reading D:/Modelsim se/tcl/vsim/pref.tcl 
+# //  ModelSim SE 10.1a Feb 22 2012 
+# //
+# //  Copyright 1991-2012 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# do {test_uart.fdo} 
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module uart
+# 
+# Top level modules:
+# 	uart
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module test_uart
+# 
+# Top level modules:
+# 	test_uart
+# Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# vsim -L xilinxcorelib_ver -L unisims_ver -L unimacro_ver -L secureip -lib work -voptargs=\"+acc\" -t 1ps work.test_uart glbl 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# 
+# Loading work.test_uart(fast)
+# Loading work.uart(fast)
+# Loading work.glbl(fast)
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+add wave -position insertpoint  \
+sim:/test_uart/uut/clk \
+sim:/test_uart/uut/rx \
+sim:/test_uart/uut/period \
+sim:/test_uart/uut/cnt_1 \
+sim:/test_uart/uut/clk16x \
+sim:/test_uart/uut/trigger_r0 \
+sim:/test_uart/uut/neg_tri \
+sim:/test_uart/uut/cnt_en \
+sim:/test_uart/uut/cnt
+restart]
+# invalid command name "restart]"
+restart]
+# invalid command name "restart]"
+restart
+# Loading work.test_uart(fast)
+# Loading work.uart(fast)
+# Loading work.glbl(fast)
+run 10000ns
+run 10000ns
+run 1000000ns

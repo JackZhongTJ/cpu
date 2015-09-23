@@ -1,0 +1,8 @@
+Release 13.2 Drc O.61xd (nt64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+Tue Nov 05 00:03:16 2013
+
+drc -z pcreg.ncd pcreg.pcf
+
+DRC detected 0 errors and 0 warnings.

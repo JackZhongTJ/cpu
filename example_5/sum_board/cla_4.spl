@@ -1,0 +1,9 @@
+[Inputs]
+c_in
+=a[3:0]=
+=b[3:0]=
+[Outputs]
+[BiDir]
+[ATTRIBUTES]
+VeriModel cla_4
+

@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=D:\Xilinx\workshop\cpu_32_board\impact.xsl
+OUTFILE=D:\Xilinx\workshop\cpu_32_board\impact.xsl
+FAMILY=Single
+PART=Single
+WORKINGDIR=D:\Xilinx\workshop\cpu_32_board
+LICENSE=iMPACT
+USER_INFO=iMPACT

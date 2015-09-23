@@ -1,0 +1,60 @@
+
+****** PlanAhead v13.2 (64-bit)
+  **** Build 131561 by hdbuild on Thu Jun 16 17:14:12 PDT 2011
+    ** Copyright 1986-1999, 2001-2011 Xilinx, Inc. All Rights Reserved.
+
+INFO: [Common-78] Attempting to get a license: PlanAhead
+INFO: [Common-82] Got a license: PlanAhead
+INFO: [Common-86] Your PlanAhead license expires in -854 day(s)
+INFO: [ArchReader-0] Loading parts and site information from D:\Xilinx\ISE_DS\PlanAhead\parts\arch.xml
+Parsing RTL primitives file [D:\Xilinx\ISE_DS\PlanAhead\parts\xilinx\rtl\prims\rtl_prims.xml]
+Finished parsing RTL primitives file [D:\Xilinx\ISE_DS\PlanAhead\parts\xilinx\rtl\prims\rtl_prims.xml]
+start_gui
+starting gui ...
+source D:/Xilinx/workshop/led2/pa.fromNetlist.tcl
+# create_project -name led2 -dir "D:/Xilinx/workshop/led2/planAhead_run_3" -part xc6slx16csg324-3
+Parsing template File [D:\Xilinx\ISE_DS\ISE\data\projnav\templates\verilog.xml].
+Finished parsing template File [D:\Xilinx\ISE_DS\ISE\data\projnav\templates\verilog.xml].
+Parsing template File [D:\Xilinx\ISE_DS\ISE\data\projnav\templates\vhdl.xml].
+Finished parsing template File [D:\Xilinx\ISE_DS\ISE\data\projnav\templates\vhdl.xml].
+Parsing template File [D:\Xilinx\ISE_DS\ISE\data\projnav\templates\ucf.xml].
+Finished parsing template File [D:\Xilinx\ISE_DS\ISE\data\projnav\templates\ucf.xml].
+create_project: Time (s): 15.778w.  Memory (MB): 499.051p 10.168g
+# set_property design_mode GateLvl [get_property srcset [current_run -impl]]
+# set_property edif_top_file "D:/Xilinx/workshop/led2/led2.ngc" [ get_property srcset [ current_run ] ]
+# add_files -norecurse { {D:/Xilinx/workshop/led2} }
+# set_param project.paUcfFile  "led2.ucf"
+# add_files "led2.ucf" -fileset [get_property constrset [current_run]]
+# open_netlist_design
+INFO: Design is defaulting to active srcset 'sources_1'
+INFO: Design is defaulting to active constrset 'constrs_1'
+INFO: Design is defaulting to constrset part: xc6slx16csg324-3
+Release 13.2 - ngc2edif O.61xd (nt64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design led2.ngc ...
+WARNING:NetListWriters:298 - No output is written to led2.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file led2.edif ...
+ngc2edif: Total memory usage is 74168 kilobytes
+
+Parsing EDIF File [.\.Xil-PlanAhead-5964-zhongtianjie-PC\ngc2edif\led2.edif]
+Finished Parsing EDIF File [.\.Xil-PlanAhead-5964-zhongtianjie-PC\ngc2edif\led2.edif]
+INFO: [ArchReader-7] Loading clock regions from D:\Xilinx\ISE_DS\PlanAhead\parts/xilinx/spartan6/spartan6lx/xc6slx16/ClockRegion.xml
+INFO: [ArchReader-8] Loading clock buffers from D:\Xilinx\ISE_DS\PlanAhead\parts/xilinx/spartan6/spartan6lx/xc6slx16/ClockBuffers.xml
+INFO: [ArchReader-13] Loading package pin functions from D:\Xilinx\ISE_DS\PlanAhead\parts\xilinx\spartan6/PinFunctions.xml...
+INFO: [ArchReader-3] Loading package from D:\Xilinx\ISE_DS\PlanAhead\parts/xilinx/spartan6/spartan6lx/xc6slx16/csg324/Package.xml
+INFO: [ArchReader-4] Loading io standards from D:\Xilinx\ISE_DS\PlanAhead\./parts/xilinx/spartan6/IOStandards.xml
+INFO: [ArchReader-12] Loading device configuration modes from 
+INFO: [GDRC-0] Loading list of drcs for the architecture : D:\Xilinx\ISE_DS\PlanAhead\./parts/xilinx/spartan6/drc.xml
+Parsing UCF File [D:\Xilinx\workshop\led2\led2.ucf]
+Finished Parsing UCF File [D:\Xilinx\workshop\led2\led2.ucf]
+INFO: [Project-5] Unisim Transformation Summary:
+No Unisim elements were transformed.
+open_netlist_design: Time (s): 16.077w.  Memory (MB): 684.832p 161.176g
+exit
+stop_gui
+INFO: [PlanAhead-261] Exiting PlanAhead...
+INFO: [Common-83] Releasing license: PlanAhead

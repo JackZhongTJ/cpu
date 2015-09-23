@@ -1,0 +1,12 @@
+Net data_in<0> Loc = U8;   //最左侧三个开关为输入
+Net data_in<1> Loc = V8;
+Net data_in<2> Loc = T5;
+INST ena Loc = B8;    //最右侧开关为ENA信号
+Net data_out<0> Loc = U16;  //8个灯依次为输出信号
+Net data_out<1> Loc = V16;
+Net data_out<2> Loc = U15;
+Net data_out<3> Loc = V15;
+Net data_out<4> Loc = M11;
+Net data_out<5> Loc = N11;
+Net data_out<6> Loc = R11;
+Net data_out<7> Loc = T11;

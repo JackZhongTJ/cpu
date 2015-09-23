@@ -1,0 +1,11 @@
+
+
+
+// Instantiate the module
+cla_4 instance_name (
+    .a(a), 
+    .b(b), 
+    .c_in(c_in)
+    );
+
+

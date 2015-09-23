@@ -1,0 +1,17 @@
+
+
+
+// Instantiate the module
+regfile instance_name (
+    .clk(clk), 
+    .rst(rst), 
+    .we(we), 
+    .raddr1(raddr1), 
+    .raddr2(raddr2), 
+    .waddr(waddr), 
+    .wdata(wdata), 
+    .rdata1(rdata1), 
+    .rdata2(rdata2)
+    );
+
+

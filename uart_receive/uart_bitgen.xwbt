@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=H:\ISE\Project\Uart\uart.ncd
+OUTFILE=H:\ISE\Project\Uart\uart.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=H:\ISE\Project\Uart
+LICENSE=WebPack
+USER_INFO=__0_0_0
