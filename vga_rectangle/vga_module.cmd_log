@@ -1,0 +1,150 @@
+xst -intstyle ise -ifn "D:/Xilinx/workshop/vga_rectangle/vga_module.xst" -ofn "D:/Xilinx/workshop/vga_rectangle/vga_module.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/vga_rectangle/vga_module.xst" -ofn "D:/Xilinx/workshop/vga_rectangle/vga_module.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/vga_rectangle/vga_module.xst" -ofn "D:/Xilinx/workshop/vga_rectangle/vga_module.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/vga_rectangle/vga_module.xst" -ofn "D:/Xilinx/workshop/vga_rectangle/vga_module.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/vga_rectangle/vga_module.xst" -ofn "D:/Xilinx/workshop/vga_rectangle/vga_module.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/vga_rectangle/vga_module.xst" -ofn "D:/Xilinx/workshop/vga_rectangle/vga_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 vga_module.ngc vga_module.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_module_map.ncd vga_module.ngd vga_module.pcf 
+par -w -intstyle ise -ol high -mt off vga_module_map.ncd vga_module.ncd vga_module.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_module.twx vga_module.ncd -o vga_module.twr vga_module.pcf 
+bitgen -intstyle ise -f vga_module.ut vga_module.ncd 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/vga_rectangle/vga_module.xst" -ofn "D:/Xilinx/workshop/vga_rectangle/vga_module.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/vga_rectangle/vga_module.xst" -ofn "D:/Xilinx/workshop/vga_rectangle/vga_module.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/vga_rectangle/vga_module.xst" -ofn "D:/Xilinx/workshop/vga_rectangle/vga_module.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/vga_rectangle/vga_module.xst" -ofn "D:/Xilinx/workshop/vga_rectangle/vga_module.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/vga_rectangle/vga_module.xst" -ofn "D:/Xilinx/workshop/vga_rectangle/vga_module.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/vga_rectangle/vga_module.xst" -ofn "D:/Xilinx/workshop/vga_rectangle/vga_module.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/vga_rectangle/vga_module.xst" -ofn "D:/Xilinx/workshop/vga_rectangle/vga_module.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/vga_rectangle/vga_module.xst" -ofn "D:/Xilinx/workshop/vga_rectangle/vga_module.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/vga_rectangle/vga_module.xst" -ofn "D:/Xilinx/workshop/vga_rectangle/vga_module.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/vga_rectangle/vga_module.xst" -ofn "D:/Xilinx/workshop/vga_rectangle/vga_module.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/vga_rectangle/vga_module.xst" -ofn "D:/Xilinx/workshop/vga_rectangle/vga_module.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/vga_rectangle/vga_module.xst" -ofn "D:/Xilinx/workshop/vga_rectangle/vga_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 vga_module.ngc vga_module.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_module_map.ncd vga_module.ngd vga_module.pcf 
+par -w -intstyle ise -ol high -mt off vga_module_map.ncd vga_module.ncd vga_module.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_module.twx vga_module.ncd -o vga_module.twr vga_module.pcf 
+bitgen -intstyle ise -f vga_module.ut vga_module.ncd 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/vga_rectangle/vga_module.xst" -ofn "D:/Xilinx/workshop/vga_rectangle/vga_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 vga_module.ngc vga_module.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_module_map.ncd vga_module.ngd vga_module.pcf 
+par -w -intstyle ise -ol high -mt off vga_module_map.ncd vga_module.ncd vga_module.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_module.twx vga_module.ncd -o vga_module.twr vga_module.pcf 
+bitgen -intstyle ise -f vga_module.ut vga_module.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_ucf.ucf -p xc6slx16-csg324-3 vga_module.ngc vga_module.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_ucf.ucf -p xc6slx16-csg324-3 vga_module.ngc vga_module.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_module_map.ncd vga_module.ngd vga_module.pcf 
+par -w -intstyle ise -ol high -mt off vga_module_map.ncd vga_module.ncd vga_module.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_module.twx vga_module.ncd -o vga_module.twr vga_module.pcf -ucf vga_ucf.ucf 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/vga_rectangle/vga_module.xst" -ofn "D:/Xilinx/workshop/vga_rectangle/vga_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx16-csg324-3 vga_module.ngc vga_module.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_module_map.ncd vga_module.ngd vga_module.pcf 
+par -w -intstyle ise -ol high -mt off vga_module_map.ncd vga_module.ncd vga_module.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_module.twx vga_module.ncd -o vga_module.twr vga_module.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f vga_module.ut vga_module.ncd 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/vga_rectangle/vga_module.xst" -ofn "D:/Xilinx/workshop/vga_rectangle/vga_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx16-csg324-3 vga_module.ngc vga_module.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_module_map.ncd vga_module.ngd vga_module.pcf 
+par -w -intstyle ise -ol high -mt off vga_module_map.ncd vga_module.ncd vga_module.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_module.twx vga_module.ncd -o vga_module.twr vga_module.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f vga_module.ut vga_module.ncd 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/vga_rectangle/vga_module.xst" -ofn "D:/Xilinx/workshop/vga_rectangle/vga_module.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/vga_rectangle/vga_module.xst" -ofn "D:/Xilinx/workshop/vga_rectangle/vga_module.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/vga_rectangle/vga_module.xst" -ofn "D:/Xilinx/workshop/vga_rectangle/vga_module.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/vga_rectangle/vga_module.xst" -ofn "D:/Xilinx/workshop/vga_rectangle/vga_module.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/vga_rectangle/vga_module.xst" -ofn "D:/Xilinx/workshop/vga_rectangle/vga_module.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/vga_rectangle/vga_module.xst" -ofn "D:/Xilinx/workshop/vga_rectangle/vga_module.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/vga_rectangle/vga_module.xst" -ofn "D:/Xilinx/workshop/vga_rectangle/vga_module.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/vga_rectangle/vga_module.xst" -ofn "D:/Xilinx/workshop/vga_rectangle/vga_module.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/vga_rectangle/vga_module.xst" -ofn "D:/Xilinx/workshop/vga_rectangle/vga_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx16-csg324-3 vga_module.ngc vga_module.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_module_map.ncd vga_module.ngd vga_module.pcf 
+par -w -intstyle ise -ol high -mt off vga_module_map.ncd vga_module.ncd vga_module.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_module.twx vga_module.ncd -o vga_module.twr vga_module.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f vga_module.ut vga_module.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx16-csg324-3 vga_module.ngc vga_module.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_module_map.ncd vga_module.ngd vga_module.pcf 
+par -w -intstyle ise -ol high -mt off vga_module_map.ncd vga_module.ncd vga_module.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_module.twx vga_module.ncd -o vga_module.twr vga_module.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f vga_module.ut vga_module.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx16-csg324-3 vga_module.ngc vga_module.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_module_map.ncd vga_module.ngd vga_module.pcf 
+par -w -intstyle ise -ol high -mt off vga_module_map.ncd vga_module.ncd vga_module.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_module.twx vga_module.ncd -o vga_module.twr vga_module.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f vga_module.ut vga_module.ncd 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/vga_rectangle/vga_module.xst" -ofn "D:/Xilinx/workshop/vga_rectangle/vga_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx16-csg324-3 vga_module.ngc vga_module.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_module_map.ncd vga_module.ngd vga_module.pcf 
+par -w -intstyle ise -ol high -mt off vga_module_map.ncd vga_module.ncd vga_module.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_module.twx vga_module.ncd -o vga_module.twr vga_module.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f vga_module.ut vga_module.ncd 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/vga_rectangle/vga_module.xst" -ofn "D:/Xilinx/workshop/vga_rectangle/vga_module.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/vga_rectangle/vga_module.xst" -ofn "D:/Xilinx/workshop/vga_rectangle/vga_module.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/vga_rectangle/vga_module.xst" -ofn "D:/Xilinx/workshop/vga_rectangle/vga_module.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/vga_rectangle/vga_module.xst" -ofn "D:/Xilinx/workshop/vga_rectangle/vga_module.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/vga_rectangle/vga_module.xst" -ofn "D:/Xilinx/workshop/vga_rectangle/vga_module.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/vga_rectangle/vga_module.xst" -ofn "D:/Xilinx/workshop/vga_rectangle/vga_module.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/vga_rectangle/vga_module.xst" -ofn "D:/Xilinx/workshop/vga_rectangle/vga_module.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/vga_rectangle/vga_module.xst" -ofn "D:/Xilinx/workshop/vga_rectangle/vga_module.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/vga_rectangle/vga_module.xst" -ofn "D:/Xilinx/workshop/vga_rectangle/vga_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx16-csg324-3 vga_module.ngc vga_module.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_module_map.ncd vga_module.ngd vga_module.pcf 
+par -w -intstyle ise -ol high -mt off vga_module_map.ncd vga_module.ncd vga_module.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_module.twx vga_module.ncd -o vga_module.twr vga_module.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f vga_module.ut vga_module.ncd 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/vga_rectangle/vga_module.xst" -ofn "D:/Xilinx/workshop/vga_rectangle/vga_module.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/vga_rectangle/vga_module.xst" -ofn "D:/Xilinx/workshop/vga_rectangle/vga_module.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/vga_rectangle/vga_module.xst" -ofn "D:/Xilinx/workshop/vga_rectangle/vga_module.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/vga_rectangle/vga_module.xst" -ofn "D:/Xilinx/workshop/vga_rectangle/vga_module.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/vga_rectangle/vga_module.xst" -ofn "D:/Xilinx/workshop/vga_rectangle/vga_module.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/vga_rectangle/vga_module.xst" -ofn "D:/Xilinx/workshop/vga_rectangle/vga_module.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/vga_rectangle/vga_module.xst" -ofn "D:/Xilinx/workshop/vga_rectangle/vga_module.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/vga_rectangle/vga_module.xst" -ofn "D:/Xilinx/workshop/vga_rectangle/vga_module.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/vga_rectangle/vga_module.xst" -ofn "D:/Xilinx/workshop/vga_rectangle/vga_module.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/vga_rectangle/vga_module.xst" -ofn "D:/Xilinx/workshop/vga_rectangle/vga_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx16-csg324-3 vga_module.ngc vga_module.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_module_map.ncd vga_module.ngd vga_module.pcf 
+par -w -intstyle ise -ol high -mt off vga_module_map.ncd vga_module.ncd vga_module.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_module.twx vga_module.ncd -o vga_module.twr vga_module.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f vga_module.ut vga_module.ncd 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/vga_rectangle/vga_module.xst" -ofn "D:/Xilinx/workshop/vga_rectangle/vga_module.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/vga_rectangle/vga_module.xst" -ofn "D:/Xilinx/workshop/vga_rectangle/vga_module.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/vga_rectangle/vga_module.xst" -ofn "D:/Xilinx/workshop/vga_rectangle/vga_module.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/vga_rectangle/vga_module.xst" -ofn "D:/Xilinx/workshop/vga_rectangle/vga_module.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/vga_rectangle/vga_module.xst" -ofn "D:/Xilinx/workshop/vga_rectangle/vga_module.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/vga_rectangle/vga_module.xst" -ofn "D:/Xilinx/workshop/vga_rectangle/vga_module.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/vga_rectangle/vga_module.xst" -ofn "D:/Xilinx/workshop/vga_rectangle/vga_module.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/vga_rectangle/vga_module.xst" -ofn "D:/Xilinx/workshop/vga_rectangle/vga_module.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/vga_rectangle/vga_module.xst" -ofn "D:/Xilinx/workshop/vga_rectangle/vga_module.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/vga_rectangle/vga_module.xst" -ofn "D:/Xilinx/workshop/vga_rectangle/vga_module.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/vga_rectangle/vga_module.xst" -ofn "D:/Xilinx/workshop/vga_rectangle/vga_module.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/vga_rectangle/vga_module.xst" -ofn "D:/Xilinx/workshop/vga_rectangle/vga_module.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/vga_rectangle/vga_module.xst" -ofn "D:/Xilinx/workshop/vga_rectangle/vga_module.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/vga_rectangle/vga_module.xst" -ofn "D:/Xilinx/workshop/vga_rectangle/vga_module.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/vga_rectangle/vga_module.xst" -ofn "D:/Xilinx/workshop/vga_rectangle/vga_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx16-csg324-3 vga_module.ngc vga_module.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_module_map.ncd vga_module.ngd vga_module.pcf 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/vga_rectangle/vga_module.xst" -ofn "D:/Xilinx/workshop/vga_rectangle/vga_module.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/vga_rectangle/vga_module.xst" -ofn "D:/Xilinx/workshop/vga_rectangle/vga_module.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/vga_rectangle/vga_module.xst" -ofn "D:/Xilinx/workshop/vga_rectangle/vga_module.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/vga_rectangle/vga_module.xst" -ofn "D:/Xilinx/workshop/vga_rectangle/vga_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx16-csg324-3 vga_module.ngc vga_module.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_module_map.ncd vga_module.ngd vga_module.pcf 
+par -w -intstyle ise -ol high -mt off vga_module_map.ncd vga_module.ncd vga_module.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_module.twx vga_module.ncd -o vga_module.twr vga_module.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f vga_module.ut vga_module.ncd 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/vga_rectangle/vga_module.xst" -ofn "D:/Xilinx/workshop/vga_rectangle/vga_module.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/vga_rectangle/vga_module.xst" -ofn "D:/Xilinx/workshop/vga_rectangle/vga_module.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/vga_rectangle/vga_module.xst" -ofn "D:/Xilinx/workshop/vga_rectangle/vga_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx16-csg324-3 vga_module.ngc vga_module.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_module_map.ncd vga_module.ngd vga_module.pcf 
+par -w -intstyle ise -ol high -mt off vga_module_map.ncd vga_module.ncd vga_module.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_module.twx vga_module.ncd -o vga_module.twr vga_module.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f vga_module.ut vga_module.ncd 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/vga_rectangle/vga_module.xst" -ofn "D:/Xilinx/workshop/vga_rectangle/vga_module.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx16-csg324-3 vga_module.ngc vga_module.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_module_map.ncd vga_module.ngd vga_module.pcf 
+par -w -intstyle ise -ol high -mt off vga_module_map.ncd vga_module.ncd vga_module.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga_module.twx vga_module.ncd -o vga_module.twr vga_module.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f vga_module.ut vga_module.ncd 

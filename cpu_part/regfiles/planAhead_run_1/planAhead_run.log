@@ -1,0 +1,51 @@
+
+****** PlanAhead v13.2 (64-bit)
+  **** Build 131561 by hdbuild on Thu Jun 16 17:14:12 PDT 2011
+    ** Copyright 1986-1999, 2001-2011 Xilinx, Inc. All Rights Reserved.
+
+INFO: [Common-78] Attempting to get a license: PlanAhead
+INFO: [Common-82] Got a license: PlanAhead
+INFO: [Common-86] Your PlanAhead license expires in -851 day(s)
+INFO: [ArchReader-0] Loading parts and site information from D:\Xilinx\ISE_DS\PlanAhead\parts\arch.xml
+Parsing RTL primitives file [D:\Xilinx\ISE_DS\PlanAhead\parts\xilinx\rtl\prims\rtl_prims.xml]
+Finished parsing RTL primitives file [D:\Xilinx\ISE_DS\PlanAhead\parts\xilinx\rtl\prims\rtl_prims.xml]
+start_gui
+starting gui ...
+source D:/Xilinx/workshop/regfiles/pa.fromHdl.tcl
+# create_project -name regfiles -dir "D:/Xilinx/workshop/regfiles/planAhead_run_1" -part xc6slx16csg324-3
+Parsing template File [D:\Xilinx\ISE_DS\ISE\data\projnav\templates\verilog.xml].
+Finished parsing template File [D:\Xilinx\ISE_DS\ISE\data\projnav\templates\verilog.xml].
+Parsing template File [D:\Xilinx\ISE_DS\ISE\data\projnav\templates\vhdl.xml].
+Finished parsing template File [D:\Xilinx\ISE_DS\ISE\data\projnav\templates\vhdl.xml].
+Parsing template File [D:\Xilinx\ISE_DS\ISE\data\projnav\templates\ucf.xml].
+Finished parsing template File [D:\Xilinx\ISE_DS\ISE\data\projnav\templates\ucf.xml].
+# set_param project.pinAheadLayout yes
+# set srcset [get_property srcset [current_run -impl]]
+# set_property top regfile $srcset
+# set_param project.paUcfFile  "regfile.ucf"
+# set hdlfile [add_files [list {regfile.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# add_files "regfile.ucf" -fileset [get_property constrset [current_run]]
+# open_rtl_design -part xc6slx16csg324-3
+INFO: [PlanAhead-58] Using Verific elaboration
+Parsing VHDL file "D:\Xilinx\ISE_DS\PlanAhead\parts\xilinx\rtl\lib\synplify\synattr.vhd" into library synplify
+Parsing package <attributes>.
+Analyzing Verilog file "D:\Xilinx\workshop\regfiles\regfile.v" into library work
+Removing all analyzed parse trees
+INFO: [ArchReader-7] Loading clock regions from D:\Xilinx\ISE_DS\PlanAhead\parts/xilinx/spartan6/spartan6lx/xc6slx16/ClockRegion.xml
+INFO: [ArchReader-8] Loading clock buffers from D:\Xilinx\ISE_DS\PlanAhead\parts/xilinx/spartan6/spartan6lx/xc6slx16/ClockBuffers.xml
+INFO: [ArchReader-13] Loading package pin functions from D:\Xilinx\ISE_DS\PlanAhead\parts\xilinx\spartan6/PinFunctions.xml...
+INFO: [ArchReader-3] Loading package from D:\Xilinx\ISE_DS\PlanAhead\parts/xilinx/spartan6/spartan6lx/xc6slx16/csg324/Package.xml
+INFO: [ArchReader-4] Loading io standards from D:\Xilinx\ISE_DS\PlanAhead\./parts/xilinx/spartan6/IOStandards.xml
+INFO: [ArchReader-12] Loading device configuration modes from 
+INFO: [GDRC-0] Loading list of drcs for the architecture : D:\Xilinx\ISE_DS\PlanAhead\./parts/xilinx/spartan6/drc.xml
+Parsing UCF File [D:\Xilinx\workshop\regfiles\regfile.ucf]
+Finished Parsing UCF File [D:\Xilinx\workshop\regfiles\regfile.ucf]
+INFO: [Project-5] Unisim Transformation Summary:
+No Unisim elements were transformed.
+open_rtl_design: Time (s): 8.178w.  Memory (MB): 707.754p 193.969g
+exit
+stop_gui
+INFO: [PlanAhead-261] Exiting PlanAhead...
+INFO: [Common-83] Releasing license: PlanAhead

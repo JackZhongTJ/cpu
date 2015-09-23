@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# PlanAhead v13.2 (64-bit)
+# Build 131561 by hdbuild on Thu Jun 16 17:14:12 PDT 2011
+# Start of session at: Mon Dec 16 15:38:30 2013
+# Process ID: 9024
+# Log file: D:/Xilinx/workshop/example_5/sum_board/planAhead_run_1/planAhead.log
+# Journal file: D:/Xilinx/workshop/example_5/sum_board/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source D:/Xilinx/workshop/example_5/sum_board/pa.fromNetlist.tcl
+exit
+stop_gui

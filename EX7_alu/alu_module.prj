@@ -1,0 +1,3 @@
+verilog work "shifter.v"
+verilog work "mux4x32.v"
+verilog work "alu_module.v"

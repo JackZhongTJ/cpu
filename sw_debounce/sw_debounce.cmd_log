@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "D:/Xilinx/workshop/sw_debounce/sw_debounce.xst" -ofn "D:/Xilinx/workshop/sw_debounce/sw_debounce.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/sw_debounce/sw_debounce.xst" -ofn "D:/Xilinx/workshop/sw_debounce/sw_debounce.syr" 

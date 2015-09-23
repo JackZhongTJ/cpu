@@ -1,0 +1,6 @@
+verilog work "g_p.v"
+verilog work "cla_1.v"
+verilog work "cla_2.v"
+verilog work "cla_4.v"
+verilog work "cla_8.v"
+verilog work "cla_16.v"

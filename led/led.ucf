@@ -1,0 +1,17 @@
+Net dip<0> Loc = T10;
+Net dip<1> Loc = T9;
+Net dip<2> Loc = V9;
+Net dip<3> Loc = M8;
+Net dip<4> Loc = N8;
+Net dip<5> Loc = U8;
+Net dip<6> Loc = V8;
+Net dip<7> Loc = T5;
+
+Net led<0> Loc = U16;
+Net led<1> Loc = V16;
+Net led<2> Loc = U15;
+Net led<3> Loc = V15;
+Net led<4> Loc = M11;
+Net led<5> Loc = N11;
+Net led<6> Loc = R11;
+Net led<7> Loc = T11;

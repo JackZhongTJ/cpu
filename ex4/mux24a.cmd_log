@@ -1,0 +1,46 @@
+xst -intstyle ise -ifn "D:/Xilinx/workshop/ex4/mux24a.xst" -ofn "D:/Xilinx/workshop/ex4/mux24a.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/ex4/mux24a.xst" -ofn "D:/Xilinx/workshop/ex4/mux24a.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 mux24a.ngc mux24a.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mux24a_map.ncd mux24a.ngd mux24a.pcf 
+par -w -intstyle ise -ol high -mt off mux24a_map.ncd mux24a.ncd mux24a.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mux24a.twx mux24a.ncd -o mux24a.twr mux24a.pcf 
+bitgen -intstyle ise -f mux24a.ut mux24a.ncd 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/ex4/mux24a.xst" -ofn "D:/Xilinx/workshop/ex4/mux24a.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/ex4/mux24a.xst" -ofn "D:/Xilinx/workshop/ex4/mux24a.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/ex4/mux24a.xst" -ofn "D:/Xilinx/workshop/ex4/mux24a.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/ex4/mux24a.xst" -ofn "D:/Xilinx/workshop/ex4/mux24a.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/ex4/mux24a.xst" -ofn "D:/Xilinx/workshop/ex4/mux24a.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/ex4/mux24a.xst" -ofn "D:/Xilinx/workshop/ex4/mux24a.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/ex4/mux24a.xst" -ofn "D:/Xilinx/workshop/ex4/mux24a.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/ex4/mux24a.xst" -ofn "D:/Xilinx/workshop/ex4/mux24a.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/ex4/mux24a.xst" -ofn "D:/Xilinx/workshop/ex4/mux24a.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/ex4/mux24a.xst" -ofn "D:/Xilinx/workshop/ex4/mux24a.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 mux24a.ngc mux24a.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mux24a_map.ncd mux24a.ngd mux24a.pcf 
+par -w -intstyle ise -ol high -mt off mux24a_map.ncd mux24a.ncd mux24a.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mux24a.twx mux24a.ncd -o mux24a.twr mux24a.pcf 
+bitgen -intstyle ise -f mux24a.ut mux24a.ncd 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/ex4/mux24a.xst" -ofn "D:/Xilinx/workshop/ex4/mux24a.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 mux24a.ngc mux24a.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mux24a_map.ncd mux24a.ngd mux24a.pcf 
+par -w -intstyle ise -ol high -mt off mux24a_map.ncd mux24a.ncd mux24a.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mux24a.twx mux24a.ncd -o mux24a.twr mux24a.pcf 
+bitgen -intstyle ise -f mux24a.ut mux24a.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 mux24a.ngc mux24a.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mux24a_ucf.ucf -p xc6slx16-csg324-3 mux24a.ngc mux24a.ngd  
+xst -intstyle ise -ifn "D:/Xilinx/workshop/ex4/mux24a.xst" -ofn "D:/Xilinx/workshop/ex4/mux24a.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mux24a_ucf.ucf -p xc6slx16-csg324-3 mux24a.ngc mux24a.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mux24a_map.ncd mux24a.ngd mux24a.pcf 
+par -w -intstyle ise -ol high -mt off mux24a_map.ncd mux24a.ncd mux24a.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mux24a.twx mux24a.ncd -o mux24a.twr mux24a.pcf -ucf mux24a_ucf.ucf 
+bitgen -intstyle ise -f mux24a.ut mux24a.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mux24a_ucf.ucf -p xc6slx16-csg324-3 mux24a.ngc mux24a.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mux24a_map.ncd mux24a.ngd mux24a.pcf 
+par -w -intstyle ise -ol high -mt off mux24a_map.ncd mux24a.ncd mux24a.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mux24a.twx mux24a.ncd -o mux24a.twr mux24a.pcf -ucf mux24a_ucf.ucf 
+bitgen -intstyle ise -f mux24a.ut mux24a.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mux24a_ucf.ucf -p xc6slx16-csg324-3 mux24a.ngc mux24a.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mux24a_map.ncd mux24a.ngd mux24a.pcf 
+par -w -intstyle ise -ol high -mt off mux24a_map.ncd mux24a.ncd mux24a.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mux24a.twx mux24a.ncd -o mux24a.twr mux24a.pcf -ucf mux24a_ucf.ucf 
+bitgen -intstyle ise -f mux24a.ut mux24a.ncd 

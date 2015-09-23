@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=D:\Xilinx\workshop\led\impact.xsl
+OUTFILE=D:\Xilinx\workshop\led\impact.xsl
+FAMILY=Single
+PART=Single
+WORKINGDIR=D:\Xilinx\workshop\led
+LICENSE=iMPACT
+USER_INFO=iMPACT

@@ -1,0 +1,43 @@
+#:C9     
+#Xilinx FPGA Editor Command Log File
+#Editor Version:
+#:V   NT M2.1 O.61xd
+#Current Working Directory:
+#:D   D:\Xilinx\workshop\pcreg
+#Date/Time:
+#:T   Sat Nov 02 00:28:00 2013
+#------------------------------
+	#Reading pcreg_map.ncd...
+	#Loading device for application Rf_Device from file '6slx16.nph' in environment D:\Xilinx\ISE_DS\ISE\.
+	#   "pcreg" is an NCD, version 3.2, device xc6slx16, package csg324, speed -3
+	#Design creation date: 2013.11.01.01.29.26
+	#Building chip graphics...
+	#Loading speed info...
+	#1
+setattr main edit-mode no-logic-changes
+	#2
+select -k comp 'clk'
+	#3
+unselect comp 'clk'
+	#4
+select -k comp 'clk_BUFGP/BUFG'
+	#5
+unselect comp 'clk_BUFGP/BUFG'
+	#6
+select -k comp 'data_in<0>'
+	#7
+unselect comp 'data_in<0>'
+	#8
+select -k comp 'clk'
+	#9
+unselect comp 'clk'
+	#10
+select -k comp 'data_in<0>'
+	#11
+unselect comp 'data_in<0>'
+	#12
+select -k comp 'data_in<5>'
+	#13
+unselect comp 'data_in<5>'
+	#14
+select -k comp 'data_in<1>'

@@ -1,0 +1,11 @@
+CoreGen has not been configured with any user repositories.
+CoreGen has been configured with the following Xilinx repositories:
+ - 'D:\Xilinx\ISE_DS\ISE\coregen\' [reloaded]
+INFO:sim - Generating component instance 'IPCORE1' of
+   'xilinx.com:ip:dist_mem_gen:6.2' from
+   'D:\Xilinx\ISE_DS\ISE\coregen\ip\xilinx\primary\com\xilinx\ip\dist_mem_gen_v6
+   _2\component.xml'.
+Applying current project options...
+Finished applying current project options.
+Cancelled executing Tcl generator.
+Wrote CGP file for project 'IPCORE1'.

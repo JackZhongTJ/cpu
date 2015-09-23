@@ -1,0 +1,15 @@
+[Inputs]
+clk
+rst
+we
+=raddr1[4:0]=
+=raddr2[4:0]=
+=waddr[4:0]=
+=wdata[31:0]=
+[Outputs]
+=rdata1[31:0]=
+=rdata2[31:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel regfile
+

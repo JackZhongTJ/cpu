@@ -1,0 +1,330 @@
+m255
+K4
+z2
+13
+cModel Technology
+Z0 dD:/Xilinx/workshop/ex5sum
+!s112 0.1
+!i10d 8192
+!i10e 25
+!i10f 100
+vcla_1
+Z1 !s100 JF3emNT4O2QKgViN9VDWC0
+Z2 IfR:0kmL2i2cjEjDTHkSaF0
+Z3 V`JN@9S9cnhjKRR_L]QIcM3
+Z4 dD:/Xilinx/workshop/example_5/sum_origin
+Z5 w1383536232
+Z6 8cla_1.v
+Z7 Fcla_1.v
+L0 21
+Z8 OP;L;10.2c;57
+r1
+31
+Z9 !s90 -reportprogress|300|cla_1.v|
+Z10 o-L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF -O0
+Z11 !s110 1385914954
+Z12 !s108 1385914953.981000
+Z13 !s107 cla_1.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vcla_16
+Z14 !s110 1385914956
+Z15 !s100 lj`]hUF[fO6Ccn_^<E[_X3
+Z16 I4id_D??UUi;JQ9mB2b8a?0
+R3
+R4
+Z17 w1382343747
+Z18 8cla_16.v
+Z19 Fcla_16.v
+L0 21
+R8
+r1
+31
+Z20 !s90 -reportprogress|300|cla_16.v|
+R10
+Z21 !s108 1385914956.860000
+Z22 !s107 cla_16.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vcla_1_test
+Z23 IL4K7fP8;IK4lfCIYVFC:G3
+R3
+Z24 dD:/Xilinx/workshop/ex5sum
+Z25 w1383535735
+Z26 8cla_1_test.v
+Z27 Fcla_1_test.v
+L0 25
+R8
+r1
+31
+Z28 !s90 -reportprogress|300|cla_1_test.v|
+R10
+Z29 !s110 1383535743
+Z30 !s100 Wn3`EUE>SKM`KdECOA3fi3
+Z31 !s108 1383535743.136000
+Z32 !s107 cla_1_test.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vcla_2
+Z33 !s100 mTcKQSEKF?EFYRP?_8<cM2
+Z34 IVff?OgD8QmcEDLV9c]o<i0
+R3
+R4
+Z35 w1382342257
+Z36 8cla_2.v
+Z37 Fcla_2.v
+L0 21
+R8
+r1
+31
+Z38 !s90 -reportprogress|300|cla_2.v|
+R10
+R14
+Z39 !s108 1385914956.346000
+Z40 !s107 cla_2.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vcla_2test
+Z41 !s110 1383534120
+Z42 !s100 BdUKVf53P`KRo?fATkWHk3
+Z43 IN[nzCb`UH=n060kR5Z4c<0
+R3
+R24
+Z44 w1382342314
+Z45 8cla_2test.v
+Z46 Fcla_2test.v
+L0 25
+R8
+r1
+31
+Z47 !s90 -reportprogress|300|cla_2test.v|
+R10
+Z48 !s108 1383534120.704000
+Z49 !s107 cla_2test.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vcla_32
+Z50 !s100 VC0`S9]^>J@2AZ1iF5^fL1
+Z51 I^kS82IC4KfLid_YYj^>@]3
+R3
+R4
+Z52 w1382348303
+Z53 8cla_32.v
+Z54 Fcla_32.v
+L0 21
+R8
+r1
+31
+Z55 !s90 -reportprogress|300|cla_32.v|
+R10
+Z56 !s110 1385914957
+Z57 !s108 1385914957.023000
+Z58 !s107 cla_32.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vcla_32_final
+Z59 !s100 @cCUW^Xd[KUbl^;gmLhQF3
+Z60 I4I@=9JzBZ[U5F<OE05O1b0
+R3
+R4
+Z61 w1385907107
+Z62 8cla_32_final.v
+Z63 Fcla_32_final.v
+L0 21
+R8
+r1
+31
+Z64 !s90 -reportprogress|300|cla_32_final.v|
+R10
+Z65 !s110 1385914960
+Z66 !s108 1385914960.249000
+Z67 !s107 cla_32_final.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vcla_32_final_test
+R65
+Z68 I=ZJ4HLoL::P=ohiOfHKU43
+R3
+R4
+Z69 w1385914943
+Z70 8cla_32_final_test.v
+Z71 Fcla_32_final_test.v
+L0 25
+R8
+r1
+31
+Z72 !s90 -reportprogress|300|cla_32_final_test.v|
+R10
+!i10b 1
+Z73 !s100 jPFS0UTB@mzSoU[2>@7eI3
+!s85 0
+Z74 !s108 1385914960.926000
+Z75 !s107 cla_32_final_test.v|
+!s101 -O0
+vcla_32test
+Z76 !s100 >go2GSfe9MUi1=m8bmdKi2
+Z77 I6zzTeFUVNPMSjoaI27;De1
+R3
+R4
+Z78 w1385906793
+Z79 8cla_32test.v
+Z80 Fcla_32test.v
+L0 25
+R8
+r1
+31
+Z81 !s90 -reportprogress|300|cla_32test.v|
+R10
+Z82 !s110 1385906888
+Z83 !s108 1385906888.000000
+Z84 !s107 cla_32test.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vcla_4
+R14
+Z85 !s100 Wjg9blMAh0CjIQI^;jd791
+Z86 I25`U2=G_bIKIl1i<eZ5mo3
+R3
+R4
+R17
+Z87 8cla_4.v
+Z88 Fcla_4.v
+L0 21
+R8
+r1
+31
+Z89 !s90 -reportprogress|300|cla_4.v|
+R10
+Z90 !s108 1385914956.529000
+Z91 !s107 cla_4.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vcla_8
+R14
+Z92 !s100 BXTT59kB5nMOO<GeE?K=D0
+Z93 INT1`8SS_@la`bM77B<@S00
+R3
+R4
+Z94 w1382343944
+Z95 8cla_8.v
+Z96 Fcla_8.v
+L0 21
+R8
+r1
+31
+Z97 !s90 -reportprogress|300|cla_8.v|
+R10
+Z98 !s108 1385914956.697000
+Z99 !s107 cla_8.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vg_p
+Z100 !s100 XM1:XiWjMh3GaWd2TgODi0
+Z101 I_e]=jGZfDDbKBFzNIh49B2
+R3
+R4
+Z102 w1382337728
+Z103 8g_p.v
+Z104 Fg_p.v
+L0 21
+R8
+r1
+31
+Z105 !s90 -reportprogress|300|g_p.v|
+R10
+Z106 !s110 1385914953
+Z107 !s108 1385914953.092000
+Z108 !s107 g_p.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vglbl
+!s110 1385914961
+!i10b 1
+Z109 !s100 4=LmVFjWGlXARKf5L_9V<3
+Z110 I>5eGoR^gLje]9h;[k3S:i0
+R3
+R4
+Z111 w1308634177
+Z112 8D:/Xilinx/ISE_DS/ISE/verilog/src/glbl.v
+Z113 FD:/Xilinx/ISE_DS/ISE/verilog/src/glbl.v
+L0 5
+R8
+r1
+!s85 0
+31
+!s108 1385914961.178000
+!s107 D:/Xilinx/ISE_DS/ISE/verilog/src/glbl.v|
+Z114 !s90 -reportprogress|300|D:/Xilinx/ISE_DS/ISE/verilog/src/glbl.v|
+!s101 -O0
+R10
+vtest1
+Z115 !s100 KTS[R<oZ>Tb=HW[oBUMP60
+Z116 IMk8iR<_j]Ud>G`MH0;P=n2
+R3
+R24
+Z117 w1383535839
+Z118 8test1.v
+Z119 Ftest1.v
+L0 25
+R8
+r1
+31
+Z120 !s90 -reportprogress|300|test1.v|
+R10
+Z121 !s110 1383535873
+Z122 !s108 1383535873.131000
+Z123 !s107 test1.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vtest2
+Z124 !s110 1383536240
+Z125 !s100 ZJX7O^5Bczi`X5Y7PYNGX0
+Z126 I]32o^0EE_5cUWfn8IA8OB3
+R3
+R24
+Z127 w1383536043
+Z128 8test2.v
+Z129 Ftest2.v
+L0 25
+R8
+r1
+31
+Z130 !s90 -reportprogress|300|test2.v|
+R10
+Z131 !s108 1383536240.424000
+Z132 !s107 test2.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vtest_32_cla
+Z133 !s110 1383536338
+Z134 Ik`EYKf7K]_KMmOaQH7b]H2
+R3
+R24
+Z135 w1383533919
+Z136 8test_32_cla.v
+Z137 Ftest_32_cla.v
+L0 25
+R8
+r1
+31
+R10
+Z138 !s100 PDOSO_7;<OcnbSSI:Z`GB0
+Z139 !s108 1383536338.292000
+Z140 !s107 test_32_cla.v|
+Z141 !s90 -reportprogress|300|test_32_cla.v|
+!i10b 1
+!s85 0
+!s101 -O0

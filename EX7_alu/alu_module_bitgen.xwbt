@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\Xilinx\workshop\EX7_alu\alu_module.ncd
+OUTFILE=D:\Xilinx\workshop\EX7_alu\alu_module.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=D:\Xilinx\workshop\EX7_alu
+LICENSE=ISE
+USER_INFO=No user information available.

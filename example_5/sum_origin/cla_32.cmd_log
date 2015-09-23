@@ -1,0 +1,32 @@
+xst -intstyle ise -ifn "D:/Xilinx/workshop/ex5sum/cla_32.xst" -ofn "D:/Xilinx/workshop/ex5sum/cla_32.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/ex5sum/cla_32.xst" -ofn "D:/Xilinx/workshop/ex5sum/cla_32.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/ex5sum/cla_32.xst" -ofn "D:/Xilinx/workshop/ex5sum/cla_32.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/ex5sum/cla_32.xst" -ofn "D:/Xilinx/workshop/ex5sum/cla_32.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/ex5sum/cla_32.xst" -ofn "D:/Xilinx/workshop/ex5sum/cla_32.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 cla_32.ngc cla_32.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cla_32_map.ncd cla_32.ngd cla_32.pcf 
+par -w -intstyle ise -ol high -mt off cla_32_map.ncd cla_32.ncd cla_32.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cla_32.twx cla_32.ncd -o cla_32.twr cla_32.pcf 
+bitgen -intstyle ise -f cla_32.ut cla_32.ncd 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/ex5sum/cla_32.xst" -ofn "D:/Xilinx/workshop/ex5sum/cla_32.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/ex5sum/cla_32.xst" -ofn "D:/Xilinx/workshop/ex5sum/cla_32.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 cla_32.ngc cla_32.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cla_32_map.ncd cla_32.ngd cla_32.pcf 
+par -w -intstyle ise -ol high -mt off cla_32_map.ncd cla_32.ncd cla_32.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cla_32.twx cla_32.ncd -o cla_32.twr cla_32.pcf 
+bitgen -intstyle ise -f cla_32.ut cla_32.ncd 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/ex5sum/cla_32.xst" -ofn "D:/Xilinx/workshop/ex5sum/cla_32.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/ex5sum/cla_32.xst" -ofn "D:/Xilinx/workshop/ex5sum/cla_32.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/ex5sum/cla_32.xst" -ofn "D:/Xilinx/workshop/ex5sum/cla_32.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/ex5sum/cla_32.xst" -ofn "D:/Xilinx/workshop/ex5sum/cla_32.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/ex5sum/cla_32.xst" -ofn "D:/Xilinx/workshop/ex5sum/cla_32.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/ex5sum/cla_32.xst" -ofn "D:/Xilinx/workshop/ex5sum/cla_32.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/ex5sum/cla_32.xst" -ofn "D:/Xilinx/workshop/ex5sum/cla_32.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 cla_32.ngc cla_32.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o cla_32_map.ncd cla_32.ngd cla_32.pcf 
+par -w -intstyle ise -ol high -mt off cla_32_map.ncd cla_32.ncd cla_32.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml cla_32.twx cla_32.ncd -o cla_32.twr cla_32.pcf 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/ex5sum/cla_32.xst" -ofn "D:/Xilinx/workshop/ex5sum/cla_32.syr" 
+xst -intstyle ise -ifn "D:/Xilinx/workshop/ex5sum/cla_32.xst" -ofn "D:/Xilinx/workshop/ex5sum/cla_32.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc cla_32_final.ucf -p xc6slx16-csg324-3 cla_32.ngc cla_32.ngd  
+xst -intstyle ise -ifn "D:/Xilinx/workshop/ex5sum/cla_32.xst" -ofn "D:/Xilinx/workshop/ex5sum/cla_32.syr" 

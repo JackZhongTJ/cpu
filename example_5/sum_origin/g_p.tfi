@@ -1,0 +1,17 @@
+
+
+
+// Instantiate the module
+g_p instance_name (
+    .g_0(g_0), 
+    .p_0(p_0), 
+    .g_1(g_1), 
+    .p_1(p_1), 
+    .c_out(c_out), 
+    .c_in(c_in), 
+    .c_in_o(c_in_o), 
+    .g_out(g_out), 
+    .p_out(p_out)
+    );
+
+

@@ -1,0 +1,670 @@
+Release 13.2 - xst O.61xd (nt64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> Reading design: cla_32_final.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "cla_32_final.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "cla_32_final"
+Output Format                      : NGC
+Target Device                      : xc6slx16-3-csg324
+
+---- Source Options
+Top Module Name                    : cla_32_final
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file \"D:\Xilinx\workshop\example_5\sum_board\g_p.v\" into library work
+Parsing module <g_p>.
+Analyzing Verilog file \"D:\Xilinx\workshop\example_5\sum_board\cla_1.v\" into library work
+Parsing module <cla_1>.
+Analyzing Verilog file \"D:\Xilinx\workshop\example_5\sum_board\cla_2.v\" into library work
+Parsing module <cla_2>.
+Analyzing Verilog file \"D:\Xilinx\workshop\example_5\sum_board\cla_4.v\" into library work
+Parsing module <cla_4>.
+Analyzing Verilog file \"D:\Xilinx\workshop\example_5\sum_board\cla_8.v\" into library work
+Parsing module <cla_8>.
+Analyzing Verilog file \"D:\Xilinx\workshop\example_5\sum_board\cla_16.v\" into library work
+Parsing module <cla_16>.
+Analyzing Verilog file \"D:\Xilinx\workshop\example_5\sum_board\cla_32.v\" into library work
+Parsing module <cla_32>.
+Analyzing Verilog file \"D:\Xilinx\workshop\example_5\sum_board\cla_32_final.v\" into library work
+Parsing module <cla_32_final>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <cla_32_final>.
+
+Elaborating module <cla_32>.
+
+Elaborating module <cla_16>.
+
+Elaborating module <cla_8>.
+
+Elaborating module <cla_4>.
+
+Elaborating module <cla_2>.
+
+Elaborating module <cla_1>.
+
+Elaborating module <g_p>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <cla_32_final>.
+    Related source file is "d:/xilinx/workshop/example_5/sum_board/cla_32_final.v".
+    Found 32-bit register for signal <b>.
+    Found 4-bit register for signal <c>.
+    Found 32-bit register for signal <a>.
+    Found 6-bit adder for signal <n0393> created at line 69.
+    Found 6-bit adder for signal <n0394> created at line 69.
+    Found 6-bit adder for signal <n0395> created at line 69.
+    Found 1-bit 32-to-1 multiplexer for signal <number[2]_s[31]_Mux_27_o> created at line 69.
+    Found 1-bit 32-to-1 multiplexer for signal <GND_1_o_s[31]_Mux_29_o> created at line 69.
+    Found 1-bit 32-to-1 multiplexer for signal <GND_1_o_s[31]_Mux_31_o> created at line 69.
+    Found 1-bit 32-to-1 multiplexer for signal <GND_1_o_s[31]_Mux_33_o> created at line 69.
+    Found 6-bit comparator lessequal for signal <n0163> created at line 56
+    Found 6-bit comparator lessequal for signal <n0230> created at line 56
+    Found 6-bit comparator lessequal for signal <n0297> created at line 56
+    Summary:
+	inferred   3 Adder/Subtractor(s).
+	inferred  68 D-type flip-flop(s).
+	inferred   3 Comparator(s).
+	inferred 260 Multiplexer(s).
+Unit <cla_32_final> synthesized.
+
+Synthesizing Unit <cla_32>.
+    Related source file is "d:/xilinx/workshop/example_5/sum_board/cla_32.v".
+    Summary:
+	no macro.
+Unit <cla_32> synthesized.
+
+Synthesizing Unit <cla_16>.
+    Related source file is "d:/xilinx/workshop/example_5/sum_board/cla_16.v".
+    Summary:
+	no macro.
+Unit <cla_16> synthesized.
+
+Synthesizing Unit <cla_8>.
+    Related source file is "d:/xilinx/workshop/example_5/sum_board/cla_8.v".
+    Summary:
+	no macro.
+Unit <cla_8> synthesized.
+
+Synthesizing Unit <cla_4>.
+    Related source file is "d:/xilinx/workshop/example_5/sum_board/cla_4.v".
+    Summary:
+	no macro.
+Unit <cla_4> synthesized.
+
+Synthesizing Unit <cla_2>.
+    Related source file is "d:/xilinx/workshop/example_5/sum_board/cla_2.v".
+    Summary:
+	no macro.
+Unit <cla_2> synthesized.
+
+Synthesizing Unit <cla_1>.
+    Related source file is "d:/xilinx/workshop/example_5/sum_board/cla_1.v".
+    Summary:
+Unit <cla_1> synthesized.
+
+Synthesizing Unit <g_p>.
+    Related source file is "d:/xilinx/workshop/example_5/sum_board/g_p.v".
+    Summary:
+	no macro.
+Unit <g_p> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 3
+ 6-bit adder                                           : 3
+# Registers                                            : 3
+ 32-bit register                                       : 2
+ 4-bit register                                        : 1
+# Comparators                                          : 3
+ 6-bit comparator lessequal                            : 3
+# Multiplexers                                         : 260
+ 1-bit 2-to-1 multiplexer                              : 256
+ 1-bit 32-to-1 multiplexer                             : 4
+# Xors                                                 : 64
+ 1-bit xor2                                            : 64
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 3
+ 6-bit adder                                           : 3
+# Registers                                            : 68
+ Flip-Flops                                            : 68
+# Comparators                                          : 3
+ 6-bit comparator lessequal                            : 3
+# Multiplexers                                         : 260
+ 1-bit 2-to-1 multiplexer                              : 256
+ 1-bit 32-to-1 multiplexer                             : 4
+# Xors                                                 : 64
+ 1-bit xor2                                            : 64
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <cla_32_final> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block cla_32_final, actual ratio is 2.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 68
+ Flip-Flops                                            : 68
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : cla_32_final.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 133
+#      LUT3                        : 17
+#      LUT4                        : 5
+#      LUT5                        : 97
+#      LUT6                        : 10
+#      MUXF7                       : 4
+# FlipFlops/Latches                : 68
+#      FD                          : 4
+#      FDE                         : 64
+# Clock Buffers                    : 3
+#      BUFGP                       : 3
+# IO Buffers                       : 14
+#      IBUF                        : 9
+#      OBUF                        : 5
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx16csg324-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:              64  out of  18224     0%  
+ Number of Slice LUTs:                  129  out of   9112     1%  
+    Number used as Logic:               129  out of   9112     1%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    129
+   Number with an unused Flip Flop:      65  out of    129    50%  
+   Number with an unused LUT:             0  out of    129     0%  
+   Number of fully used LUT-FF pairs:    64  out of    129    49%  
+   Number of unique control sets:         3
+
+IO Utilization: 
+ Number of IOs:                          17
+ Number of bonded IOBs:                  17  out of    232     7%  
+    IOB Flip Flops/Latches:               4
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                3  out of     16    18%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+add_2                              | BUFGP                  | 32    |
+add_1                              | BUFGP                  | 32    |
+start                              | BUFGP                  | 4     |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 1.499ns (Maximum Frequency: 667.223MHz)
+   Minimum input arrival time before clock: 17.287ns
+   Maximum output required time after clock: 20.743ns
+   Maximum combinational path delay: 19.182ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'add_2'
+  Clock period: 1.499ns (frequency: 667.223MHz)
+  Total number of paths / destination ports: 32 / 32
+-------------------------------------------------------------------------
+Delay:               1.499ns (Levels of Logic = 1)
+  Source:            b_0 (FF)
+  Destination:       b_0 (FF)
+  Source Clock:      add_2 rising
+  Destination Clock: add_2 rising
+
+  Data Path: b_0 to b_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              6   0.447   0.745  b_0 (b_0)
+     LUT5:I4->O            1   0.205   0.000  Mmux_b[0]_ADD_1[3]_MUX_294_o11 (Mmux_b[0]_ADD_1[3]_MUX_294_o)
+     FDE:D                     0.102          b_0
+    ----------------------------------------
+    Total                      1.499ns (0.754ns logic, 0.745ns route)
+                                       (50.3% logic, 49.7% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'add_1'
+  Clock period: 1.499ns (frequency: 667.223MHz)
+  Total number of paths / destination ports: 32 / 32
+-------------------------------------------------------------------------
+Delay:               1.499ns (Levels of Logic = 1)
+  Source:            a_0 (FF)
+  Destination:       a_0 (FF)
+  Source Clock:      add_1 rising
+  Destination Clock: add_1 rising
+
+  Data Path: a_0 to a_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              6   0.447   0.745  a_0 (a_0)
+     LUT5:I4->O            1   0.205   0.000  Mmux_a[0]_ADD_1[3]_MUX_134_o11 (Mmux_a[0]_ADD_1[3]_MUX_134_o)
+     FDE:D                     0.102          a_0
+    ----------------------------------------
+    Total                      1.499ns (0.754ns logic, 0.745ns route)
+                                       (50.3% logic, 49.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'add_2'
+  Total number of paths / destination ports: 160 / 64
+-------------------------------------------------------------------------
+Offset:              3.467ns (Levels of Logic = 2)
+  Source:            number<0> (PAD)
+  Destination:       b_4 (FF)
+  Destination Clock: add_2 rising
+
+  Data Path: number<0> to b_4
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            72   1.222   1.940  number_0_IBUF (number_0_IBUF)
+     LUT5:I1->O            1   0.203   0.000  Mmux_b[13]_ADD_1[3]_MUX_281_o11 (b[13]_ADD_1[3]_MUX_281_o)
+     FDE:D                     0.102          b_13
+    ----------------------------------------
+    Total                      3.467ns (1.527ns logic, 1.940ns route)
+                                       (44.0% logic, 56.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'add_1'
+  Total number of paths / destination ports: 160 / 64
+-------------------------------------------------------------------------
+Offset:              3.467ns (Levels of Logic = 2)
+  Source:            number<0> (PAD)
+  Destination:       a_4 (FF)
+  Destination Clock: add_1 rising
+
+  Data Path: number<0> to a_4
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            72   1.222   1.940  number_0_IBUF (number_0_IBUF)
+     LUT5:I1->O            1   0.203   0.000  Mmux_a[13]_ADD_1[3]_MUX_121_o11 (a[13]_ADD_1[3]_MUX_121_o)
+     FDE:D                     0.102          a_13
+    ----------------------------------------
+    Total                      3.467ns (1.527ns logic, 1.940ns route)
+                                       (44.0% logic, 56.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'start'
+  Total number of paths / destination ports: 52 / 4
+-------------------------------------------------------------------------
+Offset:              17.287ns (Levels of Logic = 19)
+  Source:            c_in (PAD)
+  Destination:       c_3 (FF)
+  Destination Clock: start rising
+
+  Data Path: c_in to c_3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             5   1.222   0.715  c_in_IBUF (c_in_IBUF)
+     LUT4:I3->O            1   0.205   0.580  cla_320/cla_160/g_p8/c_out6_SW0 (N2)
+     LUT6:I5->O            1   0.205   0.684  cla_320/cla_160/g_p8/c_out6_SW1 (N4)
+     LUT6:I4->O            4   0.203   0.788  cla_320/cla_160/g_p8/c_out6 (cla_320/cla_160/c_out)
+     LUT3:I1->O            1   0.203   0.580  cla_320/c_out23_SW0 (N01)
+     LUT5:I4->O            2   0.205   0.617  cla_320/c_out23 (cla_320/c_out23)
+     LUT3:I2->O            2   0.205   0.721  cla_320/c_out24 (cla_320/c_out2)
+     LUT5:I3->O            3   0.203   0.651  cla_320/cla_160/cla_81/cla_41/g_p4/c_out1 (cla_320/c_out1)
+     LUT5:I4->O            3   0.205   0.755  cla_320/c_out3 (cla_320/c_out)
+     LUT5:I3->O            3   0.203   0.651  cla_320/cla_161/cla_80/cla_40/g_p4/c_out1 (cla_320/cla_161/cla_80/cla_40/c_out)
+     LUT5:I4->O            3   0.205   0.995  cla_320/cla_161/cla_80/g_p2/c_out2 (cla_320/cla_161/cla_80/c_out)
+     LUT5:I0->O            3   0.203   0.651  cla_320/cla_161/cla_80/cla_41/g_p4/c_out1 (cla_320/cla_161/cla_80/cla_41/c_out)
+     LUT5:I4->O            3   0.205   0.755  cla_320/cla_161/c_out1 (cla_320/cla_161/c_out)
+     LUT5:I3->O            3   0.203   0.651  cla_320/cla_161/cla_81/cla_40/g_p4/c_out1 (cla_320/cla_161/cla_81/cla_40/c_out)
+     LUT5:I4->O            3   0.205   0.995  co12 (co1)
+     LUT5:I0->O            3   0.203   0.755  cla_320/cla_161/cla_81/cla_41/c_out1 (cla_320/cla_161/cla_81/cla_41/c_out)
+     LUT5:I3->O            1   0.203   0.808  cla_320/cla_161/cla_81/cla_41/cla_21/c1a_11/Mxor_s_xo<0>1 (s<31>)
+     LUT6:I3->O            1   0.205   0.000  Mmux_GND_1_o_s[31]_Mux_33_o_3 (Mmux_GND_1_o_s[31]_Mux_33_o_3)
+     MUXF7:I1->O           1   0.140   0.000  Mmux_GND_1_o_s[31]_Mux_33_o_2_f7 (GND_1_o_s[31]_Mux_33_o)
+     FD:D                      0.102          c_3
+    ----------------------------------------
+    Total                     17.287ns (4.933ns logic, 12.354ns route)
+                                       (28.5% logic, 71.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'start'
+  Total number of paths / destination ports: 4 / 4
+-------------------------------------------------------------------------
+Offset:              3.597ns (Levels of Logic = 1)
+  Source:            c_3 (FF)
+  Destination:       c<3> (PAD)
+  Source Clock:      start rising
+
+  Data Path: c_3 to c<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               1   0.447   0.579  c_3 (c_3)
+     OBUF:I->O                 2.571          c_3_OBUF (c<3>)
+    ----------------------------------------
+    Total                      3.597ns (3.018ns logic, 0.579ns route)
+                                       (83.9% logic, 16.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'add_2'
+  Total number of paths / destination ports: 40 / 1
+-------------------------------------------------------------------------
+Offset:              20.726ns (Levels of Logic = 19)
+  Source:            b_3 (FF)
+  Destination:       co (PAD)
+  Source Clock:      add_2 rising
+
+  Data Path: b_3 to co
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              4   0.447   0.912  b_3 (b_3)
+     LUT4:I1->O            3   0.205   0.995  cla_320/cla_160/cla_80/g_p2/p[1]_g[0]_AND_256_o11 (cla_320/cla_160/cla_80/g_p2/p[1]_g[0]_AND_256_o1)
+     LUT5:I0->O            2   0.203   0.721  cla_320/cla_160/cla_80/cla_40/g_p4/p_out1 (cla_320/cla_160/cla_80/p<0>)
+     LUT4:I2->O            1   0.203   0.580  cla_320/cla_160/g_p8/c_out6_SW0 (N2)
+     LUT6:I5->O            1   0.205   0.684  cla_320/cla_160/g_p8/c_out6_SW1 (N4)
+     LUT6:I4->O            4   0.203   0.788  cla_320/cla_160/g_p8/c_out6 (cla_320/cla_160/c_out)
+     LUT3:I1->O            1   0.203   0.580  cla_320/c_out23_SW0 (N01)
+     LUT5:I4->O            2   0.205   0.617  cla_320/c_out23 (cla_320/c_out23)
+     LUT3:I2->O            2   0.205   0.721  cla_320/c_out24 (cla_320/c_out2)
+     LUT5:I3->O            3   0.203   0.651  cla_320/cla_160/cla_81/cla_41/g_p4/c_out1 (cla_320/c_out1)
+     LUT5:I4->O            3   0.205   0.755  cla_320/c_out3 (cla_320/c_out)
+     LUT5:I3->O            3   0.203   0.651  cla_320/cla_161/cla_80/cla_40/g_p4/c_out1 (cla_320/cla_161/cla_80/cla_40/c_out)
+     LUT5:I4->O            3   0.205   0.995  cla_320/cla_161/cla_80/g_p2/c_out2 (cla_320/cla_161/cla_80/c_out)
+     LUT5:I0->O            3   0.203   0.651  cla_320/cla_161/cla_80/cla_41/g_p4/c_out1 (cla_320/cla_161/cla_80/cla_41/c_out)
+     LUT5:I4->O            3   0.205   0.755  cla_320/cla_161/c_out1 (cla_320/cla_161/c_out)
+     LUT5:I3->O            3   0.203   0.651  cla_320/cla_161/cla_81/cla_40/g_p4/c_out1 (cla_320/cla_161/cla_81/cla_40/c_out)
+     LUT5:I4->O            3   0.205   0.995  co12 (co1)
+     LUT5:I0->O            3   0.203   0.755  cla_320/cla_161/cla_81/cla_41/c_out1 (cla_320/cla_161/cla_81/cla_41/c_out)
+     LUT5:I3->O            1   0.203   0.579  co2 (co_OBUF)
+     OBUF:I->O                 2.571          co_OBUF (co)
+    ----------------------------------------
+    Total                     20.726ns (6.688ns logic, 14.038ns route)
+                                       (32.3% logic, 67.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'add_1'
+  Total number of paths / destination ports: 40 / 1
+-------------------------------------------------------------------------
+Offset:              20.743ns (Levels of Logic = 19)
+  Source:            a_3 (FF)
+  Destination:       co (PAD)
+  Source Clock:      add_1 rising
+
+  Data Path: a_3 to co
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              4   0.447   0.931  a_3 (a_3)
+     LUT4:I0->O            3   0.203   0.995  cla_320/cla_160/cla_80/g_p2/p[1]_g[0]_AND_256_o11 (cla_320/cla_160/cla_80/g_p2/p[1]_g[0]_AND_256_o1)
+     LUT5:I0->O            2   0.203   0.721  cla_320/cla_160/cla_80/cla_40/g_p4/p_out1 (cla_320/cla_160/cla_80/p<0>)
+     LUT4:I2->O            1   0.203   0.580  cla_320/cla_160/g_p8/c_out6_SW0 (N2)
+     LUT6:I5->O            1   0.205   0.684  cla_320/cla_160/g_p8/c_out6_SW1 (N4)
+     LUT6:I4->O            4   0.203   0.788  cla_320/cla_160/g_p8/c_out6 (cla_320/cla_160/c_out)
+     LUT3:I1->O            1   0.203   0.580  cla_320/c_out23_SW0 (N01)
+     LUT5:I4->O            2   0.205   0.617  cla_320/c_out23 (cla_320/c_out23)
+     LUT3:I2->O            2   0.205   0.721  cla_320/c_out24 (cla_320/c_out2)
+     LUT5:I3->O            3   0.203   0.651  cla_320/cla_160/cla_81/cla_41/g_p4/c_out1 (cla_320/c_out1)
+     LUT5:I4->O            3   0.205   0.755  cla_320/c_out3 (cla_320/c_out)
+     LUT5:I3->O            3   0.203   0.651  cla_320/cla_161/cla_80/cla_40/g_p4/c_out1 (cla_320/cla_161/cla_80/cla_40/c_out)
+     LUT5:I4->O            3   0.205   0.995  cla_320/cla_161/cla_80/g_p2/c_out2 (cla_320/cla_161/cla_80/c_out)
+     LUT5:I0->O            3   0.203   0.651  cla_320/cla_161/cla_80/cla_41/g_p4/c_out1 (cla_320/cla_161/cla_80/cla_41/c_out)
+     LUT5:I4->O            3   0.205   0.755  cla_320/cla_161/c_out1 (cla_320/cla_161/c_out)
+     LUT5:I3->O            3   0.203   0.651  cla_320/cla_161/cla_81/cla_40/g_p4/c_out1 (cla_320/cla_161/cla_81/cla_40/c_out)
+     LUT5:I4->O            3   0.205   0.995  co12 (co1)
+     LUT5:I0->O            3   0.203   0.755  cla_320/cla_161/cla_81/cla_41/c_out1 (cla_320/cla_161/cla_81/cla_41/c_out)
+     LUT5:I3->O            1   0.203   0.579  co2 (co_OBUF)
+     OBUF:I->O                 2.571          co_OBUF (co)
+    ----------------------------------------
+    Total                     20.743ns (6.686ns logic, 14.057ns route)
+                                       (32.2% logic, 67.8% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               19.182ns (Levels of Logic = 18)
+  Source:            c_in (PAD)
+  Destination:       co (PAD)
+
+  Data Path: c_in to co
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             5   1.222   0.715  c_in_IBUF (c_in_IBUF)
+     LUT4:I3->O            1   0.205   0.580  cla_320/cla_160/g_p8/c_out6_SW0 (N2)
+     LUT6:I5->O            1   0.205   0.684  cla_320/cla_160/g_p8/c_out6_SW1 (N4)
+     LUT6:I4->O            4   0.203   0.788  cla_320/cla_160/g_p8/c_out6 (cla_320/cla_160/c_out)
+     LUT3:I1->O            1   0.203   0.580  cla_320/c_out23_SW0 (N01)
+     LUT5:I4->O            2   0.205   0.617  cla_320/c_out23 (cla_320/c_out23)
+     LUT3:I2->O            2   0.205   0.721  cla_320/c_out24 (cla_320/c_out2)
+     LUT5:I3->O            3   0.203   0.651  cla_320/cla_160/cla_81/cla_41/g_p4/c_out1 (cla_320/c_out1)
+     LUT5:I4->O            3   0.205   0.755  cla_320/c_out3 (cla_320/c_out)
+     LUT5:I3->O            3   0.203   0.651  cla_320/cla_161/cla_80/cla_40/g_p4/c_out1 (cla_320/cla_161/cla_80/cla_40/c_out)
+     LUT5:I4->O            3   0.205   0.995  cla_320/cla_161/cla_80/g_p2/c_out2 (cla_320/cla_161/cla_80/c_out)
+     LUT5:I0->O            3   0.203   0.651  cla_320/cla_161/cla_80/cla_41/g_p4/c_out1 (cla_320/cla_161/cla_80/cla_41/c_out)
+     LUT5:I4->O            3   0.205   0.755  cla_320/cla_161/c_out1 (cla_320/cla_161/c_out)
+     LUT5:I3->O            3   0.203   0.651  cla_320/cla_161/cla_81/cla_40/g_p4/c_out1 (cla_320/cla_161/cla_81/cla_40/c_out)
+     LUT5:I4->O            3   0.205   0.995  co12 (co1)
+     LUT5:I0->O            3   0.203   0.755  cla_320/cla_161/cla_81/cla_41/c_out1 (cla_320/cla_161/cla_81/cla_41/c_out)
+     LUT5:I3->O            1   0.203   0.579  co2 (co_OBUF)
+     OBUF:I->O                 2.571          co_OBUF (co)
+    ----------------------------------------
+    Total                     19.182ns (7.057ns logic, 12.125ns route)
+                                       (36.8% logic, 63.2% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock add_1
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+add_1          |    1.499|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock add_2
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+add_2          |    1.499|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock start
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+add_1          |   18.848|         |         |         |
+add_2          |   18.831|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 9.00 secs
+Total CPU time to Xst completion: 8.65 secs
+ 
+--> 
+
+Total memory usage is 248632 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

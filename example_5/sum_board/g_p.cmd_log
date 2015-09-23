@@ -1,0 +1,9 @@
+vhdtdtfi -lib work D:/Xilinx/workshop/ex5sum/g_p.v -lang verilog -prj ex5sum -o g_p.spl -module g_p -template D:/Xilinx/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 g_p.spl D:/Xilinx/workshop/ex5sum/g_p.sym 
+vhdtdtfi -lang verilog -prj ex5sum -o D:/Xilinx/workshop/ex5sum/g_p.tfi -lib work D:/Xilinx/workshop/ex5sum//g_p.v -module g_p -template D:/Xilinx/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lib work D:/Xilinx/workshop/ex5sum/g_p.v -lang verilog -prj ex5sum -o g_p.spl -module g_p -template D:/Xilinx/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 g_p.spl D:/Xilinx/workshop/ex5sum/g_p.sym 
+vhdtdtfi -lib work D:/Xilinx/workshop/ex5sum/g_p.v -lang verilog -prj ex5sum -o g_p.spl -module g_p -template D:/Xilinx/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 g_p.spl D:/Xilinx/workshop/ex5sum/g_p.sym 
+vhdtdtfi -lib work D:/Xilinx/workshop/ex5sum/g_p.v -lang verilog -prj ex5sum -o g_p.spl -module g_p -template D:/Xilinx/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 g_p.spl D:/Xilinx/workshop/ex5sum/g_p.sym 

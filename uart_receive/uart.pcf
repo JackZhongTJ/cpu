@@ -1,0 +1,19 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Wed May 07 15:29:40 2014
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "frameerror" LOCATE = SITE "V16" LEVEL 1;
+COMP "dataout<0>" LOCATE = SITE "T17" LEVEL 1;
+COMP "dataout<1>" LOCATE = SITE "T18" LEVEL 1;
+COMP "dataout<2>" LOCATE = SITE "U17" LEVEL 1;
+COMP "dataout<3>" LOCATE = SITE "U18" LEVEL 1;
+COMP "dataout<4>" LOCATE = SITE "M14" LEVEL 1;
+COMP "dataout<5>" LOCATE = SITE "N14" LEVEL 1;
+COMP "dataout<6>" LOCATE = SITE "L14" LEVEL 1;
+COMP "dataout<7>" LOCATE = SITE "M13" LEVEL 1;
+COMP "rx" LOCATE = SITE "N17" LEVEL 1;
+COMP "clkout" LOCATE = SITE "V10" LEVEL 1;
+COMP "rdsig" LOCATE = SITE "U16" LEVEL 1;
+SCHEMATIC END;
+

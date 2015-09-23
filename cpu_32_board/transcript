@@ -1,0 +1,238 @@
+# Reading C:/Modeltech_pe_edu_10.3/tcl/vsim/pref.tcl 
+# do {cpu_test.fdo} 
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim PE Student Edition vlog 10.3 Compiler 2014.01 Jan  6 2014
+# Start time: 00:08:49 on May 06,2014
+# vlog -reportprogress 300 ../example_5/sum_board/g_p.v 
+# -- Compiling module g_p
+# 
+# Top level modules:
+# 	g_p
+# End time: 00:08:49 on May 06,2014
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim PE Student Edition vlog 10.3 Compiler 2014.01 Jan  6 2014
+# Start time: 00:08:49 on May 06,2014
+# vlog -reportprogress 300 ../example_5/sum_board/cla_1.v 
+# -- Compiling module cla_1
+# 
+# Top level modules:
+# 	cla_1
+# End time: 00:08:49 on May 06,2014
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim PE Student Edition vlog 10.3 Compiler 2014.01 Jan  6 2014
+# Start time: 00:08:49 on May 06,2014
+# vlog -reportprogress 300 ../example_5/sum_origin/cla_2.v 
+# -- Compiling module cla_2
+# 
+# Top level modules:
+# 	cla_2
+# End time: 00:08:49 on May 06,2014
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim PE Student Edition vlog 10.3 Compiler 2014.01 Jan  6 2014
+# Start time: 00:08:53 on May 06,2014
+# vlog -reportprogress 300 ../example_5/sum_origin/cla_4.v 
+# -- Compiling module cla_4
+# 
+# Top level modules:
+# 	cla_4
+# End time: 00:08:53 on May 06,2014
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim PE Student Edition vlog 10.3 Compiler 2014.01 Jan  6 2014
+# Start time: 00:08:53 on May 06,2014
+# vlog -reportprogress 300 ../example_5/sum_board/cla_8.v 
+# -- Compiling module cla_8
+# 
+# Top level modules:
+# 	cla_8
+# End time: 00:08:53 on May 06,2014
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim PE Student Edition vlog 10.3 Compiler 2014.01 Jan  6 2014
+# Start time: 00:08:53 on May 06,2014
+# vlog -reportprogress 300 ../example_5/sum_board/cla_16.v 
+# -- Compiling module cla_16
+# 
+# Top level modules:
+# 	cla_16
+# End time: 00:08:53 on May 06,2014
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim PE Student Edition vlog 10.3 Compiler 2014.01 Jan  6 2014
+# Start time: 00:08:53 on May 06,2014
+# vlog -reportprogress 300 ../example_5/sum_board/cla_32.v 
+# -- Compiling module cla_32
+# 
+# Top level modules:
+# 	cla_32
+# End time: 00:08:53 on May 06,2014
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim PE Student Edition vlog 10.3 Compiler 2014.01 Jan  6 2014
+# Start time: 00:08:57 on May 06,2014
+# vlog -reportprogress 300 ../EX7_alu/shifter.v 
+# -- Compiling module barrelshifter
+# 
+# Top level modules:
+# 	barrelshifter
+# End time: 00:08:57 on May 06,2014
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim PE Student Edition vlog 10.3 Compiler 2014.01 Jan  6 2014
+# Start time: 00:08:58 on May 06,2014
+# vlog -reportprogress 300 ../EX7_alu/mux4x32.v 
+# -- Compiling module mux4x32
+# 
+# Top level modules:
+# 	mux4x32
+# End time: 00:08:58 on May 06,2014
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim PE Student Edition vlog 10.3 Compiler 2014.01 Jan  6 2014
+# Start time: 00:08:58 on May 06,2014
+# vlog -reportprogress 300 file_write.v 
+# -- Compiling module file_write
+# 
+# Top level modules:
+# 	file_write
+# End time: 00:08:58 on May 06,2014
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim PE Student Edition vlog 10.3 Compiler 2014.01 Jan  6 2014
+# Start time: 00:08:58 on May 06,2014
+# vlog -reportprogress 300 ../example_5/sum_origin/cla_32_final.v 
+# -- Compiling module cla_32_final
+# 
+# Top level modules:
+# 	cla_32_final
+# End time: 00:08:58 on May 06,2014
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim PE Student Edition vlog 10.3 Compiler 2014.01 Jan  6 2014
+# Start time: 00:09:02 on May 06,2014
+# vlog -reportprogress 300 ../EX7_alu/alu_module.v 
+# -- Compiling module alu_module
+# 
+# Top level modules:
+# 	alu_module
+# End time: 00:09:02 on May 06,2014
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim PE Student Edition vlog 10.3 Compiler 2014.01 Jan  6 2014
+# Start time: 00:09:03 on May 06,2014
+# vlog -reportprogress 300 ../ex4/mux24a.v 
+# -- Compiling module mux24a
+# 
+# Top level modules:
+# 	mux24a
+# End time: 00:09:03 on May 06,2014
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim PE Student Edition vlog 10.3 Compiler 2014.01 Jan  6 2014
+# Start time: 00:09:03 on May 06,2014
+# vlog -reportprogress 300 ../cpu_part/regfiles/regfile.v 
+# -- Compiling module regfile
+# 
+# Top level modules:
+# 	regfile
+# End time: 00:09:03 on May 06,2014
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim PE Student Edition vlog 10.3 Compiler 2014.01 Jan  6 2014
+# Start time: 00:09:03 on May 06,2014
+# vlog -reportprogress 300 ../cpu_part/pcreg/pcreg.v 
+# -- Compiling module pcreg
+# 
+# Top level modules:
+# 	pcreg
+# End time: 00:09:03 on May 06,2014
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim PE Student Edition vlog 10.3 Compiler 2014.01 Jan  6 2014
+# Start time: 00:09:06 on May 06,2014
+# vlog -reportprogress 300 ../cpu_part/extend/extend.v 
+# -- Compiling module extend_16
+# 
+# Top level modules:
+# 	extend_16
+# End time: 00:09:06 on May 06,2014
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim PE Student Edition vlog 10.3 Compiler 2014.01 Jan  6 2014
+# Start time: 00:09:06 on May 06,2014
+# vlog -reportprogress 300 zero_extend.v 
+# -- Compiling module zero_extend
+# 
+# Top level modules:
+# 	zero_extend
+# End time: 00:09:07 on May 06,2014
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim PE Student Edition vlog 10.3 Compiler 2014.01 Jan  6 2014
+# Start time: 00:09:07 on May 06,2014
+# vlog -reportprogress 300 extend_5.v 
+# -- Compiling module extend_5
+# 
+# Top level modules:
+# 	extend_5
+# End time: 00:09:07 on May 06,2014
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim PE Student Edition vlog 10.3 Compiler 2014.01 Jan  6 2014
+# Start time: 00:09:07 on May 06,2014
+# vlog -reportprogress 300 extend_18.v 
+# -- Compiling module extend_18
+# 
+# Top level modules:
+# 	extend_18
+# End time: 00:09:07 on May 06,2014
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim PE Student Edition vlog 10.3 Compiler 2014.01 Jan  6 2014
+# Start time: 00:09:07 on May 06,2014
+# vlog -reportprogress 300 control.v 
+# -- Compiling module control
+# 
+# Top level modules:
+# 	control
+# End time: 00:09:08 on May 06,2014
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim PE Student Edition vlog 10.3 Compiler 2014.01 Jan  6 2014
+# Start time: 00:09:11 on May 06,2014
+# vlog -reportprogress 300 IMEM.v 
+# -- Compiling module IMEM
+# 
+# Top level modules:
+# 	IMEM
+# End time: 00:09:11 on May 06,2014
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim PE Student Edition vlog 10.3 Compiler 2014.01 Jan  6 2014
+# Start time: 00:09:12 on May 06,2014
+# vlog -reportprogress 300 DMEM.v 
+# -- Compiling module DMEM
+# 
+# Top level modules:
+# 	DMEM
+# End time: 00:09:12 on May 06,2014
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim PE Student Edition vlog 10.3 Compiler 2014.01 Jan  6 2014
+# Start time: 00:09:12 on May 06,2014
+# vlog -reportprogress 300 CPU.v 
+# -- Compiling module CPU
+# 
+# Top level modules:
+# 	CPU
+# End time: 00:09:12 on May 06,2014
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim PE Student Edition vlog 10.3 Compiler 2014.01 Jan  6 2014
+# Start time: 00:09:12 on May 06,2014
+# vlog -reportprogress 300 cpu_mem_final.v 
+# -- Compiling module cpu_mem_final
+# 
+# Top level modules:
+# 	cpu_mem_final
+# End time: 00:09:12 on May 06,2014
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim PE Student Edition vlog 10.3 Compiler 2014.01 Jan  6 2014
+# Start time: 00:09:12 on May 06,2014
+# vlog -reportprogress 300 cpu_test.v 
+# -- Compiling module cpu_test
+# 
+# Top level modules:
+# 	cpu_test
+# End time: 00:09:12 on May 06,2014
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim PE Student Edition vlog 10.3 Compiler 2014.01 Jan  6 2014
+# Start time: 00:09:12 on May 06,2014
+# vlog -reportprogress 300 D:/Xilinx/ISE_DS/ISE/verilog/src/glbl.v 
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# End time: 00:09:12 on May 06,2014
+# Errors: 0, Warnings: 0

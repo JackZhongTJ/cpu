@@ -1,0 +1,16 @@
+
+NET "clkout"  LOC = "V10";
+
+NET "rx"  LOC = "N17";
+NET "rdsig"  LOC = "U16";
+//NET "dataerror" LOC="V16";
+NET "frameerror" LOC="V16";
+
+NET "dataout<0>"  LOC="T17";
+NET "dataout<1>"  LOC="T18";
+NET "dataout<2>"  LOC="U17";
+NET "dataout<3>"  LOC="U18";
+NET "dataout<4>"  LOC="M14";
+NET "dataout<5>"  LOC="N14";
+NET "dataout<6>"  LOC="L14";
+NET "dataout<7>"  LOC="M13";

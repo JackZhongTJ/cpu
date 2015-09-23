@@ -1,0 +1,70 @@
+m255
+K4
+z2
+13
+cModel Technology
+Z0 dD:/Xilinx/workshop/pcreg
+!s112 0.1
+!i10d 8192
+!i10e 25
+!i10f 100
+vglbl
+Z1 !s110 1383581140
+!i10b 1
+Z2 !s100 4=LmVFjWGlXARKf5L_9V<3
+Z3 I>5eGoR^gLje]9h;[k3S:i0
+Z4 V`JN@9S9cnhjKRR_L]QIcM3
+Z5 dD:/Xilinx/workshop/cpu_part/pcreg
+Z6 w1308634177
+Z7 8D:/Xilinx/ISE_DS/ISE/verilog/src/glbl.v
+Z8 FD:/Xilinx/ISE_DS/ISE/verilog/src/glbl.v
+L0 5
+Z9 OP;L;10.2c;57
+r1
+!s85 0
+31
+!s108 1383581140.696000
+!s107 D:/Xilinx/ISE_DS/ISE/verilog/src/glbl.v|
+Z10 !s90 -reportprogress|300|D:/Xilinx/ISE_DS/ISE/verilog/src/glbl.v|
+!s101 -O0
+Z11 o-L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF -O0
+vpcreg
+Z12 Ii^TPQ=C@;?e@dUGk5N0Q=0
+R4
+R5
+Z13 w1383580955
+Z14 8pcreg.v
+Z15 Fpcreg.v
+L0 21
+R9
+r1
+31
+Z16 !s90 -reportprogress|300|pcreg.v|
+R11
+R1
+Z17 !s100 3;Xj1XUD@J@[m??D9Og`:2
+Z18 !s108 1383581140.221000
+Z19 !s107 pcreg.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vpcregtb
+R1
+Z20 IFHe8Ca_5>3G15<`m0a0<[2
+R4
+R5
+Z21 w1381754393
+Z22 8pcregtb.v
+Z23 Fpcregtb.v
+L0 25
+R9
+r1
+31
+Z24 !s90 -reportprogress|300|pcregtb.v|
+R11
+!i10b 1
+Z25 !s100 U0fOd@]dMoPU_IlVFmLoS0
+!s85 0
+Z26 !s108 1383581140.514000
+Z27 !s107 pcregtb.v|
+!s101 -O0

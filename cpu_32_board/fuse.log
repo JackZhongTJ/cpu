@@ -1,0 +1,70 @@
+Running: D:\Xilinx\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o D:/Xilinx/workshop/cpu_32_board/cpu_test_isim_beh.exe -prj D:/Xilinx/workshop/cpu_32_board/cpu_test_beh.prj work.cpu_test work.glbl 
+ISim O.61xd (signature 0x1cce1bb2)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file \"D:/Xilinx/workshop/cpu_32_board/../example_5/sum_board/g_p.v\" into library work
+Analyzing Verilog file \"D:/Xilinx/workshop/cpu_32_board/../example_5/sum_board/cla_1.v\" into library work
+Analyzing Verilog file \"D:/Xilinx/workshop/cpu_32_board/../example_5/sum_origin/cla_2.v\" into library work
+Analyzing Verilog file \"D:/Xilinx/workshop/cpu_32_board/../example_5/sum_origin/cla_4.v\" into library work
+Analyzing Verilog file \"D:/Xilinx/workshop/cpu_32_board/../example_5/sum_board/cla_8.v\" into library work
+Analyzing Verilog file \"D:/Xilinx/workshop/cpu_32_board/../example_5/sum_board/cla_16.v\" into library work
+Analyzing Verilog file \"D:/Xilinx/workshop/cpu_32_board/../example_5/sum_board/cla_32.v\" into library work
+Analyzing Verilog file \"D:/Xilinx/workshop/cpu_32_board/../EX7_alu/shifter.v\" into library work
+Analyzing Verilog file \"D:/Xilinx/workshop/cpu_32_board/../EX7_alu/mux4x32.v\" into library work
+Analyzing Verilog file \"D:/Xilinx/workshop/cpu_32_board/file_write.v\" into library work
+Analyzing Verilog file \"D:/Xilinx/workshop/cpu_32_board/../example_5/sum_origin/cla_32_final.v\" into library work
+Analyzing Verilog file \"D:/Xilinx/workshop/cpu_32_board/../EX7_alu/alu_module.v\" into library work
+Analyzing Verilog file \"D:/Xilinx/workshop/cpu_32_board/../ex4/mux24a.v\" into library work
+Analyzing Verilog file \"D:/Xilinx/workshop/cpu_32_board/../cpu_part/regfiles/regfile.v\" into library work
+Analyzing Verilog file \"D:/Xilinx/workshop/cpu_32_board/../cpu_part/pcreg/pcreg.v\" into library work
+Analyzing Verilog file \"D:/Xilinx/workshop/cpu_32_board/../cpu_part/extend/extend.v\" into library work
+Analyzing Verilog file \"D:/Xilinx/workshop/cpu_32_board/zero_extend.v\" into library work
+Analyzing Verilog file \"D:/Xilinx/workshop/cpu_32_board/extend_5.v\" into library work
+Analyzing Verilog file \"D:/Xilinx/workshop/cpu_32_board/extend_18.v\" into library work
+Analyzing Verilog file \"D:/Xilinx/workshop/cpu_32_board/control.v\" into library work
+Analyzing Verilog file \"D:/Xilinx/workshop/cpu_32_board/IMEM.v\" into library work
+Analyzing Verilog file \"D:/Xilinx/workshop/cpu_32_board/DMEM.v\" into library work
+Analyzing Verilog file \"D:/Xilinx/workshop/cpu_32_board/CPU.v\" into library work
+Analyzing Verilog file \"D:/Xilinx/workshop/cpu_32_board/cpu_mem_final.v\" into library work
+Analyzing Verilog file \"D:/Xilinx/workshop/cpu_32_board/cpu_test.v\" into library work
+Analyzing Verilog file \"D:/Xilinx/ISE_DS/ISE//verilog/src/glbl.v\" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module control
+Compiling module extend_5
+Compiling module extend_16
+Compiling module extend_18
+Compiling module zero_extend
+Compiling module mux4x32
+Compiling module mux24a
+Compiling module pcreg
+Compiling module file_write(ARGUMENT="regfiles2")
+Compiling module file_write(ARGUMENT="regfiles3")
+Compiling module file_write(ARGUMENT="regfiles4")
+Compiling module file_write(ARGUMENT="regfiles8")
+Compiling module file_write(ARGUMENT="regfiles29"...
+Compiling module file_write(ARGUMENT="regfiles30"...
+Compiling module regfile
+Compiling module barrelshifter
+Compiling module alu_module
+Compiling module cla_1
+Compiling module g_p
+Compiling module cla_2
+Compiling module cla_4
+Compiling module cla_8
+Compiling module cla_16
+Compiling module cla_32
+Compiling module cla_32_final
+Compiling module CPU
+Compiling module IMEM
+Compiling module DMEM
+Compiling module cpu_mem_final
+Compiling module cpu_test
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 24 sub-compilation(s) to finish...
+Compiled 31 Verilog Units
+Built simulation executable D:/Xilinx/workshop/cpu_32_board/cpu_test_isim_beh.exe
+Fuse Memory Usage: 24316 KB
+Fuse CPU Usage: 639 ms

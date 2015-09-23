@@ -1,0 +1,49 @@
+    ____  ____
+   /   /\/   /
+  /___/  \  /    VENDOR      : Xilinx Inc.
+  \   \   \/     VERSION     : 13.2 (O.61xd)
+   \   \         APPLICATION : D:\Xilinx\ISE_DS\ISE\bin\nt64\unwrapped\compxlib.exe
+   /   /         CONTENTS    : Compilation Log
+  /___/   /\     FILENAME    : compxlib.log
+  \   \  /  \    
+   \___\/\___\
+
+Release 13.2 - D:\Xilinx\ISE_DS\ISE\bin\nt64\unwrapped\compxlib.exe 13.2 (nt64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+Processing command line ...
+Library Source Paths => 'D:/Xilinx/ISE_DS/ISE'
+Current Working Directory => 'D:\Xilinx\workshop\cpu_32_board'
+Compilation Mode = FAST
+Execute Mode = ON
+Scheduling library installation & compilation for architectures: spartan6
+
+Scheduling library installation & compilation for libraries: simprim unisim xilinxcorelib edk
+
+Signature:-
+------------------------------------------------------------------------------
+D:\Xilinx\ISE_DS\ISE\bin\nt64\unwrapped\compxlib.exe -s mti_se -l verilog -p C:/Modeltech_pe_edu_10.3/win32pe_edu -arch spartan6 -lib unisim -lib simprim -lib xilinxcorelib -lib edk -exclude_superseded -intstyle ise 
+------------------------------------------------------------------------------
+ERROR:Compxlib - COMPXLIB[sim]: Unable to automatically find executables for simulator 'mti_se' from the following paths:
+    C:/Modeltech_pe_edu_10.3/win32pe_edu
+   D:\Xilinx\ISE_DS\ISE\\lib\nt64
+   D:\Xilinx\ISE_DS\ISE\\bin\nt64
+   D:\Xilinx\ISE_DS\PlanAhead\bin
+   D:\Xilinx\ISE_DS\ISE\bin\nt64
+   D:\Xilinx\ISE_DS\ISE\lib\nt64
+   D:\Xilinx\ISE_DS\EDK\bin\nt64
+   D:\Xilinx\ISE_DS\EDK\lib\nt64
+   D:\Xilinx\ISE_DS\EDK\gnu\microblaze\nt64\bin
+   D:\Xilinx\ISE_DS\EDK\gnu\powerpc-eabi\nt64\bin
+   D:\Xilinx\ISE_DS\EDK\gnuwin\bin
+   D:\Xilinx\ISE_DS\common\bin\nt64
+   D:\Xilinx\ISE_DS\common\lib\nt64
+   D:\jdk\bin
+   D:\matlab\MATLAB\bin\win32
+   C:\Program Files (x86)\OpenCV\bin
+   C:\windows\system32
+   C:\windows
+   C:\windows\system32\wbem
+   D:\MYSQL\mysql\bin
+   C:\Modeltech_pe_edu_10.3\win32pe_edu.
+Simulator 'mti_se' is ignored.

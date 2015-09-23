@@ -1,0 +1,2 @@
+verilog work "netgen/par/cpu_board_final_timesim.v"
+verilog work "final.v"

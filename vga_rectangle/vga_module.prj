@@ -1,0 +1,4 @@
+verilog work "vga_control_module.v"
+verilog work "time_divide.v"
+verilog work "sync_module.v"
+verilog work "vga_module.v"

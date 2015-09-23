@@ -1,0 +1,67 @@
+#-----------------------------------------------------------
+# PlanAhead v13.2 (64-bit)
+# Build 131561 by hdbuild on Thu Jun 16 17:14:12 PDT 2011
+# Start of session at: Mon Dec 16 15:38:30 2013
+# Process ID: 9024
+# Log file: D:/Xilinx/workshop/example_5/sum_board/planAhead_run_1/planAhead.log
+# Journal file: D:/Xilinx/workshop/example_5/sum_board/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common-78] Attempting to get a license: PlanAhead
+INFO: [Common-82] Got a license: PlanAhead
+INFO: [Common-86] Your PlanAhead license expires in -900 day(s)
+INFO: [ArchReader-0] Loading parts and site information from D:\Xilinx\ISE_DS\PlanAhead\parts\arch.xml
+Parsing RTL primitives file [D:\Xilinx\ISE_DS\PlanAhead\parts\xilinx\rtl\prims\rtl_prims.xml]
+Finished parsing RTL primitives file [D:\Xilinx\ISE_DS\PlanAhead\parts\xilinx\rtl\prims\rtl_prims.xml]
+start_gui
+source D:/Xilinx/workshop/example_5/sum_board/pa.fromNetlist.tcl
+# create_project -name ex5sum -dir "D:/Xilinx/workshop/example_5/sum_board/planAhead_run_1" -part xc6slx16csg324-3
+Parsing template File [D:\Xilinx\ISE_DS\ISE\data\projnav\templates\verilog.xml].
+Finished parsing template File [D:\Xilinx\ISE_DS\ISE\data\projnav\templates\verilog.xml].
+Parsing template File [D:\Xilinx\ISE_DS\ISE\data\projnav\templates\vhdl.xml].
+Finished parsing template File [D:\Xilinx\ISE_DS\ISE\data\projnav\templates\vhdl.xml].
+Parsing template File [D:\Xilinx\ISE_DS\ISE\data\projnav\templates\ucf.xml].
+Finished parsing template File [D:\Xilinx\ISE_DS\ISE\data\projnav\templates\ucf.xml].
+create_project: Time (s): 8.614w.  Memory (MB): 536.383p 56.910g
+# set_property design_mode GateLvl [get_property srcset [current_run -impl]]
+# set_property edif_top_file "D:/Xilinx/workshop/example_5/sum_board/cla_32_final.ngc" [ get_property srcset [ current_run ] ]
+# add_files -norecurse { {D:/Xilinx/workshop/example_5/sum_board} }
+# set_param project.paUcfFile  "cla_32_final.ucf"
+# add_files "cla_32_final.ucf" -fileset [get_property constrset [current_run]]
+# open_netlist_design
+INFO: Design is defaulting to active srcset 'sources_1'
+INFO: Design is defaulting to active constrset 'constrs_1'
+INFO: Design is defaulting to constrset part: xc6slx16csg324-3
+Release 13.2 - ngc2edif O.61xd (nt64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design cla_32_final.ngc ...
+WARNING:NetListWriters:298 - No output is written to cla_32_final.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file cla_32_final.edif ...
+ngc2edif: Total memory usage is 74616 kilobytes
+
+Parsing EDIF File [.\.Xil-PlanAhead-9024-zhongtianjie-PC\ngc2edif\cla_32_final.edif]
+Finished Parsing EDIF File [.\.Xil-PlanAhead-9024-zhongtianjie-PC\ngc2edif\cla_32_final.edif]
+INFO: [Netlist-17] Analyzing 3 Unisim elements for replacement
+INFO: [Netlist-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist-3] Netlist 'cla_32_final' is not ideal for floorplanning, since the cellview 'cla_32_final' defined in file 'cla_32_final.ngc' contains large number of primitives. Please consider enabling hierarchy in synthesis before floorplan. You can enable hierarchy in XST by setting '-keep_hierarchy=yes' or '-netlist_hierarchy=rebuilt' flags.
+INFO: [ArchReader-7] Loading clock regions from D:\Xilinx\ISE_DS\PlanAhead\parts/xilinx/spartan6/spartan6lx/xc6slx16/ClockRegion.xml
+INFO: [ArchReader-8] Loading clock buffers from D:\Xilinx\ISE_DS\PlanAhead\parts/xilinx/spartan6/spartan6lx/xc6slx16/ClockBuffers.xml
+INFO: [ArchReader-13] Loading package pin functions from D:\Xilinx\ISE_DS\PlanAhead\parts\xilinx\spartan6/PinFunctions.xml...
+INFO: [ArchReader-3] Loading package from D:\Xilinx\ISE_DS\PlanAhead\parts/xilinx/spartan6/spartan6lx/xc6slx16/csg324/Package.xml
+INFO: [ArchReader-4] Loading io standards from D:\Xilinx\ISE_DS\PlanAhead\./parts/xilinx/spartan6/IOStandards.xml
+INFO: [ArchReader-12] Loading device configuration modes from 
+INFO: [GDRC-0] Loading list of drcs for the architecture : D:\Xilinx\ISE_DS\PlanAhead\./parts/xilinx/spartan6/drc.xml
+Parsing UCF File [D:\Xilinx\workshop\example_5\sum_board\cla_32_final.ucf]
+Finished Parsing UCF File [D:\Xilinx\workshop\example_5\sum_board\cla_32_final.ucf]
+INFO: [Project-5] Unisim Transformation Summary:
+  A total of 3 instances were transformed.
+  BUFGP => BUFGP (IBUFG, BUFG): 3 instances
+
+open_netlist_design: Time (s): 13.076w.  Memory (MB): 693.816p 153.289g
+exit
+stop_gui
+INFO: [PlanAhead-261] Exiting PlanAhead...
+INFO: [Common-83] Releasing license: PlanAhead
