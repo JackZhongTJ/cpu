@@ -33,8 +33,3 @@ The expansion modules include:
   
   The CPU support Mips Assembly Instruction sets. You just need to write the assembly instructions and compile the code snippet,
   and put it into the ISE folder. CPU will run the loop stated before and then calculate the results and shows on the development board.
-  
-=======
-# cpu
-vkavkavka
->>>>>>> 6eabf179c047a5fca667f8d4653168d5a65ad304
